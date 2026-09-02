@@ -5,19 +5,37 @@
       "key": "mlb",
       "title": "MLB - Yankees",
       "last": "W 7-3 @ Angels (Sep 1)",
-      "next": "@ Angels - Sep 2, 9:38 PM"
+      "next": "@ Angels - Sep 2, 9:38 PM",
+      "recap": "The Yankees beat the Angels 7-3 on Sep 1. New York took control early and held the lead the rest of the way.",
+      "schedule": [
+        "@ Angels - Sep 2, 9:38 PM",
+        "@ Angels - Sep 3, 4:07 PM",
+        "vs Blue Jays - Sep 5, 7:05 PM"
+      ]
     },
     {
       "key": "nfl",
       "title": "NFL - Steelers",
       "last": "No result yet",
-      "next": "vs Falcons - Sep 13, 1:00 PM"
+      "next": "vs Falcons - Sep 13, 1:00 PM",
+      "recap": "No game recap available yet because the regular season has not started.",
+      "schedule": [
+        "vs Falcons - Sep 13, 1:00 PM",
+        "@ Browns - Sep 20, 1:00 PM",
+        "vs Ravens - Sep 27, 4:25 PM"
+      ]
     },
     {
       "key": "nascar",
       "title": "NASCAR",
       "last": "Coke Zero Sugar 400 (Aug 29) - Winner: Ryan Preece",
-      "next": "Cook Out Southern 500 - Darlington Raceway (Sep 6)"
+      "next": "Cook Out Southern 500 - Darlington Raceway (Sep 6)",
+      "recap": "Ryan Preece won the Coke Zero Sugar 400 on Aug 29 after a late-race push to the front.",
+      "schedule": [
+        "Cook Out Southern 500 - Darlington Raceway (Sep 6)",
+        "Round of 16 Race 2 - Sep 13",
+        "Round of 16 Race 3 - Sep 20"
+      ]
     }
   ]
 }
