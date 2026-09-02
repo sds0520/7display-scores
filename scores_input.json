@@ -9,8 +9,8 @@
       "date": "2026-09-02T01:38:00Z",
       "recap": "The Yankees beat the Angels 7-3 after building an early lead and getting steady work from the bullpen.",
       "highlights": "New York got timely hitting, added insurance late, and never gave the lead back.",
-      "stats": "Include top hitters, home runs, RBIs, and pitching details here.",
-      "record": "Update with Yankees record"
+      "stats": "",
+      "record": ""
     },
     "next": {
       "is_home": false,
@@ -45,7 +45,6 @@
       }
     ]
   },
-
   "nfl": {
     "team_label": "Steelers",
     "last": null,
@@ -72,14 +71,12 @@
       }
     ]
   },
-
   "ncaam": {
     "team_label": "UConn",
     "last": null,
     "next": null,
     "schedule": []
   },
-
   "ncaaw": {
     "team_label": "UConn",
     "last": null,
@@ -96,7 +93,6 @@
       }
     ]
   },
-
   "nascar": {
     "last": {
       "name": "Coke Zero Sugar 400",
@@ -104,7 +100,7 @@
       "venue": "Daytona International Speedway",
       "winner": "Ryan Preece",
       "recap": "Ryan Preece won after a late-race charge in a dramatic finish at Daytona.",
-      "highlights": "Include stage winners, cautions, major incidents, and playoff impact here."
+      "highlights": "Late-race moves shuffled the field and Preece emerged on top in the closing laps."
     },
     "next": {
       "name": "Cook Out Southern 500",
