@@ -1,40 +1,99 @@
 {
-  "generated_at": "2026-09-02T08:41:53.901814-04:00",
+  "generated_at": "2026-09-02T11:45:00-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
-      "last": "W 7-3 @ Angels (Sep 1)",
-      "next": "@ Angels - Sep 2, 9:38 PM",
-      "recap": "The Yankees beat the Angels 7-3 on Sep 1. New York took control early and held the lead the rest of the way.",
+      "last": "Update this with the latest Yankees result",
+      "next": "Update this with the next Yankees game",
+      "recap": "Update this field with a detailed Yankees recap. Include the final score, opponent, major scoring plays, standout hitters, starting-pitcher and bullpen performance, and the result's effect on the Yankees' record or playoff position.",
       "schedule": [
-        "@ Angels - Sep 2, 9:38 PM",
-        "@ Angels - Sep 3, 4:07 PM",
-        "vs Blue Jays - Sep 5, 7:05 PM"
+        "1. Update with next Yankees game",
+        "2. Update with Yankees game two",
+        "3. Update with Yankees game three",
+        "4. Update with Yankees game four",
+        "5. Update with Yankees game five",
+        "6. Update with Yankees game six",
+        "7. Update with Yankees game seven",
+        "8. Update with Yankees game eight",
+        "9. Update with Yankees game nine",
+        "10. Update with Yankees game ten"
       ]
     },
     {
       "key": "nfl",
       "title": "NFL - Steelers",
-      "last": "No result yet",
-      "next": "vs Falcons - Sep 13, 1:00 PM",
-      "recap": "No game recap available yet because the regular season has not started.",
+      "last": "Update this with the latest Steelers result",
+      "next": "Update this with the next Steelers game",
+      "recap": "Update this field with a detailed Steelers recap. Include the final score, opponent, key drives, quarterback performance, rushing leaders, defensive highlights, important injuries if applicable, and the effect on the Steelers' record or division standing.",
       "schedule": [
-        "vs Falcons - Sep 13, 1:00 PM",
-        "@ Browns - Sep 20, 1:00 PM",
-        "vs Ravens - Sep 27, 4:25 PM"
+        "1. Update with next Steelers game",
+        "2. Update with Steelers game two",
+        "3. Update with Steelers game three",
+        "4. Update with Steelers game four",
+        "5. Update with Steelers game five",
+        "6. Update with Steelers game six",
+        "7. Update with Steelers game seven",
+        "8. Update with Steelers game eight",
+        "9. Update with Steelers game nine",
+        "10. Update with Steelers game ten"
+      ]
+    },
+    {
+      "key": "ncaam",
+      "title": "NCAAM - UConn Huskies",
+      "last": "Update this with the latest UConn men's result",
+      "next": "Update this with the next UConn men's game",
+      "recap": "Update this field with a detailed UConn men's basketball recap. Include the final score, opponent, leading scorers, rebounds, assists, important runs, defensive highlights, and the team's record or conference context.",
+      "schedule": [
+        "1. Update with next UConn men's game",
+        "2. Update with UConn men's game two",
+        "3. Update with UConn men's game three",
+        "4. Update with UConn men's game four",
+        "5. Update with UConn men's game five",
+        "6. Update with UConn men's game six",
+        "7. Update with UConn men's game seven",
+        "8. Update with UConn men's game eight",
+        "9. Update with UConn men's game nine",
+        "10. Update with UConn men's game ten"
+      ]
+    },
+    {
+      "key": "ncaaw",
+      "title": "NCAAW - UConn Huskies",
+      "last": "Update this with the latest UConn women's result",
+      "next": "Update this with the next UConn women's game",
+      "recap": "Update this field with a detailed UConn women's basketball recap. Include the final score, opponent, leading scorers, rebounds, assists, important runs, defensive highlights, and the team's record or conference context.",
+      "schedule": [
+        "1. Update with next UConn women's game",
+        "2. Update with UConn women's game two",
+        "3. Update with UConn women's game three",
+        "4. Update with UConn women's game four",
+        "5. Update with UConn women's game five",
+        "6. Update with UConn women's game six",
+        "7. Update with UConn women's game seven",
+        "8. Update with UConn women's game eight",
+        "9. Update with UConn women's game nine",
+        "10. Update with UConn women's game ten"
       ]
     },
     {
       "key": "nascar",
-      "title": "NASCAR",
-      "last": "Coke Zero Sugar 400 (Aug 29) - Winner: Ryan Preece",
-      "next": "Cook Out Southern 500 - Darlington Raceway (Sep 6)",
-      "recap": "Ryan Preece won the Coke Zero Sugar 400 on Aug 29 after a late-race push to the front.",
+      "title": "NASCAR Cup Series",
+      "last": "Update this with the most recent Cup Series result",
+      "next": "Update this with the next Cup Series race",
+      "recap": "Update this field with a detailed NASCAR Cup Series race recap. Include the race winner, track, top finishers, stage winners if useful, late-race cautions or restarts, playoff implications, and any notable incident affecting the standings.",
       "schedule": [
-        "Cook Out Southern 500 - Darlington Raceway (Sep 6)",
-        "Round of 16 Race 2 - Sep 13",
-        "Round of 16 Race 3 - Sep 20"
+        "1. Update with next NASCAR Cup race",
+        "2. Update with NASCAR Cup race two",
+        "3. Update with NASCAR Cup race three",
+        "4. Update with NASCAR Cup race four",
+        "5. Update with NASCAR Cup race five",
+        "6. Update with NASCAR Cup race six",
+        "7. Update with NASCAR Cup race seven",
+        "8. Update with NASCAR Cup race eight",
+        "9. Update with NASCAR Cup race nine",
+        "10. Update with NASCAR Cup race ten"
       ]
     }
   ]
