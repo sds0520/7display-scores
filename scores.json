@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-02T12:54:00-04:00",
+  "generated_at": "2026-09-02T13:03:41.791177-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
       "last": "W 7-3 @ Angels (Sep 1)",
       "next": "@ Angels - Sep 2, 9:38 PM",
-      "recap": "The Yankees beat the Angels 7-3 after building an early lead and getting steady work from the bullpen. New York got timely hitting, added insurance late, and never gave the lead back.",
+      "recap": "Yankees last played on the road against Angels. The result was W 7-3 @ Angels (Sep 1). The Yankees beat the Angels 7-3 after building an early lead and getting steady work from the bullpen. New York got timely hitting, added insurance late, and never gave the lead back. Next: @ Angels - Sep 2, 9:38 PM.",
       "schedule": [
         "@ Angels - Sep 2, 9:38 PM",
         "@ Angels - Sep 3, 4:07 PM",
         "vs Blue Jays - Sep 5, 7:05 PM",
         "vs Blue Jays - Sep 6, 1:05 PM",
         "vs Blue Jays - Sep 7, 1:35 PM",
-        "Schedule slot 6 - add next Yankees game here",
-        "Schedule slot 7 - add next Yankees game here",
-        "Schedule slot 8 - add next Yankees game here",
-        "Schedule slot 9 - add next Yankees game here",
-        "Schedule slot 10 - add next Yankees game here"
+        "@ Red Sox - Sep 8, 7:10 PM",
+        "@ Red Sox - Sep 9, 7:10 PM",
+        "@ Red Sox - Sep 10, 7:10 PM",
+        "vs Rays - Sep 12, 7:05 PM",
+        "vs Rays - Sep 13, 1:35 PM"
       ]
     },
     {
@@ -25,37 +25,18 @@
       "title": "NFL - Steelers",
       "last": "No result yet",
       "next": "vs Falcons - Sep 13, 1:00 PM",
-      "recap": "No game recap available yet because the regular season has not started.",
+      "recap": "No completed game result is available yet. Next: vs Falcons - Sep 13, 1:00 PM.",
       "schedule": [
         "vs Falcons - Sep 13, 1:00 PM",
         "@ Browns - Sep 20, 1:00 PM",
         "vs Ravens - Sep 27, 4:25 PM",
-        "Schedule slot 4 - add next Steelers game here",
-        "Schedule slot 5 - add next Steelers game here",
-        "Schedule slot 6 - add next Steelers game here",
-        "Schedule slot 7 - add next Steelers game here",
-        "Schedule slot 8 - add next Steelers game here",
-        "Schedule slot 9 - add next Steelers game here",
-        "Schedule slot 10 - add next Steelers game here"
-      ]
-    },
-    {
-      "key": "ncaaw",
-      "title": "NCAAW - UConn",
-      "last": "No result yet",
-      "next": "vs Cornell - Nov 2, 1:00 AM",
-      "recap": "No game recap available yet because the season has not started.",
-      "schedule": [
-        "vs Cornell - Nov 2, 1:00 AM",
-        "Schedule slot 2 - add next UConn WBB game here",
-        "Schedule slot 3 - add next UConn WBB game here",
-        "Schedule slot 4 - add next UConn WBB game here",
-        "Schedule slot 5 - add next UConn WBB game here",
-        "Schedule slot 6 - add next UConn WBB game here",
-        "Schedule slot 7 - add next UConn WBB game here",
-        "Schedule slot 8 - add next UConn WBB game here",
-        "Schedule slot 9 - add next UConn WBB game here",
-        "Schedule slot 10 - add next UConn WBB game here"
+        "@ Bengals - Oct 4, 1:00 PM",
+        "vs Jaguars - Oct 11, 1:00 PM",
+        "@ Bills - Oct 18, 1:00 PM",
+        "vs Jets - Oct 25, 1:00 PM",
+        "@ Patriots - Nov 1, 1:00 PM",
+        "vs Titans - Nov 8, 1:00 PM",
+        "@ Colts - Nov 15, 1:00 PM"
       ]
     },
     {
@@ -63,18 +44,18 @@
       "title": "NASCAR",
       "last": "Coke Zero Sugar 400 (Aug 29) - Winner: Ryan Preece",
       "next": "Cook Out Southern 500 - Darlington Raceway (Sep 6)",
-      "recap": "Ryan Preece won after a late-race charge in a dramatic finish at Daytona. Late-race moves shuffled the field and Preece emerged on top in the closing laps.",
+      "recap": "Coke Zero Sugar 400 at Daytona International Speedway on Aug 29. The winner was Ryan Preece. Ryan Preece won after a late-race charge in a dramatic finish at Daytona. Late-race moves shuffled the field and Preece emerged on top in the closing laps. Next: Cook Out Southern 500 - Darlington Raceway (Sep 6).",
       "schedule": [
         "Cook Out Southern 500 - Darlington Raceway (Sep 6)",
         "Round of 16 Race 2 - Track TBD (Sep 13)",
         "Round of 16 Race 3 - Track TBD (Sep 20)",
-        "Schedule slot 4 - add next NASCAR event here",
-        "Schedule slot 5 - add next NASCAR event here",
-        "Schedule slot 6 - add next NASCAR event here",
-        "Schedule slot 7 - add next NASCAR event here",
-        "Schedule slot 8 - add next NASCAR event here",
-        "Schedule slot 9 - add next NASCAR event here",
-        "Schedule slot 10 - add next NASCAR event here"
+        "Round of 12 Race 1 - Track TBD (Sep 27)",
+        "Round of 12 Race 2 - Track TBD (Oct 4)",
+        "Round of 12 Race 3 - Track TBD (Oct 11)",
+        "Round of 8 Race 1 - Track TBD (Oct 18)",
+        "Round of 8 Race 2 - Track TBD (Oct 25)",
+        "Round of 8 Race 3 - Track TBD (Nov 1)",
+        "Championship Race - Track TBD (Nov 8)"
       ]
     }
   ]
