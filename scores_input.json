@@ -6,14 +6,46 @@
       "team_score": 7,
       "opp_score": 3,
       "opponent": "Angels",
-      "date": "2026-09-02T01:38:00Z"
+      "date": "2026-09-02T01:38:00Z",
+      "recap": "The Yankees beat the Angels 7-3 after building an early lead and getting steady work from the bullpen.",
+      "highlights": "New York got timely hitting, added insurance late, and never gave the lead back.",
+      "stats": "Include top hitters, home runs, RBIs, and pitching details here.",
+      "record": "Update with Yankees record"
     },
     "next": {
       "is_home": false,
       "opponent": "Angels",
       "date": "2026-09-03T01:38:00Z"
-    }
+    },
+    "schedule": [
+      {
+        "is_home": false,
+        "opponent": "Angels",
+        "date": "2026-09-03T01:38:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "Angels",
+        "date": "2026-09-03T20:07:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Blue Jays",
+        "date": "2026-09-05T23:05:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Blue Jays",
+        "date": "2026-09-06T17:05:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Blue Jays",
+        "date": "2026-09-07T17:35:00Z"
+      }
+    ]
   },
+
   "nfl": {
     "team_label": "Steelers",
     "last": null,
@@ -21,13 +53,33 @@
       "is_home": true,
       "opponent": "Falcons",
       "date": "2026-09-13T17:00:00Z"
-    }
+    },
+    "schedule": [
+      {
+        "is_home": true,
+        "opponent": "Falcons",
+        "date": "2026-09-13T17:00:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "Browns",
+        "date": "2026-09-20T17:00:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Ravens",
+        "date": "2026-09-27T20:25:00Z"
+      }
+    ]
   },
+
   "ncaam": {
     "team_label": "UConn",
     "last": null,
-    "next": null
+    "next": null,
+    "schedule": []
   },
+
   "ncaaw": {
     "team_label": "UConn",
     "last": null,
@@ -35,19 +87,46 @@
       "is_home": true,
       "opponent": "Cornell",
       "date": "2026-11-02T05:00:00Z"
-    }
+    },
+    "schedule": [
+      {
+        "is_home": true,
+        "opponent": "Cornell",
+        "date": "2026-11-02T05:00:00Z"
+      }
+    ]
   },
+
   "nascar": {
     "last": {
       "name": "Coke Zero Sugar 400",
       "date": "2026-08-29",
       "venue": "Daytona International Speedway",
-      "winner": "Ryan Preece"
+      "winner": "Ryan Preece",
+      "recap": "Ryan Preece won after a late-race charge in a dramatic finish at Daytona.",
+      "highlights": "Include stage winners, cautions, major incidents, and playoff impact here."
     },
     "next": {
       "name": "Cook Out Southern 500",
       "date": "2026-09-06",
       "venue": "Darlington Raceway"
-    }
+    },
+    "schedule": [
+      {
+        "name": "Cook Out Southern 500",
+        "date": "2026-09-06",
+        "venue": "Darlington Raceway"
+      },
+      {
+        "name": "Round of 16 Race 2",
+        "date": "2026-09-13",
+        "venue": "Track TBD"
+      },
+      {
+        "name": "Round of 16 Race 3",
+        "date": "2026-09-20",
+        "venue": "Track TBD"
+      }
+    ]
   }
 }
