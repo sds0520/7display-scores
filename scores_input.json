@@ -10,7 +10,35 @@
       "recap": "The Yankees beat the Angels 7-3 after building an early lead and getting steady work from the bullpen.",
       "highlights": "New York got timely hitting, added insurance late, and never gave the lead back.",
       "stats": "",
-      "record": ""
+      "record": "82-55",
+      "division_standing": "1st AL East",
+      "winning_pitcher": {
+        "name": "Max Fried",
+        "wins": 15,
+        "losses": 6,
+        "era": "2.91"
+      },
+      "losing_pitcher": {
+        "name": "Tyler Anderson",
+        "wins": 9,
+        "losses": 11,
+        "era": "4.18"
+      },
+      "save_pitcher": {
+        "name": "Devin Williams",
+        "saves": 28,
+        "era": "2.44"
+      },
+      "home_runs": [
+        {
+          "player": "Aaron Judge",
+          "season_total": 47
+        },
+        {
+          "player": "Giancarlo Stanton",
+          "season_total": 19
+        }
+      ]
     },
     "next": {
       "is_home": false,
@@ -18,66 +46,127 @@
       "date": "2026-09-03T01:38:00Z"
     },
     "schedule": [
-      {"is_home": false, "opponent": "Angels", "date": "2026-09-03T01:38:00Z"},
-      {"is_home": false, "opponent": "Angels", "date": "2026-09-03T20:07:00Z"},
-      {"is_home": true, "opponent": "Blue Jays", "date": "2026-09-05T23:05:00Z"},
-      {"is_home": true, "opponent": "Blue Jays", "date": "2026-09-06T17:05:00Z"},
-      {"is_home": true, "opponent": "Blue Jays", "date": "2026-09-07T17:35:00Z"},
-      {"is_home": false, "opponent": "Red Sox", "date": "2026-09-08T23:10:00Z"},
-      {"is_home": false, "opponent": "Red Sox", "date": "2026-09-09T23:10:00Z"},
-      {"is_home": false, "opponent": "Red Sox", "date": "2026-09-10T23:10:00Z"},
-      {"is_home": true, "opponent": "Rays", "date": "2026-09-12T23:05:00Z"},
-      {"is_home": true, "opponent": "Rays", "date": "2026-09-13T17:35:00Z"}
+      { "is_home": false, "opponent": "Angels", "date": "2026-09-03T01:38:00Z" }
     ]
   },
+
   "nfl": {
     "team_label": "Steelers",
-    "last": null,
+    "last": {
+      "is_home": true,
+      "team_score": 24,
+      "opp_score": 17,
+      "opponent": "Ravens",
+      "date": "2026-10-11T17:00:00Z",
+      "recap": "Pittsburgh beat Baltimore with a balanced offense and a key late takeaway.",
+      "highlights": "The Steelers protected the lead in the fourth quarter and finished strong on defense.",
+      "record": "6-2",
+      "division_standing": "2nd AFC North",
+      "turnovers": {
+        "team": 1,
+        "opponent": 2
+      },
+      "qb": {
+        "name": "Steelers QB Name",
+        "completions": 21,
+        "attempts": 31,
+        "pass_yards": 264,
+        "pass_tds": 2,
+        "interceptions": 1,
+        "rush_yards": 18,
+        "rating": "98.4"
+      },
+      "top_rb": {
+        "name": "Steelers RB Name",
+        "carries": 19,
+        "rush_yards": 96,
+        "rush_tds": 1,
+        "long": 22
+      },
+      "top_wr": {
+        "name": "Steelers WR Name",
+        "receptions": 7,
+        "rec_yards": 109,
+        "rec_tds": 1,
+        "long": 31
+      }
+    },
     "next": {
       "is_home": true,
       "opponent": "Falcons",
       "date": "2026-09-13T17:00:00Z"
     },
     "schedule": [
-      {"is_home": true, "opponent": "Falcons", "date": "2026-09-13T17:00:00Z"},
-      {"is_home": false, "opponent": "Browns", "date": "2026-09-20T17:00:00Z"},
-      {"is_home": true, "opponent": "Ravens", "date": "2026-09-27T20:25:00Z"},
-      {"is_home": false, "opponent": "Bengals", "date": "2026-10-04T17:00:00Z"},
-      {"is_home": true, "opponent": "Jaguars", "date": "2026-10-11T17:00:00Z"},
-      {"is_home": false, "opponent": "Bills", "date": "2026-10-18T17:00:00Z"},
-      {"is_home": true, "opponent": "Jets", "date": "2026-10-25T17:00:00Z"},
-      {"is_home": false, "opponent": "Patriots", "date": "2026-11-01T18:00:00Z"},
-      {"is_home": true, "opponent": "Titans", "date": "2026-11-08T18:00:00Z"},
-      {"is_home": false, "opponent": "Colts", "date": "2026-11-15T18:00:00Z"}
+      { "is_home": true, "opponent": "Falcons", "date": "2026-09-13T17:00:00Z" }
     ]
   },
+
   "ncaam": {
     "team_label": "UConn",
-    "last": null,
-    "next": null,
-    "schedule": []
+    "last": {
+      "is_home": true,
+      "team_score": 81,
+      "opp_score": 68,
+      "opponent": "Marquette",
+      "date": "2026-01-18T20:00:00Z",
+      "recap": "UConn controlled the second half and pulled away with efficient shooting.",
+      "highlights": "The Huskies won the glass, got timely assists, and closed the game at the foul line.",
+      "record": "18-4",
+      "ranking": "6",
+      "leaders": {
+        "points": { "player": "Player Name", "value": 24 },
+        "rebounds": { "player": "Player Name", "value": 11 },
+        "assists": { "player": "Player Name", "value": 7 }
+      },
+      "team_percentages": {
+        "field_goal": "49.2",
+        "free_throw": "78.6",
+        "three_point": "38.5"
+      }
+    },
+    "next": {
+      "is_home": false,
+      "opponent": "Villanova",
+      "date": "2026-01-22T01:00:00Z"
+    },
+    "schedule": [
+      { "is_home": false, "opponent": "Villanova", "date": "2026-01-22T01:00:00Z" }
+    ]
   },
+
   "ncaaw": {
     "team_label": "UConn",
-    "last": null,
+    "last": {
+      "is_home": true,
+      "team_score": 87,
+      "opp_score": 59,
+      "opponent": "Providence",
+      "date": "2026-11-05T00:00:00Z",
+      "recap": "UConn overwhelmed Providence with efficient offense and strong defensive pressure.",
+      "highlights": "The Huskies moved the ball well, rebounded consistently, and separated early.",
+      "record": "3-0",
+      "ranking": "2",
+      "leaders": {
+        "points": { "player": "Player Name", "value": 26 },
+        "rebounds": { "player": "Player Name", "value": 10 },
+        "assists": { "player": "Player Name", "value": 8 }
+      },
+      "team_percentages": {
+        "field_goal": "52.1",
+        "free_throw": "81.3",
+        "three_point": "41.7"
+      }
+    },
     "next": {
       "is_home": true,
       "opponent": "Cornell",
       "date": "2026-11-02T05:00:00Z"
     },
     "schedule": [
-      {"is_home": true, "opponent": "Cornell", "date": "2026-11-02T05:00:00Z"},
-      {"is_home": true, "opponent": "Providence", "date": "2026-11-05T00:00:00Z"},
-      {"is_home": false, "opponent": "Tennessee", "date": "2026-11-08T18:00:00Z"},
-      {"is_home": true, "opponent": "Maryland", "date": "2026-11-12T00:00:00Z"},
-      {"is_home": false, "opponent": "Iowa", "date": "2026-11-15T18:00:00Z"},
-      {"is_home": true, "opponent": "Notre Dame", "date": "2026-11-19T00:00:00Z"},
-      {"is_home": false, "opponent": "South Carolina", "date": "2026-11-22T18:00:00Z"},
-      {"is_home": true, "opponent": "Villanova", "date": "2026-11-26T00:00:00Z"},
-      {"is_home": false, "opponent": "Baylor", "date": "2026-11-29T18:00:00Z"},
-      {"is_home": true, "opponent": "Louisville", "date": "2026-12-03T00:00:00Z"}
+      { "is_home": true, "opponent": "Cornell", "date": "2026-11-02T05:00:00Z" }
     ]
   },
+
   "nascar": {
     "last": {
       "name": "Coke Zero Sugar 400",
@@ -85,24 +174,29 @@
       "venue": "Daytona International Speedway",
       "winner": "Ryan Preece",
       "recap": "Ryan Preece won after a late-race charge in a dramatic finish at Daytona.",
-      "highlights": "Late-race moves shuffled the field and Preece emerged on top in the closing laps."
+      "highlights": "Late-race moves shuffled the field and Preece emerged on top in the closing laps.",
+      "top_10_finishers": [
+        { "position": 1, "driver": "Ryan Preece", "points_earned": 48 },
+        { "position": 2, "driver": "Driver Two", "points_earned": 42 },
+        { "position": 3, "driver": "Driver Three", "points_earned": 41 },
+        { "position": 4, "driver": "Driver Four", "points_earned": 40 },
+        { "position": 5, "driver": "Driver Five", "points_earned": 39 },
+        { "position": 6, "driver": "Driver Six", "points_earned": 38 },
+        { "position": 7, "driver": "Driver Seven", "points_earned": 37 },
+        { "position": 8, "driver": "Driver Eight", "points_earned": 36 },
+        { "position": 9, "driver": "Driver Nine", "points_earned": 35 },
+        { "position": 10, "driver": "Driver Ten", "points_earned": 34 }
+      ]
     },
+    "standings": [
+      { "position": 1, "last_name": "Byron", "points": 954 },
+      { "position": 2, "last_name": "Bell", "points": 932 },
+      { "position": 3, "last_name": "Blaney", "points": 917 }
+    ],
     "next": {
       "name": "Cook Out Southern 500",
       "date": "2026-09-06",
       "venue": "Darlington Raceway"
     },
     "schedule": [
-      {"name": "Cook Out Southern 500", "date": "2026-09-06", "venue": "Darlington Raceway"},
-      {"name": "Round of 16 Race 2", "date": "2026-09-13", "venue": "Track TBD"},
-      {"name": "Round of 16 Race 3", "date": "2026-09-20", "venue": "Track TBD"},
-      {"name": "Round of 12 Race 1", "date": "2026-09-27", "venue": "Track TBD"},
-      {"name": "Round of 12 Race 2", "date": "2026-10-04", "venue": "Track TBD"},
-      {"name": "Round of 12 Race 3", "date": "2026-10-11", "venue": "Track TBD"},
-      {"name": "Round of 8 Race 1", "date": "2026-10-18", "venue": "Track TBD"},
-      {"name": "Round of 8 Race 2", "date": "2026-10-25", "venue": "Track TBD"},
-      {"name": "Round of 8 Race 3", "date": "2026-11-01", "venue": "Track TBD"},
-      {"name": "Championship Race", "date": "2026-11-08", "venue": "Track TBD"}
-    ]
-  }
-}
+      { "name": "Cook Out Southern 500", "date": "2026-09-06", "venue":
