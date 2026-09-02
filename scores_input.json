@@ -1,0 +1,53 @@
+{
+  "mlb": {
+    "team_label": "Yankees",
+    "last": {
+      "is_home": false,
+      "team_score": 7,
+      "opp_score": 3,
+      "opponent": "Angels",
+      "date": "2026-09-02T01:38:00Z"
+    },
+    "next": {
+      "is_home": false,
+      "opponent": "Angels",
+      "date": "2026-09-03T01:38:00Z"
+    }
+  },
+  "nfl": {
+    "team_label": "Steelers",
+    "last": null,
+    "next": {
+      "is_home": true,
+      "opponent": "Falcons",
+      "date": "2026-09-13T17:00:00Z"
+    }
+  },
+  "ncaam": {
+    "team_label": "UConn",
+    "last": null,
+    "next": null
+  },
+  "ncaaw": {
+    "team_label": "UConn",
+    "last": null,
+    "next": {
+      "is_home": true,
+      "opponent": "Cornell",
+      "date": "2026-11-02T05:00:00Z"
+    }
+  },
+  "nascar": {
+    "last": {
+      "name": "Coke Zero Sugar 400",
+      "date": "2026-08-29",
+      "venue": "Daytona International Speedway",
+      "winner": "Ryan Preece"
+    },
+    "next": {
+      "name": "Cook Out Southern 500",
+      "date": "2026-09-06",
+      "venue": "Darlington Raceway"
+    }
+  }
+}

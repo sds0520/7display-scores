@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-09-02T08:41:53.901814-04:00",
+  "cards": [
+    {
+      "key": "mlb",
+      "title": "MLB - Yankees",
+      "last": "W 7-3 @ Angels (Sep 1)",
+      "next": "@ Angels - Sep 2, 9:38 PM"
+    },
+    {
+      "key": "nfl",
+      "title": "NFL - Steelers",
+      "last": "No result yet",
+      "next": "vs Falcons - Sep 13, 1:00 PM"
+    },
+    {
+      "key": "nascar",
+      "title": "NASCAR",
+      "last": "Coke Zero Sugar 400 (Aug 29) - Winner: Ryan Preece",
+      "next": "Cook Out Southern 500 - Darlington Raceway (Sep 6)"
+    }
+  ]
+}
