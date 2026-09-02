@@ -366,144 +366,166 @@
         "position": 1,
         "last_name": "Hamlin",
         "full_name": "Denny Hamlin",
-        "points": 1026,
-        "behind": 0
+        "playoff_points": 40,
+        "total_points": 2040,
+        "playoff_wins": 0,
+        "season_wins": 4,
+        "stage_wins": 5
       },
       {
         "position": 2,
-        "last_name": "Blaney",
-        "full_name": "Ryan Blaney",
-        "points": 929,
-        "behind": -97
+        "last_name": "Reddick",
+        "full_name": "Tyler Reddick",
+        "playoff_points": 34,
+        "total_points": 2034,
+        "playoff_wins": 0,
+        "season_wins": 5,
+        "stage_wins": 1
       },
       {
         "position": 3,
-        "last_name": "Reddick",
-        "full_name": "Tyler Reddick",
-        "points": 894,
-        "behind": -132
+        "last_name": "Blaney",
+        "full_name": "Ryan Blaney",
+        "playoff_points": 33,
+        "total_points": 2033,
+        "playoff_wins": 0,
+        "season_wins": 3,
+        "stage_wins": 8
       },
       {
         "position": 4,
         "last_name": "Gibbs",
         "full_name": "Ty Gibbs",
-        "points": 890,
-        "behind": -136
+        "playoff_points": 22,
+        "total_points": 2022,
+        "playoff_wins": 0,
+        "season_wins": 2,
+        "stage_wins": 5
       },
       {
         "position": 5,
-        "last_name": "Briscoe",
-        "full_name": "Chase Briscoe",
-        "points": 761,
-        "behind": -265
+        "last_name": "Elliott",
+        "full_name": "Chase Elliott",
+        "playoff_points": 15,
+        "total_points": 2015,
+        "playoff_wins": 0,
+        "season_wins": 2,
+        "stage_wins": 2
       },
       {
         "position": 6,
-        "last_name": "Bell",
-        "full_name": "Christopher Bell",
-        "points": 752,
-        "behind": -274
+        "last_name": "Logano",
+        "full_name": "Joey Logano",
+        "playoff_points": 14,
+        "total_points": 2014,
+        "playoff_wins": 0,
+        "season_wins": 2,
+        "stage_wins": 2
       },
       {
         "position": 7,
-        "last_name": "Larson",
-        "full_name": "Kyle Larson",
-        "points": 716,
-        "behind": -310
+        "last_name": "Van Gisbergen",
+        "full_name": "Shane Van Gisbergen",
+        "playoff_points": 12,
+        "total_points": 2012,
+        "playoff_wins": 0,
+        "season_wins": 2,
+        "stage_wins": 2
       },
       {
         "position": 8,
-        "last_name": "Elliott",
-        "full_name": "Chase Elliott",
-        "points": 713,
-        "behind": -313
+        "last_name": "Briscoe",
+        "full_name": "Chase Briscoe",
+        "playoff_points": 11,
+        "total_points": 2011,
+        "playoff_wins": 0,
+        "season_wins": 1,
+        "stage_wins": 0
       },
       {
         "position": 9,
-        "last_name": "Logano",
-        "full_name": "Joey Logano",
-        "points": 699,
-        "behind": -327
+        "last_name": "Bell",
+        "full_name": "Christopher Bell",
+        "playoff_points": 9,
+        "total_points": 2009,
+        "playoff_wins": 0,
+        "season_wins": 0,
+        "stage_wins": 4
       },
       {
         "position": 10,
-        "last_name": "Buescher",
-        "full_name": "Chris Buescher",
-        "points": 677,
-        "behind": -349
+        "last_name": "Larson",
+        "full_name": "Kyle Larson",
+        "playoff_points": 9,
+        "total_points": 2009,
+        "playoff_wins": 0,
+        "season_wins": 0,
+        "stage_wins": 5
       },
       {
         "position": 11,
-        "last_name": "Suárez",
-        "full_name": "Daniel Suárez",
-        "points": 672,
-        "behind": -354
+        "last_name": "Preece",
+        "full_name": "Ryan Preece",
+        "playoff_points": 7,
+        "total_points": 2007,
+        "playoff_wins": 0,
+        "season_wins": 1,
+        "stage_wins": 2
       },
       {
         "position": 12,
-        "last_name": "Hocevar",
-        "full_name": "Carson Hocevar",
-        "points": 664,
-        "behind": -362
+        "last_name": "Suárez",
+        "full_name": "Daniel Suárez",
+        "playoff_points": 6,
+        "total_points": 2006,
+        "playoff_wins": 0,
+        "season_wins": 1,
+        "stage_wins": 1
       },
       {
         "position": 13,
-        "last_name": "Byron",
-        "full_name": "William Byron",
-        "points": 666,
-        "behind": -360
+        "last_name": "Hocevar",
+        "full_name": "Carson Hocevar",
+        "playoff_points": 5,
+        "total_points": 2005,
+        "playoff_wins": 0,
+        "season_wins": 1,
+        "stage_wins": 0
       },
       {
         "position": 14,
-        "last_name": "Wallace",
-        "full_name": "Bubba Wallace",
-        "points": 651,
-        "behind": -375
+        "last_name": "Byron",
+        "full_name": "William Byron",
+        "playoff_points": 3,
+        "total_points": 2003,
+        "playoff_wins": 0,
+        "season_wins": 0,
+        "stage_wins": 3
       },
       {
         "position": 15,
-        "last_name": "Cindric",
-        "full_name": "Austin Cindric",
-        "points": 631,
-        "behind": -395
+        "last_name": "Wallace",
+        "full_name": "Bubba Wallace",
+        "playoff_points": 2,
+        "total_points": 2002,
+        "playoff_wins": 0,
+        "season_wins": 0,
+        "stage_wins": 2
       },
       {
         "position": 16,
-        "last_name": "Preece",
-        "full_name": "Ryan Preece",
-        "points": 645,
-        "behind": -381
-      },
-      {
-        "position": 17,
-        "last_name": "Gisbergen",
-        "full_name": "Shane Van Gisbergen",
-        "points": 600,
-        "behind": -426
-      },
-      {
-        "position": 18,
-        "last_name": "Keselowski",
-        "full_name": "Brad Keselowski",
-        "points": 536,
-        "behind": -490
-      },
-      {
-        "position": 19,
-        "last_name": "Chastain",
-        "full_name": "Ross Chastain",
-        "points": 518,
-        "behind": -508
-      },
-      {
-        "position": 20,
-        "last_name": "McDowell",
-        "full_name": "Michael McDowell",
-        "points": 510,
-        "behind": -516
+        "last_name": "Buescher",
+        "full_name": "Chris Buescher",
+        "playoff_points": 1,
+        "total_points": 2001,
+        "playoff_wins": 0,
+        "season_wins": 0,
+        "stage_wins": 0
       }
     ],
-    "standings_basis": "Season points (NASCAR official standings order)"
+    "standings_mode": "playoffs",
+    "standings_basis": "Playoff standings - points, playoff wins",
+    "playoffs_underway": false
   },
-  "collected_at": "2026-09-02T18:04:20.177202-04:00"
+  "collected_at": "2026-09-02T18:23:55.656785-04:00"
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T18:07:33.215468-04:00",
+  "generated_at": "2026-09-02T18:23:55.754339-04:00",
   "cards": [
     {
       "key": "mlb",
@@ -48,7 +48,7 @@
       "title": "NASCAR",
       "last": "Coke Zero Sugar 400 (Aug 29) - Winner: Ryan Preece",
       "next": "Cook Out Southern 500 - Darlington Raceway (Sep 6)",
-      "recap": "Coke Zero Sugar 400 - Daytona International Speedway (Aug 29)\nWinner: Ryan Preece\n41 lead changes, 4 cautions\n\nTop 10 (points earned):\n   1. Ryan Preece - 67\n   2. Daniel Suárez - 38\n   3. Tyler Reddick - 34\n   4. Michael McDowell - 33\n   5. Ricky Stenhouse Jr - 32\n   6. Austin Cindric - 32\n   7. Austin Dillon - 30\n   8. Alex Bowman - 29\n   9. Josh Berry - 28\n  10. Cole Custer - 27",
+      "recap": "Coke Zero Sugar 400 - Daytona International Speedway (Aug 29)\nWinner: Ryan Preece\n41 lead changes, 4 cautions\n\nTop 10 (points earned):\n   1. Ryan Preece - 67\n   2. Daniel Suarez - 38\n   3. Tyler Reddick - 34\n   4. Michael McDowell - 33\n   5. Ricky Stenhouse Jr - 32\n   6. Austin Cindric - 32\n   7. Austin Dillon - 30\n   8. Alex Bowman - 29\n   9. Josh Berry - 28\n  10. Cole Custer - 27",
       "schedule": [
         "Cook Out Southern 500 - Darlington Raceway (Sep 6)",
         "Enjoy Illinois 300 - World Wide Technology Raceway (Sep 13)",
@@ -62,29 +62,25 @@
         "NASCAR Championship Race - Homestead-Miami Speedway (Nov 8)"
       ],
       "columns": {
-        "title": "Season points (NASCAR official standings order)",
+        "title": "Playoff field - seeding, wins",
         "cols": 2,
         "items": [
-          " 1 Hamlin 1026",
-          " 2 Blaney 929",
-          " 3 Reddick 894",
-          " 4 Gibbs 890",
-          " 5 Briscoe 761",
-          " 6 Bell 752",
-          " 7 Larson 716",
-          " 8 Elliott 713",
-          " 9 Logano 699",
-          "10 Buescher 677",
-          "11 Suárez 672",
-          "12 Hocevar 664",
-          "13 Byron 666",
-          "14 Wallace 651",
-          "15 Cindric 631",
-          "16 Preece 645",
-          "17 Gisbergen 600",
-          "18 Keselowski 536",
-          "19 Chastain 518",
-          "20 McDowell 510"
+          " 1 Hamlin 2040 0W",
+          " 2 Reddick 2034 0W",
+          " 3 Blaney 2033 0W",
+          " 4 Gibbs 2022 0W",
+          " 5 Elliott 2015 0W",
+          " 6 Logano 2014 0W",
+          " 7 Van Gisbergen 2012 0W",
+          " 8 Briscoe 2011 0W",
+          " 9 Bell 2009 0W",
+          "10 Larson 2009 0W",
+          "11 Preece 2007 0W",
+          "12 Suarez 2006 0W",
+          "13 Hocevar 2005 0W",
+          "14 Byron 2003 0W",
+          "15 Wallace 2002 0W",
+          "16 Buescher 2001 0W"
         ]
       }
     }

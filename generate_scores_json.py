@@ -24,6 +24,7 @@ Usage:
 
 import argparse
 import json
+import unicodedata
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -32,15 +33,14 @@ MAX_SCHEDULE_ITEMS = 12
 
 # Month windows, inclusive, wrapping across the new year where needed.
 #
-# NOTE ON COLLEGE BASKETBALL: the project note says Dec-Apr, but UConn
-# women open in early November. Starting in December would hide the
-# first month of real games, so both college windows start in November.
-# Change the 11 back to 12 here if you would rather they stay hidden.
+# NOTE ON COLLEGE BASKETBALL: Dec-Apr is intentional. UConn plays in
+# November, but those early-season games are deliberately not shown -
+# the college cards appear in December.
 SEASON_WINDOWS = {
     "mlb":    (3, 11),
     "nfl":    (8, 2),
-    "ncaam":  (11, 4),
-    "ncaaw":  (11, 4),
+    "ncaam":  (12, 4),
+    "ncaaw":  (12, 4),
     "nascar": (2, 11),
 }
 
@@ -56,6 +56,38 @@ NASCAR_STANDINGS_COLUMNS = 2
 
 
 # ----------------------------------------------------------- small helpers
+
+# The LVGL Montserrat fonts built into the sketch cover ASCII only, so
+# anything else (Suarez, Bichette, Jokic...) would render as blank boxes
+# on the panel. Fold to ASCII on the way out; scores_input.json keeps the
+# correct spelling.
+ASCII_FALLBACKS = {
+    "\u2018": "'", "\u2019": "'", "\u201c": '"', "\u201d": '"',
+    "\u2013": "-", "\u2014": "-", "\u2026": "...", "\u00a0": " ",
+    "\u00d8": "O", "\u00f8": "o", "\u00c6": "AE", "\u00e6": "ae",
+    "\u0110": "D", "\u0111": "d", "\u00df": "ss", "\u0141": "L",
+    "\u0142": "l",
+}
+
+
+def to_ascii(value):
+    for src, dst in ASCII_FALLBACKS.items():
+        value = value.replace(src, dst)
+    decomposed = unicodedata.normalize("NFKD", value)
+    stripped = "".join(ch for ch in decomposed if not unicodedata.combining(ch))
+    return stripped.encode("ascii", "ignore").decode("ascii")
+
+
+def asciify(node):
+    """Recursively ASCII-fold every string in the outgoing feed."""
+    if isinstance(node, str):
+        return to_ascii(node)
+    if isinstance(node, list):
+        return [asciify(v) for v in node]
+    if isinstance(node, dict):
+        return {k: asciify(v) for k, v in node.items()}
+    return node
+
 
 def in_season(key, month):
     start, end = SEASON_WINDOWS[key]
@@ -405,19 +437,43 @@ def build_schedule(key, data):
 # ------------------------------------------------------- NASCAR standings
 
 def nascar_columns(data):
-    """Structured top-20 points table for the multi-column popup."""
+    """Structured standings table for the multi-column popup.
+
+    Regular season: top 20 by season points.
+    Playoffs:       the 16-driver field with total points and playoff wins.
+    """
     standings = data.get("standings") or []
     if not standings:
         return None
+
+    playoffs = data.get("standings_mode") == "playoffs"
     items = []
-    for row in standings[:20]:
-        pos = row.get("position")
-        name = txt(row.get("last_name")) or txt(row.get("full_name"))
-        pts = row.get("points")
-        # Every row shows total points so the column reads consistently.
-        items.append(f"{pos:>2} {name} {pts}" if pts is not None else f"{pos:>2} {name}")
+
+    if playoffs:
+        for row in standings[:16]:
+            pos = row.get("position")
+            name = txt(row.get("last_name")) or txt(row.get("full_name"))
+            total = row.get("total_points")
+            pwins = row.get("playoff_wins") or 0
+            line = f"{pos:>2} {name}"
+            if total is not None:
+                line += f" {total}"
+            line += f" {pwins}W"
+            items.append(line)
+        title = "Playoffs - points, playoff wins"
+        if not data.get("playoffs_underway"):
+            title = "Playoff field - seeding, wins"
+    else:
+        for row in standings[:20]:
+            pos = row.get("position")
+            name = txt(row.get("last_name")) or txt(row.get("full_name"))
+            pts = row.get("points")
+            items.append(f"{pos:>2} {name} {pts}" if pts is not None
+                         else f"{pos:>2} {name}")
+        title = "Top 20 - Season points"
+
     return {
-        "title": txt(data.get("standings_basis")) or "Top 20 - Points",
+        "title": title,
         "cols": NASCAR_STANDINGS_COLUMNS,
         "items": items,
     }
@@ -490,7 +546,7 @@ def main():
             continue
         cards.append(build_card(key, data))
 
-    out = {"generated_at": now.isoformat(), "cards": cards}
+    out = asciify({"generated_at": now.isoformat(), "cards": cards})
     with open(args.out, "w", encoding="utf-8") as fh:
         json.dump(out, fh, indent=2, ensure_ascii=False)
 

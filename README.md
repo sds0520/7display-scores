@@ -35,7 +35,7 @@ placeholder or stale values, the board will faithfully display them. Only
 | NFL (Steelers) | OpticOdds | QB/RB/WR leaders, turnovers, record. |
 | NCAAM / NCAAW (UConn) | OpticOdds | Leaders and team shooting percentages. Listed as "Connecticut" upstream. |
 | AP ranking | apnews.com | Best-effort; omitted rather than guessed when unavailable. |
-| NASCAR Cup | `cf.nascar.com` public JSON | Race results, points earned, official standings order. No API key needed. |
+| NASCAR Cup | `cf.nascar.com` public JSON | Race results, points earned, stage winners, standings. No API key needed. |
 
 Division standing (AL East / AFC North) is derived from each club's current
 W-L record, since neither source publishes a standings table directly.
@@ -75,12 +75,31 @@ reconnect.
 | --- | --- |
 | MLB | March - November |
 | NFL | August - February |
-| NCAAM / NCAAW | November - April |
+| NCAAM / NCAAW | December - April |
 | NASCAR | February - November |
 
 Cards for out-of-season sports are omitted so the screen stays uncluttered.
-College basketball starts in November rather than December so UConn's opening
-month is not hidden; see `SEASON_WINDOWS` in `generate_scores_json.py`.
+UConn plays in November, but the college cards intentionally do not appear
+until December; see `SEASON_WINDOWS` in `generate_scores_json.py`.
+
+## NASCAR standings modes
+
+The standings table switches automatically:
+
+- **Regular season** - top 20 by season points, ordered by NASCAR's own
+  `points_position` field.
+- **Playoffs** - the 16-driver field with total points and playoff wins.
+
+NASCAR's feed carries a `playoff_points_earned` field but leaves it at zero,
+so playoff points are computed from the published rules: **5 per race win,
+1 per stage win, plus the regular-season finish bonus** (15-10-8-7-6-5-4-3-2-1
+for the top ten). Each playoff driver resets to a 2,000-point base.
+
+The field is built the way NASCAR builds it: race winners first (ranked by
+wins, then points), with the remaining berths going to the highest winless
+drivers on points. A driver who has not declared for Cup points scores none
+and does not take a playoff berth even if they win a race - that is why Corey
+Heim's two 2026 wins do not put him in the field.
 
 ## Feed shape
 
@@ -106,7 +125,12 @@ month is not hidden; see `SEASON_WINDOWS` in `generate_scores_json.py`.
 ```
 
 `columns` is optional and currently only used by NASCAR, which renders the
-top-20 points standings as a multi-column grid under the recap text.
+standings as a multi-column grid under the recap text.
+
+All strings in `scores.json` are ASCII-folded, because the LVGL Montserrat
+fonts compiled into the sketch cover ASCII only - an accented name would
+otherwise render as blank boxes on the panel. `scores_input.json` keeps the
+correct spelling.
 
 Keep `scores.json` under roughly 24 KB - that is the JSON buffer size in
 `7Display_Full.ino`. The generator prints the feed size and warns past 20 KB.

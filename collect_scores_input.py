@@ -590,6 +590,28 @@ def collect_ncaa(cfg):
 # --------------------------------------------------------------- NASCAR
 
 NASCAR_SERIES = 1  # Cup Series
+PLAYOFF_FIELD_SIZE = 16
+PLAYOFF_BASE_POINTS = 2000  # every playoff driver resets to this
+
+
+# "Shane Van Gisbergen" -> "Van Gisbergen", not "Gisbergen".
+# "Ricky Stenhouse Jr"  -> "Stenhouse", not "Jr".
+NAME_SUFFIXES = {"jr", "jr.", "sr", "sr.", "ii", "iii", "iv", "v"}
+NAME_PARTICLES = {"van", "von", "de", "del", "della", "der", "di",
+                  "da", "la", "le", "du", "dos", "st.", "mc"}
+
+
+def surname(full_name):
+    cleaned = str(full_name or "").strip()
+    parts = [p for p in cleaned.split() if p]
+    while len(parts) > 1 and parts[-1].lower().strip(",") in NAME_SUFFIXES:
+        parts.pop()
+    if not parts:
+        return cleaned
+    start = len(parts) - 1
+    while start > 1 and parts[start - 1].lower() in NAME_PARTICLES:
+        start -= 1
+    return " ".join(parts[start:])
 
 
 def nascar_get(url):
@@ -649,47 +671,120 @@ def collect_nascar():
         last_block["lead_changes"] = last["number_of_lead_changes"]
     out["last"] = last_block
 
-    # Season points: NASCAR publishes each driver's official standings
-    # position in the latest race results; totals come from summing that
-    # driver's points across every completed points race this season.
-    def fetch_results(r):
+    # ---- standings -------------------------------------------------
+    #
+    # Two modes. During the regular season this is the top 20 in season
+    # points. Once the playoff field is set it becomes the 16-driver
+    # playoff grid with playoff points and playoff wins.
+    #
+    # NASCAR's feed exposes a playoff_points_earned field but leaves it
+    # at zero, so playoff points are computed from the documented rules:
+    #   5 per race win + 1 per stage win + regular-season finish bonus.
+    def load_race(r):
+        rid = r["race_id"]
+        base = f"https://cf.nascar.com/cacher/{year}/{NASCAR_SERIES}/{rid}"
         try:
-            return nascar_get(
-                f"https://cf.nascar.com/cacher/{year}/{NASCAR_SERIES}/{r['race_id']}/raceResults.json")
+            finish = nascar_get(f"{base}/raceResults.json")
         except Exception as exc:
-            log(f"NASCAR race {r['race_id']} results failed: {exc}")
-            return []
+            log(f"NASCAR race {rid} results failed: {exc}")
+            finish = []
+        try:
+            stages = (nascar_get(f"{base}/weekend-feed.json")["weekend_race"][0]
+                      .get("stage_results") or [])
+        except Exception:
+            stages = []
+        return r, finish, stages
 
     with ThreadPoolExecutor(8) as pool:
-        every = list(pool.map(fetch_results, completed))
+        every = list(pool.map(load_race, completed))
 
-    totals = defaultdict(int)
+    playoff_races = [r for r in points_races if r.get("playoff_round")]
+    playoff_start = min((race_dt(r) for r in playoff_races), default=None)
+
     names = {}
-    for rr in every:
-        for row in rr:
+    season_points = defaultdict(int)
+    race_wins = defaultdict(int)
+    stage_wins = defaultdict(int)
+    playoff_wins = defaultdict(int)
+    playoff_race_points = defaultdict(int)
+
+    for r, finish, stages in every:
+        is_playoff_race = bool(playoff_start and race_dt(r) >= playoff_start)
+        for row in finish:
             did = row.get("driver_id")
             if did is None:
                 continue
             names[did] = row["driver_fullname"]
-            totals[did] += row.get("points_earned") or 0
+            earned = row.get("points_earned") or 0
+            season_points[did] += earned
+            if is_playoff_race:
+                playoff_race_points[did] += earned
+            if row.get("finishing_position") == 1:
+                race_wins[did] += 1
+                if is_playoff_race:
+                    playoff_wins[did] += 1
+        for stage in stages:
+            for row in (stage.get("results") or []):
+                if row.get("finishing_position") == 1 and row.get("driver_id"):
+                    stage_wins[row["driver_id"]] += 1
+
+    # A driver who has not declared for Cup points scores none, and does
+    # not claim a playoff berth even if they win a race.
+    eligible = [d for d in names if season_points[d] > 0]
+    if not eligible:
+        return out
+
+    regular_order = sorted(eligible, key=lambda d: -season_points[d])
+    REG_SEASON_BONUS = {1: 15, 2: 10, 3: 8, 4: 7, 5: 6,
+                        6: 5, 7: 4, 8: 3, 9: 2, 10: 1}
+    reg_bonus = {d: REG_SEASON_BONUS.get(i, 0)
+                 for i, d in enumerate(regular_order, 1)}
+
+    if playoff_start is not None:
+        winners = sorted([d for d in eligible if race_wins[d] > 0],
+                         key=lambda d: (-race_wins[d], -season_points[d]))
+        winless = [d for d in regular_order if race_wins[d] == 0]
+        field = (winners + winless)[:PLAYOFF_FIELD_SIZE]
+
+        seeded = []
+        for d in field:
+            playoff_points = (5 * race_wins[d]) + stage_wins[d] + reg_bonus.get(d, 0)
+            seeded.append((d, playoff_points))
+        seeded.sort(key=lambda t: (-(t[1] + playoff_race_points[t[0]]),
+                                   -t[1], -season_points[t[0]]))
+
+        out["standings"] = [
+            {"position": i,
+             "last_name": surname(names[d]),
+             "full_name": names[d],
+             "playoff_points": pp,
+             "total_points": PLAYOFF_BASE_POINTS + pp + playoff_race_points[d],
+             "playoff_wins": playoff_wins[d],
+             "season_wins": race_wins[d],
+             "stage_wins": stage_wins[d]}
+            for i, (d, pp) in enumerate(seeded, 1)
+        ]
+        out["standings_mode"] = "playoffs"
+        out["standings_basis"] = "Playoff standings - points, playoff wins"
+        out["playoffs_underway"] = any(
+            race_dt(r) >= playoff_start for r, _f, _s in every)
+        return out
 
     official_pos = {r["driver_id"]: r["points_position"]
                     for r in results if r.get("points_position")}
-
-    ranked = sorted(
-        [d for d in totals if d in official_pos],
-        key=lambda d: official_pos[d])[:20]
-
+    ranked = sorted([d for d in eligible if d in official_pos],
+                    key=lambda d: official_pos[d])[:20]
     if ranked:
-        leader_pts = totals[ranked[0]]
+        leader = season_points[ranked[0]]
         out["standings"] = [
             {"position": official_pos[d],
-             "last_name": names[d].split()[-1],
+             "last_name": surname(names[d]),
              "full_name": names[d],
-             "points": totals[d],
-             "behind": totals[d] - leader_pts}
+             "points": season_points[d],
+             "behind": season_points[d] - leader}
             for d in ranked
         ]
+        out["standings_mode"] = "regular"
         out["standings_basis"] = "Season points (NASCAR official standings order)"
     return out
 
