@@ -42,6 +42,31 @@
         "is_home": true,
         "opponent": "Blue Jays",
         "date": "2026-09-07T17:35:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "ADD NEXT OPPONENT",
+        "date": "2026-09-09T23:05:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "ADD NEXT OPPONENT",
+        "date": "2026-09-10T23:05:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "ADD NEXT OPPONENT",
+        "date": "2026-09-12T23:05:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "ADD NEXT OPPONENT",
+        "date": "2026-09-13T17:05:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "ADD NEXT OPPONENT",
+        "date": "2026-09-14T17:35:00Z"
       }
     ]
   },
@@ -68,6 +93,41 @@
         "is_home": true,
         "opponent": "Ravens",
         "date": "2026-09-27T20:25:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "ADD NEXT OPPONENT",
+        "date": "2026-10-04T17:00:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "ADD NEXT OPPONENT",
+        "date": "2026-10-11T17:00:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "ADD NEXT OPPONENT",
+        "date": "2026-10-18T17:00:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "ADD NEXT OPPONENT",
+        "date": "2026-10-25T17:00:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "ADD NEXT OPPONENT",
+        "date": "2026-11-01T18:00:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "ADD NEXT OPPONENT",
+        "date": "2026-11-08T18:00:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "ADD NEXT OPPONENT",
+        "date": "2026-11-15T18:00:00Z"
       }
     ]
   },
@@ -90,6 +150,51 @@
         "is_home": true,
         "opponent": "Cornell",
         "date": "2026-11-02T05:00:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "ADD NEXT OPPONENT",
+        "date": "2026-11-05T00:00:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "ADD NEXT OPPONENT",
+        "date": "2026-11-08T18:00:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "ADD NEXT OPPONENT",
+        "date": "2026-11-12T00:00:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "ADD NEXT OPPONENT",
+        "date": "2026-11-15T18:00:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "ADD NEXT OPPONENT",
+        "date": "2026-11-19T00:00:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "ADD NEXT OPPONENT",
+        "date": "2026-11-22T18:00:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "ADD NEXT OPPONENT",
+        "date": "2026-11-26T00:00:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "ADD NEXT OPPONENT",
+        "date": "2026-11-29T18:00:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "ADD NEXT OPPONENT",
+        "date": "2026-12-03T00:00:00Z"
       }
     ]
   },
@@ -121,6 +226,41 @@
       {
         "name": "Round of 16 Race 3",
         "date": "2026-09-20",
+        "venue": "Track TBD"
+      },
+      {
+        "name": "Round of 12 Race 1",
+        "date": "2026-09-27",
+        "venue": "Track TBD"
+      },
+      {
+        "name": "Round of 12 Race 2",
+        "date": "2026-10-04",
+        "venue": "Track TBD"
+      },
+      {
+        "name": "Round of 12 Race 3",
+        "date": "2026-10-11",
+        "venue": "Track TBD"
+      },
+      {
+        "name": "Round of 8 Race 1",
+        "date": "2026-10-18",
+        "venue": "Track TBD"
+      },
+      {
+        "name": "Round of 8 Race 2",
+        "date": "2026-10-25",
+        "venue": "Track TBD"
+      },
+      {
+        "name": "Round of 8 Race 3",
+        "date": "2026-11-01",
+        "venue": "Track TBD"
+      },
+      {
+        "name": "Championship Race",
+        "date": "2026-11-08",
         "venue": "Track TBD"
       }
     ]
