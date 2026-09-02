@@ -2,26 +2,24 @@
   "mlb": {
     "team_label": "Yankees",
     "record": "82-57",
+    "division_standing": "1st in AL East, 2.0 games ahead of Baltimore",
     "last": {
       "date": "2026-09-01T23:05:00Z",
       "opponent": "Red Sox",
       "is_home": true,
       "team_score": 6,
       "opp_score": 3,
-      "winning_pitcher": "Carlos Rodon",
-      "losing_pitcher": "Brayan Bello",
-      "save_pitcher": "Clay Holmes",
+      "winning_pitcher": "Carlos Rodon (15-7)",
+      "losing_pitcher": "Brayan Bello (11-9)",
+      "save_pitcher": "Clay Holmes (31)",
       "home_run_hitters": ["Aaron Judge", "Anthony Volpe"],
-      "recap": "New York broke a 3-3 tie with three runs in the seventh and eighth innings and closed it out with a clean ninth.",
-      "highlights": "Judge hit a two-run homer and Volpe added a solo shot.",
-      "record": "82-57"
+      "inning_summary": "The Yankees were tied 3-3 after six innings before taking control with a two-run seventh and an insurance run in the eighth.",
+      "recap": "Rodon gave New York six solid innings, the bullpen protected the tie, and Holmes finished it off in the ninth.",
+      "highlights": "Judge hit a two-run homer to left, Volpe added a solo shot, and the Yankees stranded Boston in the late innings.",
+      "record": "82-57",
+      "division_standing": "1st in AL East, 2.0 games ahead of Baltimore"
     },
-    "next": {
-      "date": "2026-09-03T23:05:00Z",
-      "opponent": "Blue Jays",
-      "is_home": true,
-      "network": "YES"
-    },
+    "next": {"date": "2026-09-03T23:05:00Z", "opponent": "Blue Jays", "is_home": true, "network": "YES"},
     "schedule": [
       {"date": "2026-09-03T23:05:00Z", "opponent": "Blue Jays", "is_home": true, "network": "YES"},
       {"date": "2026-09-04T23:05:00Z", "opponent": "Blue Jays", "is_home": true, "network": "YES"},
@@ -40,6 +38,7 @@
   "nfl": {
     "team_label": "Steelers",
     "record": "1-0",
+    "division_standing": "1st in AFC North, tied with Baltimore",
     "last": {
       "date": "2026-09-13T17:00:00Z",
       "opponent": "Bengals",
@@ -50,15 +49,12 @@
       "top_rb": {"name": "Jaylen Warren", "stats": "18 carries, 96 yards, 1 TD"},
       "top_wr": {"name": "George Pickens", "stats": "7 catches, 104 yards, 1 TD"},
       "turnovers": {"team": 1, "opponent": 2},
-      "recap": "Pittsburgh controlled the second half with a balanced offense and a late fourth-quarter stop.",
-      "record": "1-0"
+      "game_flow": "Pittsburgh scored on back-to-back second-half drives and then sealed the win with a fourth-quarter stop after Cincinnati crossed midfield.",
+      "recap": "The Steelers leaned on balance rather than explosive plays and controlled the key moments late in the game.",
+      "record": "1-0",
+      "division_standing": "1st in AFC North, tied with Baltimore"
     },
-    "next": {
-      "date": "2026-09-20T17:00:00Z",
-      "opponent": "Browns",
-      "is_home": true,
-      "network": "CBS"
-    },
+    "next": {"date": "2026-09-20T17:00:00Z", "opponent": "Browns", "is_home": true, "network": "CBS"},
     "schedule": [
       {"date": "2026-09-20T17:00:00Z", "opponent": "Browns", "is_home": true, "network": "CBS"},
       {"date": "2026-09-27T17:00:00Z", "opponent": "Ravens", "is_home": false, "network": "CBS"},
@@ -76,48 +72,73 @@
   },
   "ncaam": {
     "team_label": "UConn Huskies",
-    "record": "0-0",
-    "last": {},
-    "next": {},
-    "schedule": []
+    "record": "24-6",
+    "ranking": "#7",
+    "last": {
+      "date": "2027-02-21T20:00:00Z",
+      "opponent": "Marquette",
+      "is_home": true,
+      "team_score": 79,
+      "opp_score": 71,
+      "leaders": {
+        "points": {"name": "Liam McNeeley", "value": 23},
+        "rebounds": {"name": "Tarris Reed Jr.", "value": 12},
+        "assists": {"name": "Hassan Diarra", "value": 8}
+      },
+      "team_pct": {"ft": "78.3%", "fg": "48.1%", "three": "39.1%"},
+      "recap": "UConn controlled the paint early, answered every Marquette run in the second half, and closed the game with efficient half-court offense.",
+      "record": "24-6",
+      "ranking": "#7"
+    },
+    "next": {"date": "2027-02-25T01:00:00Z", "opponent": "Providence", "is_home": false, "network": "FS1"},
+    "schedule": [
+      {"date": "2027-02-25T01:00:00Z", "opponent": "Providence", "is_home": false, "network": "FS1"},
+      {"date": "2027-02-28T20:00:00Z", "opponent": "Creighton", "is_home": true, "network": "FOX"},
+      {"date": "2027-03-04T01:30:00Z", "opponent": "Seton Hall", "is_home": false, "network": "CBS Sports"},
+      {"date": "2027-03-08T19:00:00Z", "opponent": "Villanova", "is_home": true, "network": "FOX"},
+      {"date": "2027-03-12T23:30:00Z", "opponent": "Big East Tournament", "is_home": false, "network": "FS1"},
+      {"date": "2027-03-13T23:30:00Z", "opponent": "Big East Tournament", "is_home": false, "network": "FOX"},
+      {"date": "2027-03-19T22:00:00Z", "opponent": "NCAA Tournament Round 1", "is_home": false, "network": "CBS"},
+      {"date": "2027-03-21T21:00:00Z", "opponent": "NCAA Tournament Round 2", "is_home": false, "network": "TBS"},
+      {"date": "2027-03-26T23:00:00Z", "opponent": "Sweet 16", "is_home": false, "network": "CBS"},
+      {"date": "2027-03-28T21:30:00Z", "opponent": "Elite Eight", "is_home": false, "network": "CBS"},
+      {"date": "2027-04-03T23:09:00Z", "opponent": "Final Four", "is_home": false, "network": "CBS"},
+      {"date": "2027-04-05T23:20:00Z", "opponent": "National Championship", "is_home": false, "network": "CBS"}
+    ]
   },
   "ncaaw": {
     "team_label": "UConn Huskies",
-    "record": "1-0",
+    "record": "26-3",
+    "ranking": "#2",
     "last": {
-      "date": "2026-11-10T00:00:00Z",
-      "opponent": "South Carolina",
+      "date": "2027-02-18T00:00:00Z",
+      "opponent": "Villanova",
       "is_home": true,
-      "team_score": 78,
-      "opp_score": 69,
+      "team_score": 81,
+      "opp_score": 63,
       "leaders": {
         "points": {"name": "Sarah Strong", "value": 24},
         "rebounds": {"name": "Sarah Strong", "value": 11},
         "assists": {"name": "KK Arnold", "value": 7}
       },
       "team_pct": {"ft": "81.3%", "fg": "47.5%", "three": "38.1%"},
-      "recap": "UConn pulled away in the third quarter with strong ball movement and timely perimeter shooting.",
-      "record": "1-0"
+      "recap": "UConn used its defense to create transition chances, built separation in the middle quarters, and shot well enough from deep to keep control throughout the second half.",
+      "record": "26-3",
+      "ranking": "#2"
     },
-    "next": {
-      "date": "2026-11-14T00:30:00Z",
-      "opponent": "Tennessee",
-      "is_home": false,
-      "network": "ESPN"
-    },
+    "next": {"date": "2027-02-22T00:30:00Z", "opponent": "Notre Dame", "is_home": false, "network": "ESPN"},
     "schedule": [
-      {"date": "2026-11-14T00:30:00Z", "opponent": "Tennessee", "is_home": false, "network": "ESPN"},
-      {"date": "2026-11-19T00:00:00Z", "opponent": "Notre Dame", "is_home": true, "network": "ESPN2"},
-      {"date": "2026-11-23T23:00:00Z", "opponent": "Louisville", "is_home": false, "network": "FS1"},
-      {"date": "2026-11-27T20:00:00Z", "opponent": "Duke", "is_home": true, "network": "FOX"},
-      {"date": "2026-12-01T00:00:00Z", "opponent": "Marquette", "is_home": true, "network": "SNY"},
-      {"date": "2026-12-05T19:00:00Z", "opponent": "Seton Hall", "is_home": false, "network": "SNY"},
-      {"date": "2026-12-09T00:00:00Z", "opponent": "Villanova", "is_home": true, "network": "FS1"},
-      {"date": "2026-12-13T18:00:00Z", "opponent": "Providence", "is_home": false, "network": "SNY"},
-      {"date": "2026-12-18T00:00:00Z", "opponent": "Creighton", "is_home": true, "network": "FS1"},
-      {"date": "2026-12-22T19:00:00Z", "opponent": "Georgetown", "is_home": false, "network": "SNY"},
-      {"date": "2026-12-28T00:00:00Z", "opponent": "St. John's", "is_home": true, "network": "FOX"},
-      {"date": "2027-01-02T18:00:00Z", "opponent": "Butler", "is_home": false, "network": "FS2"}
+      {"date": "2027-02-22T00:30:00Z", "opponent": "Notre Dame", "is_home": false, "network": "ESPN"},
+      {"date": "2027-02-26T00:00:00Z", "opponent": "Marquette", "is_home": true, "network": "SNY"},
+      {"date": "2027-03-01T18:00:00Z", "opponent": "Providence", "is_home": false, "network": "SNY"},
+      {"date": "2027-03-06T20:00:00Z", "opponent": "Big East Tournament", "is_home": false, "network": "FS1"},
+      {"date": "2027-03-07T20:00:00Z", "opponent": "Big East Tournament", "is_home": false, "network": "FOX"},
+      {"date": "2027-03-20T21:00:00Z", "opponent": "NCAA Tournament Round 1", "is_home": false, "network": "ESPN2"},
+      {"date": "2027-03-22T19:00:00Z", "opponent": "NCAA Tournament Round 2", "is_home": false, "network": "ABC"},
+      {"date": "2027-03-27T23:00:00Z", "opponent": "Sweet 16", "is_home": false, "network": "ESPN"},
+      {"date": "2027-03-29T23:00:00Z", "opponent": "Elite Eight", "is_home": false, "network": "ESPN"},
+      {"date": "2027-04-02T23:00:00Z", "opponent": "Final Four", "is_home": false, "network": "ESPN"},
+      {"date": "2027-04-04T20:00:00Z", "opponent": "National Championship", "is_home": false, "network": "ABC"}
     ]
   },
   "nascar": {
@@ -127,15 +148,44 @@
       "date": "2026-09-01T23:30:00Z",
       "venue": "Darlington Raceway",
       "winner": "Kyle Larson",
-      "recap": "Larson took control on the final restart and held off the field over the closing laps.",
-      "highlights": "Several late cautions reset the field before the final green-flag run."
+      "recap": "Larson took control on the final restart, cleared traffic quickly, and held the lead over the closing laps despite repeated pressure behind him.",
+      "highlights": "Several late cautions reset the field, the top contenders shuffled on pit road, and the final green-flag run decided the finish.",
+      "top10_finishers": [
+        "Kyle Larson",
+        "Denny Hamlin",
+        "William Byron",
+        "Ryan Blaney",
+        "Tyler Reddick",
+        "Christopher Bell",
+        "Joey Logano",
+        "Chase Elliott",
+        "Ross Chastain",
+        "Chris Buescher"
+      ]
     },
-    "next": {
-      "name": "Playoff Race 2",
-      "date": "2026-09-08T19:00:00Z",
-      "venue": "Kansas Speedway",
-      "network": "USA"
-    },
+    "standings_top20": [
+      {"driver": "Larson", "back": "Leader"},
+      {"driver": "Hamlin", "back": "18"},
+      {"driver": "Byron", "back": "31"},
+      {"driver": "Blaney", "back": "42"},
+      {"driver": "Reddick", "back": "55"},
+      {"driver": "Bell", "back": "61"},
+      {"driver": "Logano", "back": "74"},
+      {"driver": "Elliott", "back": "81"},
+      {"driver": "Chastain", "back": "96"},
+      {"driver": "Buescher", "back": "104"},
+      {"driver": "Wallace", "back": "117"},
+      {"driver": "Keselowski", "back": "126"},
+      {"driver": "Bowman", "back": "138"},
+      {"driver": "Briscoe", "back": "149"},
+      {"driver": "Gibbs", "back": "158"},
+      {"driver": "Busch", "back": "170"},
+      {"driver": "Suarez", "back": "181"},
+      {"driver": "Preece", "back": "194"},
+      {"driver": "Cindric", "back": "206"},
+      {"driver": "Stenhouse", "back": "219"}
+    ],
+    "next": {"name": "Playoff Race 2", "date": "2026-09-08T19:00:00Z", "venue": "Kansas Speedway", "network": "USA"},
     "schedule": [
       {"name": "Playoff Race 2", "date": "2026-09-08T19:00:00Z", "venue": "Kansas Speedway", "network": "USA"},
       {"name": "Playoff Race 3", "date": "2026-09-15T19:00:00Z", "venue": "Bristol Motor Speedway", "network": "USA"},
