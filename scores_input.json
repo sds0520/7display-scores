@@ -1,202 +1,509 @@
 {
   "mlb": {
     "team_label": "Yankees",
-    "last": {
-      "is_home": false,
-      "team_score": 7,
-      "opp_score": 3,
-      "opponent": "Angels",
-      "date": "2026-09-02T01:38:00Z",
-      "recap": "The Yankees beat the Angels 7-3 after building an early lead and getting steady work from the bullpen.",
-      "highlights": "New York got timely hitting, added insurance late, and never gave the lead back.",
-      "stats": "",
-      "record": "82-55",
-      "division_standing": "1st AL East",
-      "winning_pitcher": {
-        "name": "Max Fried",
-        "wins": 15,
-        "losses": 6,
-        "era": "2.91"
-      },
-      "losing_pitcher": {
-        "name": "Tyler Anderson",
-        "wins": 9,
-        "losses": 11,
-        "era": "4.18"
-      },
-      "save_pitcher": {
-        "name": "Devin Williams",
-        "saves": 28,
-        "era": "2.44"
-      },
-      "home_runs": [
-        {
-          "player": "Aaron Judge",
-          "season_total": 47
-        },
-        {
-          "player": "Giancarlo Stanton",
-          "season_total": 19
-        }
-      ]
-    },
     "next": {
       "is_home": false,
-      "opponent": "Angels",
+      "opponent": "Los Angeles Angels",
       "date": "2026-09-03T01:38:00Z"
     },
     "schedule": [
-      { "is_home": false, "opponent": "Angels", "date": "2026-09-03T01:38:00Z" }
-    ]
+      {
+        "is_home": false,
+        "opponent": "Los Angeles Angels",
+        "date": "2026-09-03T01:38:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "San Diego Padres",
+        "date": "2026-09-05T01:40:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "San Diego Padres",
+        "date": "2026-09-05T23:15:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "San Diego Padres",
+        "date": "2026-09-06T20:10:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Colorado Rockies",
+        "date": "2026-09-08T23:05:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Colorado Rockies",
+        "date": "2026-09-09T23:05:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Colorado Rockies",
+        "date": "2026-09-10T23:05:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "New York Mets",
+        "date": "2026-09-11T23:05:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "New York Mets",
+        "date": "2026-09-12T17:35:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "New York Mets",
+        "date": "2026-09-13T17:35:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "Minnesota Twins",
+        "date": "2026-09-14T23:40:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "Minnesota Twins",
+        "date": "2026-09-15T23:40:00Z"
+      }
+    ],
+    "last": {
+      "is_home": false,
+      "opponent": "Los Angeles Angels",
+      "team_score": 7,
+      "opp_score": 3,
+      "date": "2026-09-02T01:38:00Z",
+      "venue": "Angel Stadium of Anaheim",
+      "record": "79-60",
+      "division_standing": "2nd AL East",
+      "winning_pitcher": {
+        "name": "Gerrit Cole",
+        "wins": 8,
+        "losses": 7,
+        "era": "3.29"
+      },
+      "losing_pitcher": {
+        "name": "Grayson Rodriguez",
+        "wins": 5,
+        "losses": 8,
+        "era": "5.98"
+      },
+      "home_runs": [
+        {
+          "player": "Jazz Chisholm Jr.",
+          "in_game": 1,
+          "season_total": 20
+        },
+        {
+          "player": "Spencer Jones",
+          "in_game": 1,
+          "season_total": 15
+        }
+      ]
+    }
   },
-
   "nfl": {
     "team_label": "Steelers",
-    "last": {
-      "is_home": true,
-      "team_score": 24,
-      "opp_score": 17,
-      "opponent": "Ravens",
-      "date": "2026-10-11T17:00:00Z",
-      "recap": "Pittsburgh beat Baltimore with a balanced offense and a key late takeaway.",
-      "highlights": "The Steelers protected the lead in the fourth quarter and finished strong on defense.",
-      "record": "6-2",
-      "division_standing": "2nd AFC North",
-      "turnovers": {
-        "team": 1,
-        "opponent": 2
-      },
-      "qb": {
-        "name": "Steelers QB Name",
-        "completions": 21,
-        "attempts": 31,
-        "pass_yards": 264,
-        "pass_tds": 2,
-        "interceptions": 1,
-        "rush_yards": 18,
-        "rating": "98.4"
-      },
-      "top_rb": {
-        "name": "Steelers RB Name",
-        "carries": 19,
-        "rush_yards": 96,
-        "rush_tds": 1,
-        "long": 22
-      },
-      "top_wr": {
-        "name": "Steelers WR Name",
-        "receptions": 7,
-        "rec_yards": 109,
-        "rec_tds": 1,
-        "long": 31
-      }
-    },
     "next": {
       "is_home": true,
-      "opponent": "Falcons",
+      "opponent": "Atlanta Falcons",
       "date": "2026-09-13T17:00:00Z"
     },
     "schedule": [
-      { "is_home": true, "opponent": "Falcons", "date": "2026-09-13T17:00:00Z" }
-    ]
-  },
-
-  "ncaam": {
-    "team_label": "UConn",
-    "last": {
-      "is_home": true,
-      "team_score": 81,
-      "opp_score": 68,
-      "opponent": "Marquette",
-      "date": "2026-01-18T20:00:00Z",
-      "recap": "UConn controlled the second half and pulled away with efficient shooting.",
-      "highlights": "The Huskies won the glass, got timely assists, and closed the game at the foul line.",
-      "record": "18-4",
-      "ranking": "6",
-      "leaders": {
-        "points": { "player": "Player Name", "value": 24 },
-        "rebounds": { "player": "Player Name", "value": 11 },
-        "assists": { "player": "Player Name", "value": 7 }
+      {
+        "is_home": true,
+        "opponent": "Atlanta Falcons",
+        "date": "2026-09-13T17:00:00Z"
       },
-      "team_percentages": {
-        "field_goal": "49.2",
-        "free_throw": "78.6",
-        "three_point": "38.5"
+      {
+        "is_home": false,
+        "opponent": "New England Patriots",
+        "date": "2026-09-20T17:00:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Cincinnati Bengals",
+        "date": "2026-09-27T17:00:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "Cleveland Browns",
+        "date": "2026-10-02T00:15:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Indianapolis Colts",
+        "date": "2026-10-11T17:00:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "Tampa Bay Buccaneers",
+        "date": "2026-10-18T17:00:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "New Orleans Saints",
+        "date": "2026-10-25T13:30:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Cleveland Browns",
+        "date": "2026-11-01T18:00:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "Cincinnati Bengals",
+        "date": "2026-11-16T01:20:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "Philadelphia Eagles",
+        "date": "2026-11-22T21:25:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Denver Broncos",
+        "date": "2026-11-27T20:00:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Houston Texans",
+        "date": "2026-12-07T01:20:00Z"
       }
-    },
-    "next": {
-      "is_home": false,
-      "opponent": "Villanova",
-      "date": "2026-01-22T01:00:00Z"
-    },
-    "schedule": [
-      { "is_home": false, "opponent": "Villanova", "date": "2026-01-22T01:00:00Z" }
     ]
   },
-
   "ncaaw": {
     "team_label": "UConn",
-    "last": {
-      "is_home": true,
-      "team_score": 87,
-      "opp_score": 59,
-      "opponent": "Providence",
-      "date": "2026-11-05T00:00:00Z",
-      "recap": "UConn overwhelmed Providence with efficient offense and strong defensive pressure.",
-      "highlights": "The Huskies moved the ball well, rebounded consistently, and separated early.",
-      "record": "3-0",
-      "ranking": "2",
-      "leaders": {
-        "points": { "player": "Player Name", "value": 26 },
-        "rebounds": { "player": "Player Name", "value": 10 },
-        "assists": { "player": "Player Name", "value": 8 }
-      },
-      "team_percentages": {
-        "field_goal": "52.1",
-        "free_throw": "81.3",
-        "three_point": "41.7"
-      }
-    },
     "next": {
       "is_home": true,
       "opponent": "Cornell",
       "date": "2026-11-02T05:00:00Z"
     },
     "schedule": [
-      { "is_home": true, "opponent": "Cornell", "date": "2026-11-02T05:00:00Z" }
+      {
+        "is_home": true,
+        "opponent": "Cornell",
+        "date": "2026-11-02T05:00:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "Michigan",
+        "date": "2026-11-05T05:00:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Iowa",
+        "date": "2026-11-08T05:00:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "Ohio State",
+        "date": "2026-11-12T05:00:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "Louisville",
+        "date": "2026-11-15T05:00:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "South Carolina",
+        "date": "2026-11-24T05:00:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Duke",
+        "date": "2026-11-28T05:00:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "UNLV",
+        "date": "2026-12-02T05:00:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Maryland",
+        "date": "2026-12-05T05:00:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "Notre Dame",
+        "date": "2026-12-09T05:00:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Tennessee",
+        "date": "2026-12-12T05:00:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "LSU",
+        "date": "2026-12-20T05:00:00Z"
+      }
     ]
   },
-
   "nascar": {
-    "last": {
-      "name": "Coke Zero Sugar 400",
-      "date": "2026-08-29",
-      "venue": "Daytona International Speedway",
-      "winner": "Ryan Preece",
-      "recap": "Ryan Preece won after a late-race charge in a dramatic finish at Daytona.",
-      "highlights": "Late-race moves shuffled the field and Preece emerged on top in the closing laps.",
-      "top_10_finishers": [
-        { "position": 1, "driver": "Ryan Preece", "points_earned": 48 },
-        { "position": 2, "driver": "Driver Two", "points_earned": 42 },
-        { "position": 3, "driver": "Driver Three", "points_earned": 41 },
-        { "position": 4, "driver": "Driver Four", "points_earned": 40 },
-        { "position": 5, "driver": "Driver Five", "points_earned": 39 },
-        { "position": 6, "driver": "Driver Six", "points_earned": 38 },
-        { "position": 7, "driver": "Driver Seven", "points_earned": 37 },
-        { "position": 8, "driver": "Driver Eight", "points_earned": 36 },
-        { "position": 9, "driver": "Driver Nine", "points_earned": 35 },
-        { "position": 10, "driver": "Driver Ten", "points_earned": 34 }
-      ]
-    },
-    "standings": [
-      { "position": 1, "last_name": "Byron", "points": 954 },
-      { "position": 2, "last_name": "Bell", "points": 932 },
-      { "position": 3, "last_name": "Blaney", "points": 917 }
-    ],
     "next": {
       "name": "Cook Out Southern 500",
       "date": "2026-09-06",
       "venue": "Darlington Raceway"
     },
     "schedule": [
-      { "name": "Cook Out Southern 500", "date": "2026-09-06", "venue":
+      {
+        "name": "Cook Out Southern 500",
+        "date": "2026-09-06",
+        "venue": "Darlington Raceway"
+      },
+      {
+        "name": "Enjoy Illinois 300",
+        "date": "2026-09-13",
+        "venue": "World Wide Technology Raceway"
+      },
+      {
+        "name": "Bass Pro Shops Night Race",
+        "date": "2026-09-19",
+        "venue": "Bristol Motor Speedway"
+      },
+      {
+        "name": "Hollywood Casino 400 ",
+        "date": "2026-09-27",
+        "venue": "Kansas Speedway"
+      },
+      {
+        "name": "South Point 400",
+        "date": "2026-10-04",
+        "venue": "Las Vegas Motor Speedway"
+      },
+      {
+        "name": "Bank of America 400",
+        "date": "2026-10-11",
+        "venue": "Charlotte Motor Speedway"
+      },
+      {
+        "name": "Freeway Insurance 500",
+        "date": "2026-10-18",
+        "venue": "Phoenix Raceway"
+      },
+      {
+        "name": "YellaWood 500",
+        "date": "2026-10-25",
+        "venue": "Talladega Superspeedway"
+      },
+      {
+        "name": "Xfinity 500",
+        "date": "2026-11-01",
+        "venue": "Martinsville Speedway"
+      },
+      {
+        "name": "NASCAR Championship Race",
+        "date": "2026-11-08",
+        "venue": "Homestead-Miami Speedway"
+      }
+    ],
+    "last": {
+      "name": "Coke Zero Sugar 400",
+      "date": "2026-08-29",
+      "venue": "Daytona International Speedway",
+      "winner": "Ryan Preece",
+      "top_10_finishers": [
+        {
+          "position": 1,
+          "driver": "Ryan Preece",
+          "points_earned": 67
+        },
+        {
+          "position": 2,
+          "driver": "Daniel Suárez",
+          "points_earned": 38
+        },
+        {
+          "position": 3,
+          "driver": "Tyler Reddick",
+          "points_earned": 34
+        },
+        {
+          "position": 4,
+          "driver": "Michael McDowell",
+          "points_earned": 33
+        },
+        {
+          "position": 5,
+          "driver": "Ricky Stenhouse Jr",
+          "points_earned": 32
+        },
+        {
+          "position": 6,
+          "driver": "Austin Cindric",
+          "points_earned": 32
+        },
+        {
+          "position": 7,
+          "driver": "Austin Dillon",
+          "points_earned": 30
+        },
+        {
+          "position": 8,
+          "driver": "Alex Bowman",
+          "points_earned": 29
+        },
+        {
+          "position": 9,
+          "driver": "Josh Berry",
+          "points_earned": 28
+        },
+        {
+          "position": 10,
+          "driver": "Cole Custer",
+          "points_earned": 27
+        }
+      ],
+      "cautions": 4,
+      "lead_changes": 41
+    },
+    "standings": [
+      {
+        "position": 1,
+        "last_name": "Hamlin",
+        "full_name": "Denny Hamlin",
+        "points": 1026,
+        "behind": 0
+      },
+      {
+        "position": 2,
+        "last_name": "Blaney",
+        "full_name": "Ryan Blaney",
+        "points": 929,
+        "behind": -97
+      },
+      {
+        "position": 3,
+        "last_name": "Reddick",
+        "full_name": "Tyler Reddick",
+        "points": 894,
+        "behind": -132
+      },
+      {
+        "position": 4,
+        "last_name": "Gibbs",
+        "full_name": "Ty Gibbs",
+        "points": 890,
+        "behind": -136
+      },
+      {
+        "position": 5,
+        "last_name": "Briscoe",
+        "full_name": "Chase Briscoe",
+        "points": 761,
+        "behind": -265
+      },
+      {
+        "position": 6,
+        "last_name": "Bell",
+        "full_name": "Christopher Bell",
+        "points": 752,
+        "behind": -274
+      },
+      {
+        "position": 7,
+        "last_name": "Larson",
+        "full_name": "Kyle Larson",
+        "points": 716,
+        "behind": -310
+      },
+      {
+        "position": 8,
+        "last_name": "Elliott",
+        "full_name": "Chase Elliott",
+        "points": 713,
+        "behind": -313
+      },
+      {
+        "position": 9,
+        "last_name": "Logano",
+        "full_name": "Joey Logano",
+        "points": 699,
+        "behind": -327
+      },
+      {
+        "position": 10,
+        "last_name": "Buescher",
+        "full_name": "Chris Buescher",
+        "points": 677,
+        "behind": -349
+      },
+      {
+        "position": 11,
+        "last_name": "Suárez",
+        "full_name": "Daniel Suárez",
+        "points": 672,
+        "behind": -354
+      },
+      {
+        "position": 12,
+        "last_name": "Hocevar",
+        "full_name": "Carson Hocevar",
+        "points": 664,
+        "behind": -362
+      },
+      {
+        "position": 13,
+        "last_name": "Byron",
+        "full_name": "William Byron",
+        "points": 666,
+        "behind": -360
+      },
+      {
+        "position": 14,
+        "last_name": "Wallace",
+        "full_name": "Bubba Wallace",
+        "points": 651,
+        "behind": -375
+      },
+      {
+        "position": 15,
+        "last_name": "Cindric",
+        "full_name": "Austin Cindric",
+        "points": 631,
+        "behind": -395
+      },
+      {
+        "position": 16,
+        "last_name": "Preece",
+        "full_name": "Ryan Preece",
+        "points": 645,
+        "behind": -381
+      },
+      {
+        "position": 17,
+        "last_name": "Gisbergen",
+        "full_name": "Shane Van Gisbergen",
+        "points": 600,
+        "behind": -426
+      },
+      {
+        "position": 18,
+        "last_name": "Keselowski",
+        "full_name": "Brad Keselowski",
+        "points": 536,
+        "behind": -490
+      },
+      {
+        "position": 19,
+        "last_name": "Chastain",
+        "full_name": "Ross Chastain",
+        "points": 518,
+        "behind": -508
+      },
+      {
+        "position": 20,
+        "last_name": "McDowell",
+        "full_name": "Michael McDowell",
+        "points": 510,
+        "behind": -516
+      }
+    ],
+    "standings_basis": "Season points (NASCAR official standings order)"
+  },
+  "collected_at": "2026-09-02T18:04:20.177202-04:00"
+}

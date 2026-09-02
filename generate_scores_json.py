@@ -4,13 +4,19 @@ generate_scores_json.py
 ------------------------------------------------------------------
 Builds scores.json for the 7Display kitchen board's Scores screen.
 
-Reads scores_input.json and writes scores.json.
+Reads scores_input.json (written by collect_scores_input.py) and
+writes the flattened scores.json that the ESP32 downloads.
 
-Output for each in-season sport:
-  - last: short last-result line for the Scores card
-  - next: short next-event line for the Scores card
-  - recap: longer text-only recap for tapping Last
-  - schedule: up to the next 10 events for tapping Next
+The device stays simple on purpose: it renders whatever text this
+script produces. All formatting, season filtering, and stat
+assembly happens here, not on the microcontroller.
+
+Output per in-season sport:
+  last     - short last-result line for the card
+  next     - short next-event line for the card
+  recap    - detailed text-only recap shown when Last is tapped
+  schedule - up to 12 upcoming events shown when Next is tapped
+  columns  - optional structured grid (NASCAR points standings)
 
 Usage:
   python3 generate_scores_json.py --input scores_input.json --out scores.json
@@ -22,12 +28,18 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 
 TZ = ZoneInfo("America/New_York")
-MAX_SCHEDULE_ITEMS = 10
+MAX_SCHEDULE_ITEMS = 12
 
+# Month windows, inclusive, wrapping across the new year where needed.
+#
+# NOTE ON COLLEGE BASKETBALL: the project note says Dec-Apr, but UConn
+# women open in early November. Starting in December would hide the
+# first month of real games, so both college windows start in November.
+# Change the 11 back to 12 here if you would rather they stay hidden.
 SEASON_WINDOWS = {
-    "mlb":    (4, 11),
+    "mlb":    (3, 11),
     "nfl":    (8, 2),
-    "ncaam":  (12, 4),
+    "ncaam":  (11, 4),
     "ncaaw":  (11, 4),
     "nascar": (2, 11),
 }
@@ -40,12 +52,20 @@ SPORT_META = {
     "nascar": {"title": "NASCAR"},
 }
 
+NASCAR_STANDINGS_COLUMNS = 2
 
-def in_season(key: str, month: int) -> bool:
+
+# ----------------------------------------------------------- small helpers
+
+def in_season(key, month):
     start, end = SEASON_WINDOWS[key]
     if start <= end:
         return start <= month <= end
     return month >= start or month <= end
+
+
+def txt(value):
+    return "" if value is None else str(value).strip()
 
 
 def fmt_date_short(iso_str):
@@ -58,8 +78,7 @@ def fmt_date_short(iso_str):
         return d.strftime("%b %-d")
     except Exception:
         try:
-            d = datetime.strptime(str(iso_str)[:10], "%Y-%m-%d")
-            return d.strftime("%b %-d")
+            return datetime.strptime(str(iso_str)[:10], "%Y-%m-%d").strftime("%b %-d")
         except Exception:
             return str(iso_str)[:10]
 
@@ -76,62 +95,56 @@ def fmt_datetime_short(iso_str):
         return fmt_date_short(iso_str)
 
 
-def safe_text(value):
-    if value is None:
-        return ""
-    return str(value).strip()
+def short_team(name):
+    """'Los Angeles Angels' -> 'Angels' so card lines stay narrow."""
+    name = txt(name)
+    if not name:
+        return "TBD"
+    parts = name.split()
+    return parts[-1] if len(parts) > 1 else name
 
 
-def sentence(text):
-    text = safe_text(text)
-    if not text:
-        return ""
-    if text[-1] not in ".!?":
-        text += "."
-    return text
+def outcome_letter(ours, theirs):
+    if ours is None or theirs is None:
+        return "?"
+    if ours > theirs:
+        return "W"
+    if ours < theirs:
+        return "L"
+    return "T"
 
+
+# ------------------------------------------------------------- card lines
 
 def format_team_last(entry):
     if not entry:
         return "No result yet"
-    try:
-        team_score = int(entry["team_score"])
-        opp_score = int(entry["opp_score"])
-    except (KeyError, TypeError, ValueError):
+    ours, theirs = entry.get("team_score"), entry.get("opp_score")
+    if ours is None or theirs is None:
         return "No result yet"
-    opponent = safe_text(entry.get("opponent")) or "opponent"
-    is_home = bool(entry.get("is_home"))
-    outcome = "W" if team_score > opp_score else ("L" if team_score < opp_score else "T")
-    versus = "vs" if is_home else "@"
+    versus = "vs" if entry.get("is_home") else "@"
+    line = f"{outcome_letter(ours, theirs)} {ours}-{theirs} {versus} {short_team(entry.get('opponent'))}"
     date_str = fmt_date_short(entry.get("date"))
-    line = f"{outcome} {team_score}-{opp_score} {versus} {opponent}"
-    if date_str:
-        line += f" ({date_str})"
-    return line
+    return f"{line} ({date_str})" if date_str else line
 
 
 def format_team_next(entry):
     if not entry:
         return "Not yet scheduled"
-    opponent = safe_text(entry.get("opponent")) or "opponent"
-    is_home = bool(entry.get("is_home"))
-    versus = "vs" if is_home else "@"
+    versus = "vs" if entry.get("is_home") else "@"
+    line = f"{versus} {short_team(entry.get('opponent'))}"
     date_str = fmt_datetime_short(entry.get("date"))
-    line = f"{versus} {opponent}"
-    if date_str:
-        line += f" - {date_str}"
-    return line
+    return f"{line} - {date_str}" if date_str else line
 
 
 def format_race_last(entry):
     if not entry:
         return "No result yet"
-    name = safe_text(entry.get("name")) or "Race"
+    line = txt(entry.get("name")) or "Race"
     date_str = fmt_date_short(entry.get("date"))
-    winner = safe_text(entry.get("winner"))
-    line = name
     if date_str:
         line += f" ({date_str})"
+    winner = txt(entry.get("winner"))
     if winner:
         line += f" - Winner: {winner}"
     return line
@@ -140,165 +153,319 @@ def format_race_last(entry):
 def format_race_next(entry):
     if not entry:
         return "Not yet scheduled"
-    name = safe_text(entry.get("name")) or "Race"
-    venue = safe_text(entry.get("venue"))
-    date_str = fmt_date_short(entry.get("date"))
-    line = name
+    line = txt(entry.get("name")) or "Race"
+    venue = txt(entry.get("venue"))
     if venue:
         line += f" - {venue}"
+    date_str = fmt_date_short(entry.get("date"))
     if date_str:
         line += f" ({date_str})"
     return line
 
 
-def team_recap(key, data, last_entry):
-    if not last_entry:
-        next_game = format_team_next(data.get("next"))
-        if next_game and next_game != "Not yet scheduled":
-            return f"No completed game result is available yet. Next: {next_game}."
-        return "No completed game result is available yet."
-    result_line = format_team_last(last_entry)
-    team_name = safe_text(data.get("team_label")) or SPORT_META[key]["title"]
-    opponent = safe_text(last_entry.get("opponent")) or "the opponent"
-    is_home = bool(last_entry.get("is_home"))
-    location = "at home against" if is_home else "on the road against"
-    pieces = [f"{team_name} last played {location} {opponent}. The result was {result_line}."]
-    for field in ("recap", "summary", "game_recap", "details", "description"):
-        detail = safe_text(last_entry.get(field)) or safe_text(data.get(field))
-        if detail:
-            pieces.append(sentence(detail))
-            break
-    highlights = safe_text(last_entry.get("highlights")) or safe_text(data.get("highlights"))
-    if highlights:
-        pieces.append(sentence(highlights))
-    stats = safe_text(last_entry.get("stats")) or safe_text(data.get("stats"))
-    if stats:
-        pieces.append(sentence(stats))
-    record = safe_text(last_entry.get("record")) or safe_text(data.get("record"))
-    if record:
-        pieces.append(f"Current record: {record}.")
-    next_game = format_team_next(data.get("next"))
-    if next_game and next_game != "Not yet scheduled":
-        pieces.append(f"Next: {next_game}.")
-    return " ".join(pieces)
+# ----------------------------------------------------------------- recaps
+#
+# Recaps are written as short labelled lines rather than one long
+# paragraph. On a 7-inch panel a block of labelled lines is far easier
+# to read at a glance than a wall of prose.
+
+def header_lines(label, entry):
+    lines = []
+    ours, theirs = entry.get("team_score"), entry.get("opp_score")
+    opp = short_team(entry.get("opponent"))
+    where = "vs" if entry.get("is_home") else "at"
+    date_str = fmt_date_short(entry.get("date"))
+    if ours is not None and theirs is not None:
+        verb = {"W": "beat", "L": "lost to", "T": "tied"}[outcome_letter(ours, theirs)]
+        lines.append(f"{label} {verb} {opp} {ours}-{theirs}")
+    else:
+        lines.append(f"{label} {where} {opp}")
+    place = "Home" if entry.get("is_home") else "Away"
+    meta = ", ".join(p for p in [place, date_str] if p)
+    if meta:
+        lines.append(meta)
+    return lines
 
 
-def nascar_recap(data, last_entry):
-    if not last_entry:
-        next_race = format_race_next(data.get("next"))
-        if next_race and next_race != "Not yet scheduled":
-            return f"No completed NASCAR Cup Series race result is available yet. Next: {next_race}."
-        return "No completed NASCAR Cup Series race result is available yet."
-    race_name = safe_text(last_entry.get("name")) or "The most recent race"
-    venue = safe_text(last_entry.get("venue"))
-    winner = safe_text(last_entry.get("winner"))
-    date_str = fmt_date_short(last_entry.get("date"))
-    first = race_name
+def record_lines(entry):
+    lines = []
+    rec = txt(entry.get("record"))
+    standing = txt(entry.get("division_standing"))
+    rank = txt(entry.get("ranking"))
+    if rec and standing:
+        lines.append(f"Record: {rec} ({standing})")
+    elif rec and rank:
+        lines.append(f"Record: {rec} (AP #{rank})")
+    elif rec:
+        lines.append(f"Record: {rec}")
+    elif standing:
+        lines.append(f"Standing: {standing}")
+    return lines
+
+
+def mlb_recap(data, last):
+    if not last:
+        return no_result_text(data, "game")
+    lines = header_lines(txt(data.get("team_label")) or "Yankees", last)
+    lines += record_lines(last)
+
+    wp, lp, sv = last.get("winning_pitcher"), last.get("losing_pitcher"), last.get("save_pitcher")
+    if wp:
+        detail = f"W: {txt(wp.get('name'))}"
+        if wp.get("wins") is not None and wp.get("losses") is not None:
+            detail += f" ({wp['wins']}-{wp['losses']}"
+            if wp.get("era"):
+                detail += f", {wp['era']} ERA"
+            detail += ")"
+        lines.append(detail)
+    if lp:
+        detail = f"L: {txt(lp.get('name'))}"
+        if lp.get("wins") is not None and lp.get("losses") is not None:
+            detail += f" ({lp['wins']}-{lp['losses']}"
+            if lp.get("era"):
+                detail += f", {lp['era']} ERA"
+            detail += ")"
+        lines.append(detail)
+    if sv:
+        detail = f"SV: {txt(sv.get('name'))}"
+        bits = []
+        if sv.get("saves") is not None:
+            bits.append(f"{sv['saves']} SV")
+        if sv.get("era"):
+            bits.append(f"{sv['era']} ERA")
+        if bits:
+            detail += " (" + ", ".join(bits) + ")"
+        lines.append(detail)
+
+    homers = last.get("home_runs") or []
+    if homers:
+        lines.append("Home runs:")
+        for hr in homers:
+            season = hr.get("season_total")
+            n = hr.get("in_game") or 1
+            count = f" x{n}" if n and n > 1 else ""
+            tail = f" - {season} on the season" if season else ""
+            lines.append(f"  {txt(hr.get('player'))}{count}{tail}")
+    return "\n".join(lines)
+
+
+def nfl_recap(data, last):
+    if not last:
+        return no_result_text(data, "game")
+    lines = header_lines(txt(data.get("team_label")) or "Steelers", last)
+    lines += record_lines(last)
+
+    qb = last.get("qb")
+    if qb:
+        bits = []
+        if qb.get("completions") is not None and qb.get("attempts") is not None:
+            bits.append(f"{qb['completions']}/{qb['attempts']}")
+        if qb.get("pass_yards") is not None:
+            bits.append(f"{qb['pass_yards']} yds")
+        if qb.get("pass_tds") is not None:
+            bits.append(f"{qb['pass_tds']} TD")
+        if qb.get("interceptions") is not None:
+            bits.append(f"{qb['interceptions']} INT")
+        lines.append(f"QB {txt(qb.get('name'))}: " + ", ".join(bits))
+    rb = last.get("top_rb")
+    if rb:
+        bits = []
+        if rb.get("carries") is not None:
+            bits.append(f"{rb['carries']} car")
+        if rb.get("rush_yards") is not None:
+            bits.append(f"{rb['rush_yards']} yds")
+        if rb.get("rush_tds"):
+            bits.append(f"{rb['rush_tds']} TD")
+        lines.append(f"RB {txt(rb.get('name'))}: " + ", ".join(bits))
+    wr = last.get("top_wr")
+    if wr:
+        bits = []
+        if wr.get("receptions") is not None:
+            bits.append(f"{wr['receptions']} rec")
+        if wr.get("rec_yards") is not None:
+            bits.append(f"{wr['rec_yards']} yds")
+        if wr.get("rec_tds"):
+            bits.append(f"{wr['rec_tds']} TD")
+        lines.append(f"WR {txt(wr.get('name'))}: " + ", ".join(bits))
+
+    to = last.get("turnovers")
+    if to:
+        lines.append(f"Turnovers: {txt(data.get('team_label')) or 'Team'} {to.get('team', 0)}, "
+                     f"{short_team(last.get('opponent'))} {to.get('opponent', 0)}")
+    return "\n".join(lines)
+
+
+def ncaa_recap(data, last):
+    if not last:
+        return no_result_text(data, "game")
+    lines = header_lines(txt(data.get("team_label")) or "UConn", last)
+    lines += record_lines(last)
+
+    leaders = last.get("leaders") or {}
+    label_map = [("points", "PTS"), ("rebounds", "REB"), ("assists", "AST")]
+    got = [(tag, leaders[key]) for key, tag in label_map if leaders.get(key)]
+    if got:
+        lines.append("Leaders:")
+        for tag, entry in got:
+            lines.append(f"  {tag}: {txt(entry.get('player'))} {entry.get('value')}")
+
+    pcts = last.get("team_percentages") or {}
+    bits = []
+    if pcts.get("field_goal"):
+        bits.append(f"FG {pcts['field_goal']}%")
+    if pcts.get("free_throw"):
+        bits.append(f"FT {pcts['free_throw']}%")
+    if pcts.get("three_point"):
+        bits.append(f"3PT {pcts['three_point']}%")
+    if bits:
+        lines.append("Team: " + ", ".join(bits))
+    return "\n".join(lines)
+
+
+def nascar_recap(data, last):
+    if not last:
+        return no_result_text(data, "race")
+    lines = []
+    name = txt(last.get("name")) or "Most recent race"
+    venue = txt(last.get("venue"))
+    date_str = fmt_date_short(last.get("date"))
+    head = name
     if venue:
-        first += f" at {venue}"
+        head += f" - {venue}"
     if date_str:
-        first += f" on {date_str}"
-    first += "."
-    pieces = [first]
+        head += f" ({date_str})"
+    lines.append(head)
+
+    winner = txt(last.get("winner"))
     if winner:
-        pieces.append(f"The winner was {winner}.")
-    for field in ("recap", "summary", "race_recap", "details", "description"):
-        detail = safe_text(last_entry.get(field)) or safe_text(data.get(field))
-        if detail:
-            pieces.append(sentence(detail))
-            break
-    highlights = safe_text(last_entry.get("highlights")) or safe_text(data.get("highlights"))
-    if highlights:
-        pieces.append(sentence(highlights))
-    standings = safe_text(last_entry.get("standings")) or safe_text(data.get("standings"))
-    if standings:
-        pieces.append(sentence(standings))
-    next_race = format_race_next(data.get("next"))
-    if next_race and next_race != "Not yet scheduled":
-        pieces.append(f"Next: {next_race}.")
-    return " ".join(pieces)
+        lines.append(f"Winner: {winner}")
+    extras = []
+    if last.get("lead_changes") is not None:
+        extras.append(f"{last['lead_changes']} lead changes")
+    if last.get("cautions") is not None:
+        extras.append(f"{last['cautions']} cautions")
+    if extras:
+        lines.append(", ".join(extras).capitalize())
+
+    top10 = last.get("top_10_finishers") or []
+    if top10:
+        lines.append("")
+        lines.append("Top 10 (points earned):")
+        for row in top10:
+            lines.append(f"  {row.get('position'):>2}. {txt(row.get('driver'))} "
+                         f"- {row.get('points_earned')}")
+    return "\n".join(lines)
 
 
-def format_team_schedule_entry(entry):
+def no_result_text(data, noun):
+    nxt = data.get("next") or {}
+    line = format_race_next(nxt) if "name" in nxt else format_team_next(nxt)
+    if line and line != "Not yet scheduled":
+        return f"No completed {noun} result yet.\nNext: {line}"
+    return f"No completed {noun} result yet."
+
+
+# --------------------------------------------------------------- schedule
+
+def team_schedule_line(entry):
     if not entry:
         return ""
-    opponent = safe_text(entry.get("opponent")) or "Opponent TBD"
-    is_home = bool(entry.get("is_home"))
-    versus = "vs" if is_home else "@"
+    versus = "vs" if entry.get("is_home") else "@"
+    line = f"{versus} {short_team(entry.get('opponent'))}"
     date_str = fmt_datetime_short(entry.get("date"))
-    line = f"{versus} {opponent}"
-    if date_str:
-        line += f" - {date_str}"
-    network = safe_text(entry.get("network"))
-    if network:
-        line += f" ({network})"
-    return line
+    return f"{line} - {date_str}" if date_str else line
 
 
-def format_race_schedule_entry(entry):
+def race_schedule_line(entry):
     if not entry:
         return ""
-    name = safe_text(entry.get("name")) or "Race"
-    venue = safe_text(entry.get("venue"))
-    date_str = fmt_date_short(entry.get("date"))
-    line = name
+    line = txt(entry.get("name")) or "Race"
+    venue = txt(entry.get("venue"))
     if venue:
         line += f" - {venue}"
-    if date_str:
-        line += f" ({date_str})"
-    network = safe_text(entry.get("network"))
-    if network:
-        line += f" ({network})"
-    return line
-
-
-def get_future_events(data):
-    for field in ("schedule", "upcoming", "upcoming_events", "future_events", "next_events"):
-        items = data.get(field)
-        if isinstance(items, list) and items:
-            return items
-    return []
+    date_str = fmt_date_short(entry.get("date"))
+    return f"{line} ({date_str})" if date_str else line
 
 
 def build_schedule(key, data):
-    events = get_future_events(data)
-    if not events:
-        next_event = data.get("next")
-        if next_event:
-            events = [next_event]
+    events = data.get("schedule")
+    if not isinstance(events, list) or not events:
+        nxt = data.get("next")
+        events = [nxt] if nxt else []
     lines = []
     for event in events:
-        line = format_race_schedule_entry(event) if key == "nascar" else format_team_schedule_entry(event)
+        line = race_schedule_line(event) if key == "nascar" else team_schedule_line(event)
         if line and line not in lines:
             lines.append(line)
         if len(lines) >= MAX_SCHEDULE_ITEMS:
             break
-    if not lines:
-        lines.append("No upcoming events are available yet.")
-    return lines
+    return lines or ["No upcoming events are available yet."]
 
 
-def has_display_content(key, data):
-    if key == "nascar":
-        return bool(data.get("last") or data.get("next") or get_future_events(data))
-    return bool(data.get("last") or data.get("next") or get_future_events(data))
+# ------------------------------------------------------- NASCAR standings
+
+def nascar_columns(data):
+    """Structured top-20 points table for the multi-column popup."""
+    standings = data.get("standings") or []
+    if not standings:
+        return None
+    items = []
+    for row in standings[:20]:
+        pos = row.get("position")
+        name = txt(row.get("last_name")) or txt(row.get("full_name"))
+        pts = row.get("points")
+        # Every row shows total points so the column reads consistently.
+        items.append(f"{pos:>2} {name} {pts}" if pts is not None else f"{pos:>2} {name}")
+    return {
+        "title": txt(data.get("standings_basis")) or "Top 20 - Points",
+        "cols": NASCAR_STANDINGS_COLUMNS,
+        "items": items,
+    }
+
+
+# ------------------------------------------------------------- card build
+
+RECAP_BUILDERS = {
+    "mlb": mlb_recap,
+    "nfl": nfl_recap,
+    "ncaam": ncaa_recap,
+    "ncaaw": ncaa_recap,
+    "nascar": nascar_recap,
+}
+
+
+def has_content(data):
+    return bool(data.get("last") or data.get("next") or data.get("schedule"))
 
 
 def build_card(key, data):
     meta = SPORT_META[key]
-    label = safe_text(data.get("team_label")) or meta["title"]
-    title = meta["title"] if label == meta["title"] else f"{meta['title']} - {label}"
+    label = txt(data.get("team_label"))
+    title = f"{meta['title']} - {label}" if label and label != meta["title"] else meta["title"]
+
     last_entry = data.get("last") or {}
     next_entry = data.get("next") or {}
+
     if key == "nascar":
         last_line = format_race_last(last_entry)
         next_line = format_race_next(next_entry)
-        recap = nascar_recap(data, last_entry)
     else:
         last_line = format_team_last(last_entry)
         next_line = format_team_next(next_entry)
-        recap = team_recap(key, data, last_entry)
-    return {"key": key, "title": title, "last": last_line, "next": next_line, "recap": recap, "schedule": build_schedule(key, data)}
+
+    card = {
+        "key": key,
+        "title": title,
+        "last": last_line,
+        "next": next_line,
+        "recap": RECAP_BUILDERS[key](data, last_entry),
+        "schedule": build_schedule(key, data),
+    }
+    if key == "nascar":
+        cols = nascar_columns(data)
+        if cols:
+            card["columns"] = cols
+    return card
 
 
 def main():
@@ -306,22 +473,32 @@ def main():
     parser.add_argument("--input", default="scores_input.json")
     parser.add_argument("--out", default="scores.json")
     parser.add_argument("--include-empty-in-season", action="store_true")
+    parser.add_argument("--force-all", action="store_true",
+                        help="ignore season windows (for testing)")
     args = parser.parse_args()
-    with open(args.input, "r", encoding="utf-8") as f:
-        raw = json.load(f)
+
+    with open(args.input, "r", encoding="utf-8") as fh:
+        raw = json.load(fh)
+
     now = datetime.now(TZ)
     cards = []
     for key in ("mlb", "nfl", "ncaam", "ncaaw", "nascar"):
-        if not in_season(key, now.month):
+        if not args.force_all and not in_season(key, now.month):
             continue
         data = raw.get(key) or {}
-        if not args.include_empty_in_season and not has_display_content(key, data):
+        if not args.include_empty_in_season and not has_content(data):
             continue
         cards.append(build_card(key, data))
+
     out = {"generated_at": now.isoformat(), "cards": cards}
-    with open(args.out, "w", encoding="utf-8") as f:
-        json.dump(out, f, indent=2, ensure_ascii=False)
-    print(f"Wrote {args.out} with {len(cards)} in-season card(s): {[card['key'] for card in cards]}")
+    with open(args.out, "w", encoding="utf-8") as fh:
+        json.dump(out, fh, indent=2, ensure_ascii=False)
+
+    size = len(json.dumps(out))
+    print(f"Wrote {args.out} with {len(cards)} card(s): {[c['key'] for c in cards]}")
+    print(f"Feed size: {size} bytes")
+    if size > 20000:
+        print("WARNING: feed is large; confirm the ESP32 JSON buffer can hold it.")
 
 
 if __name__ == "__main__":

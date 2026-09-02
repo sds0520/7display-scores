@@ -1,23 +1,25 @@
 {
-  "generated_at": "2026-09-02T13:03:41.791177-04:00",
+  "generated_at": "2026-09-02T18:07:33.215468-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
       "last": "W 7-3 @ Angels (Sep 1)",
       "next": "@ Angels - Sep 2, 9:38 PM",
-      "recap": "Yankees last played on the road against Angels. The result was W 7-3 @ Angels (Sep 1). The Yankees beat the Angels 7-3 after building an early lead and getting steady work from the bullpen. New York got timely hitting, added insurance late, and never gave the lead back. Next: @ Angels - Sep 2, 9:38 PM.",
+      "recap": "Yankees beat Angels 7-3\nAway, Sep 1\nRecord: 79-60 (2nd AL East)\nW: Gerrit Cole (8-7, 3.29 ERA)\nL: Grayson Rodriguez (5-8, 5.98 ERA)\nHome runs:\n  Jazz Chisholm Jr. - 20 on the season\n  Spencer Jones - 15 on the season",
       "schedule": [
         "@ Angels - Sep 2, 9:38 PM",
-        "@ Angels - Sep 3, 4:07 PM",
-        "vs Blue Jays - Sep 5, 7:05 PM",
-        "vs Blue Jays - Sep 6, 1:05 PM",
-        "vs Blue Jays - Sep 7, 1:35 PM",
-        "@ Red Sox - Sep 8, 7:10 PM",
-        "@ Red Sox - Sep 9, 7:10 PM",
-        "@ Red Sox - Sep 10, 7:10 PM",
-        "vs Rays - Sep 12, 7:05 PM",
-        "vs Rays - Sep 13, 1:35 PM"
+        "@ Padres - Sep 4, 9:40 PM",
+        "@ Padres - Sep 5, 7:15 PM",
+        "@ Padres - Sep 6, 4:10 PM",
+        "vs Rockies - Sep 8, 7:05 PM",
+        "vs Rockies - Sep 9, 7:05 PM",
+        "vs Rockies - Sep 10, 7:05 PM",
+        "vs Mets - Sep 11, 7:05 PM",
+        "vs Mets - Sep 12, 1:35 PM",
+        "vs Mets - Sep 13, 1:35 PM",
+        "@ Twins - Sep 14, 7:40 PM",
+        "@ Twins - Sep 15, 7:40 PM"
       ]
     },
     {
@@ -25,18 +27,20 @@
       "title": "NFL - Steelers",
       "last": "No result yet",
       "next": "vs Falcons - Sep 13, 1:00 PM",
-      "recap": "No completed game result is available yet. Next: vs Falcons - Sep 13, 1:00 PM.",
+      "recap": "No completed game result yet.\nNext: vs Falcons - Sep 13, 1:00 PM",
       "schedule": [
         "vs Falcons - Sep 13, 1:00 PM",
-        "@ Browns - Sep 20, 1:00 PM",
-        "vs Ravens - Sep 27, 4:25 PM",
-        "@ Bengals - Oct 4, 1:00 PM",
-        "vs Jaguars - Oct 11, 1:00 PM",
-        "@ Bills - Oct 18, 1:00 PM",
-        "vs Jets - Oct 25, 1:00 PM",
-        "@ Patriots - Nov 1, 1:00 PM",
-        "vs Titans - Nov 8, 1:00 PM",
-        "@ Colts - Nov 15, 1:00 PM"
+        "@ Patriots - Sep 20, 1:00 PM",
+        "vs Bengals - Sep 27, 1:00 PM",
+        "@ Browns - Oct 1, 8:15 PM",
+        "vs Colts - Oct 11, 1:00 PM",
+        "@ Buccaneers - Oct 18, 1:00 PM",
+        "@ Saints - Oct 25, 9:30 AM",
+        "vs Browns - Nov 1, 1:00 PM",
+        "@ Bengals - Nov 15, 8:20 PM",
+        "@ Eagles - Nov 22, 4:25 PM",
+        "vs Broncos - Nov 27, 3:00 PM",
+        "vs Texans - Dec 6, 8:20 PM"
       ]
     },
     {
@@ -44,19 +48,45 @@
       "title": "NASCAR",
       "last": "Coke Zero Sugar 400 (Aug 29) - Winner: Ryan Preece",
       "next": "Cook Out Southern 500 - Darlington Raceway (Sep 6)",
-      "recap": "Coke Zero Sugar 400 at Daytona International Speedway on Aug 29. The winner was Ryan Preece. Ryan Preece won after a late-race charge in a dramatic finish at Daytona. Late-race moves shuffled the field and Preece emerged on top in the closing laps. Next: Cook Out Southern 500 - Darlington Raceway (Sep 6).",
+      "recap": "Coke Zero Sugar 400 - Daytona International Speedway (Aug 29)\nWinner: Ryan Preece\n41 lead changes, 4 cautions\n\nTop 10 (points earned):\n   1. Ryan Preece - 67\n   2. Daniel Suárez - 38\n   3. Tyler Reddick - 34\n   4. Michael McDowell - 33\n   5. Ricky Stenhouse Jr - 32\n   6. Austin Cindric - 32\n   7. Austin Dillon - 30\n   8. Alex Bowman - 29\n   9. Josh Berry - 28\n  10. Cole Custer - 27",
       "schedule": [
         "Cook Out Southern 500 - Darlington Raceway (Sep 6)",
-        "Round of 16 Race 2 - Track TBD (Sep 13)",
-        "Round of 16 Race 3 - Track TBD (Sep 20)",
-        "Round of 12 Race 1 - Track TBD (Sep 27)",
-        "Round of 12 Race 2 - Track TBD (Oct 4)",
-        "Round of 12 Race 3 - Track TBD (Oct 11)",
-        "Round of 8 Race 1 - Track TBD (Oct 18)",
-        "Round of 8 Race 2 - Track TBD (Oct 25)",
-        "Round of 8 Race 3 - Track TBD (Nov 1)",
-        "Championship Race - Track TBD (Nov 8)"
-      ]
+        "Enjoy Illinois 300 - World Wide Technology Raceway (Sep 13)",
+        "Bass Pro Shops Night Race - Bristol Motor Speedway (Sep 19)",
+        "Hollywood Casino 400 - Kansas Speedway (Sep 27)",
+        "South Point 400 - Las Vegas Motor Speedway (Oct 4)",
+        "Bank of America 400 - Charlotte Motor Speedway (Oct 11)",
+        "Freeway Insurance 500 - Phoenix Raceway (Oct 18)",
+        "YellaWood 500 - Talladega Superspeedway (Oct 25)",
+        "Xfinity 500 - Martinsville Speedway (Nov 1)",
+        "NASCAR Championship Race - Homestead-Miami Speedway (Nov 8)"
+      ],
+      "columns": {
+        "title": "Season points (NASCAR official standings order)",
+        "cols": 2,
+        "items": [
+          " 1 Hamlin 1026",
+          " 2 Blaney 929",
+          " 3 Reddick 894",
+          " 4 Gibbs 890",
+          " 5 Briscoe 761",
+          " 6 Bell 752",
+          " 7 Larson 716",
+          " 8 Elliott 713",
+          " 9 Logano 699",
+          "10 Buescher 677",
+          "11 Suárez 672",
+          "12 Hocevar 664",
+          "13 Byron 666",
+          "14 Wallace 651",
+          "15 Cindric 631",
+          "16 Preece 645",
+          "17 Gisbergen 600",
+          "18 Keselowski 536",
+          "19 Chastain 518",
+          "20 McDowell 510"
+        ]
+      }
     }
   ]
 }
