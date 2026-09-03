@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-09-02T18:23:55.754339-04:00",
+  "generated_at": "2026-09-03T02:09:29.354885-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
-      "last": "W 7-3 @ Angels (Sep 1)",
-      "next": "@ Angels - Sep 2, 9:38 PM",
-      "recap": "Yankees beat Angels 7-3\nAway, Sep 1\nRecord: 79-60 (2nd AL East)\nW: Gerrit Cole (8-7, 3.29 ERA)\nL: Grayson Rodriguez (5-8, 5.98 ERA)\nHome runs:\n  Jazz Chisholm Jr. - 20 on the season\n  Spencer Jones - 15 on the season",
+      "last": "W 6-3 @ Angels (Sep 2)",
+      "next": "@ Padres - Sep 4, 9:40 PM",
+      "recap": "Yankees beat Angels 6-3\nAway, Sep 2\nRecord: 80-60 (2nd AL East)\nW: David Bednar (8-3, 2.49 ERA)\nL: Luke Murphy (0-2, 4.15 ERA)",
       "schedule": [
-        "@ Angels - Sep 2, 9:38 PM",
         "@ Padres - Sep 4, 9:40 PM",
         "@ Padres - Sep 5, 7:15 PM",
         "@ Padres - Sep 6, 4:10 PM",
@@ -19,7 +18,8 @@
         "vs Mets - Sep 12, 1:35 PM",
         "vs Mets - Sep 13, 1:35 PM",
         "@ Twins - Sep 14, 7:40 PM",
-        "@ Twins - Sep 15, 7:40 PM"
+        "@ Twins - Sep 15, 7:40 PM",
+        "@ Twins - Sep 16, 1:40 PM"
       ]
     },
     {

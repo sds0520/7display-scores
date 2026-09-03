@@ -3,15 +3,10 @@
     "team_label": "Yankees",
     "next": {
       "is_home": false,
-      "opponent": "Los Angeles Angels",
-      "date": "2026-09-03T01:38:00Z"
+      "opponent": "San Diego Padres",
+      "date": "2026-09-05T01:40:00Z"
     },
     "schedule": [
-      {
-        "is_home": false,
-        "opponent": "Los Angeles Angels",
-        "date": "2026-09-03T01:38:00Z"
-      },
       {
         "is_home": false,
         "opponent": "San Diego Padres",
@@ -66,41 +61,34 @@
         "is_home": false,
         "opponent": "Minnesota Twins",
         "date": "2026-09-15T23:40:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "Minnesota Twins",
+        "date": "2026-09-16T17:40:00Z"
       }
     ],
     "last": {
       "is_home": false,
       "opponent": "Los Angeles Angels",
-      "team_score": 7,
+      "team_score": 6,
       "opp_score": 3,
-      "date": "2026-09-02T01:38:00Z",
+      "date": "2026-09-03T01:38:00Z",
       "venue": "Angel Stadium of Anaheim",
-      "record": "79-60",
+      "record": "80-60",
       "division_standing": "2nd AL East",
       "winning_pitcher": {
-        "name": "Gerrit Cole",
+        "name": "David Bednar",
         "wins": 8,
-        "losses": 7,
-        "era": "3.29"
+        "losses": 3,
+        "era": "2.49"
       },
       "losing_pitcher": {
-        "name": "Grayson Rodriguez",
-        "wins": 5,
-        "losses": 8,
-        "era": "5.98"
-      },
-      "home_runs": [
-        {
-          "player": "Jazz Chisholm Jr.",
-          "in_game": 1,
-          "season_total": 20
-        },
-        {
-          "player": "Spencer Jones",
-          "in_game": 1,
-          "season_total": 15
-        }
-      ]
+        "name": "Luke Murphy",
+        "wins": 0,
+        "losses": 2,
+        "era": "4.15"
+      }
     }
   },
   "nfl": {
@@ -527,5 +515,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": false
   },
-  "collected_at": "2026-09-02T18:23:55.656785-04:00"
+  "collected_at": "2026-09-03T02:09:27.609835-04:00"
 }
