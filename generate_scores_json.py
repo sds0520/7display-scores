@@ -220,18 +220,26 @@ def header_lines(label, entry):
 
 
 def record_lines(entry):
+    """'Record: 80-60 (2nd AL East, 4 GB)'.
+
+    The games figure is whatever the collector worked out: '4 GB' when
+    trailing, '2.5 ahead' when leading the division, 'tied' when level.
+    """
     lines = []
     rec = txt(entry.get("record"))
     standing = txt(entry.get("division_standing"))
+    games = txt(entry.get("games_back"))
     rank = txt(entry.get("ranking"))
-    if rec and standing:
-        lines.append(f"Record: {rec} ({standing})")
+
+    detail = ", ".join(p for p in [standing, games] if p)
+    if rec and detail:
+        lines.append(f"Record: {rec} ({detail})")
     elif rec and rank:
         lines.append(f"Record: {rec} (AP #{rank})")
     elif rec:
         lines.append(f"Record: {rec}")
-    elif standing:
-        lines.append(f"Standing: {standing}")
+    elif detail:
+        lines.append(f"Standing: {detail}")
     return lines
 
 
@@ -322,8 +330,14 @@ def nfl_recap(data, last):
 
     to = last.get("turnovers")
     if to:
-        lines.append(f"Turnovers: {txt(data.get('team_label')) or 'Team'} {to.get('team', 0)}, "
-                     f"{short_team(last.get('opponent'))} {to.get('opponent', 0)}")
+        lost = to.get("team", 0)
+        forced = to.get("forced", to.get("opponent", 0))
+        lines.append(f"Turnovers: {lost} lost, {forced} forced")
+
+    sacks = last.get("sacks")
+    if sacks:
+        lines.append(f"Sacks: {sacks.get('by_team', 0)} for, "
+                     f"{sacks.get('allowed', 0)} allowed")
     return "\n".join(lines)
 
 

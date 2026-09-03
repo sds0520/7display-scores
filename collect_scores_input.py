@@ -204,10 +204,17 @@ def parse_record(rec):
 
 
 def division_standing(cfg):
-    """Rank our club within its division using each club's current record."""
+    """Our club's place in its division, plus games back / games ahead.
+
+    Returns (standing_text, games_text) where games_text is:
+      "4 GB"       - trailing the division leader by 4 games
+      "2.5 ahead"  - leading, margin over the second-place club
+      "tied"       - level with the leader
+    Either element may be None when there is not enough data.
+    """
     division = cfg.get("division")
     if not division:
-        return None
+        return None, None
     recent = regular_season_only(
         oc_fixtures(cfg["sport"], cfg["league"], status="completed",
                     season_year=SEASON_YEAR))
@@ -219,20 +226,46 @@ def division_standing(cfg):
             name = comp.get("name")
             if name in division and f.get(rec_key):
                 latest[name] = f[rec_key]
+
     table = []
     for name in division:
         wl = parse_record(latest.get(name))
         if wl:
             w, l = wl
             pct = w / (w + l) if (w + l) else 0.0
-            table.append((name, pct))
+            table.append((name, w, l, pct))
     if len(table) < 2:
-        return None
-    table.sort(key=lambda t: -t[1])
-    for i, (name, _) in enumerate(table, 1):
-        if name == cfg["team"]:
-            return f"{ordinal(i)} {cfg['division_name']}"
-    return None
+        return None, None
+
+    table.sort(key=lambda t: -t[3])
+    ours = next((row for row in table if row[0] == cfg["team"]), None)
+    if not ours:
+        return None, None
+
+    place = table.index(ours) + 1
+    standing = f"{ordinal(place)} {cfg['division_name']}"
+
+    # Games back is the classic formula: average of the win gap and the
+    # loss gap. When we are on top, the same formula against the
+    # second-place club gives the margin we are ahead by.
+    _, our_w, our_l, _ = ours
+    if place == 1:
+        runner_up = table[1]
+        margin = ((our_w - runner_up[1]) + (runner_up[2] - our_l)) / 2.0
+        if margin <= 0:
+            return standing, "tied"
+        return standing, f"{trim_half(margin)} ahead"
+
+    leader = table[0]
+    behind = ((leader[1] - our_w) + (our_l - leader[2])) / 2.0
+    if behind <= 0:
+        return standing, "tied"
+    return standing, f"{trim_half(behind)} GB"
+
+
+def trim_half(value):
+    """4.0 -> '4', 4.5 -> '4.5' (games back is always a whole or half)."""
+    return str(int(value)) if float(value).is_integer() else f"{value:.1f}"
 
 
 def ordinal(n):
@@ -271,6 +304,15 @@ def season_totals(player_id, keys):
         for k in keys:
             totals[k] += st.get(k) or 0
     return totals
+
+
+def as_number(value):
+    """Sacks come in half increments; keep 2.5 but render 3.0 as 3."""
+    try:
+        num = float(value)
+    except (TypeError, ValueError):
+        return value
+    return int(num) if num.is_integer() else round(num, 1)
 
 
 def era_from(earned_runs, outs):
@@ -320,9 +362,11 @@ def collect_mlb(cfg):
     rec = team_record(last_fx, cfg)
     if rec:
         last["record"] = rec
-    standing = division_standing(cfg)
+    standing, games = division_standing(cfg)
     if standing:
         last["division_standing"] = standing
+    if games:
+        last["games_back"] = games
 
     # Box score -> pitching decisions and home runs.
     try:
@@ -413,9 +457,11 @@ def collect_nfl(cfg):
     rec = team_record(last_fx, cfg)
     if rec:
         last["record"] = rec
-    standing = division_standing(cfg)
+    standing, games = division_standing(cfg)
     if standing:
         last["division_standing"] = standing
+    if games:
+        last["games_back"] = games
 
     try:
         blocks = player_results(fixture_id=last_fx["id"])
@@ -423,20 +469,38 @@ def collect_nfl(cfg):
         log(f"NFL box score unavailable: {exc}")
         blocks = []
 
+    # OpticOdds reuses one `interceptions` key for both sides of the ball:
+    # on a QB it means picks thrown, on a defender it means picks caught.
+    # Position is what disambiguates them.
     names = team_names(cfg)
-    ours_rows, turn_us, turn_them = [], 0, 0
+    ours_rows = []
+    give_us = give_them = 0.0
+    sacks_for = sacks_allowed = 0.0
+
     for _fx, player, team, st in flat_stats(blocks, season_only=False):
         is_ours = team.get("name") in names
-        giveaways = (st.get("interceptions_thrown") or st.get("passing_interceptions") or 0) \
-                    + (st.get("fumbles_lost") or 0)
-        if is_ours:
-            turn_us += giveaways
-            ours_rows.append((player, st))
-        else:
-            turn_them += giveaways
+        position = (player.get("position") or "").upper()
 
-    if turn_us or turn_them:
-        last["turnovers"] = {"team": turn_us, "opponent": turn_them}
+        picks_thrown = (st.get("interceptions") or 0) if position == "QB" else 0
+        giveaways = picks_thrown + (st.get("fumbles_lost") or 0)
+
+        if is_ours:
+            give_us += giveaways
+            ours_rows.append((player, st))
+            sacks_for += st.get("sacks") or 0
+            sacks_allowed += st.get("passing_sacks") or 0
+        else:
+            give_them += giveaways
+
+    # Takeaways are the other team's giveaways, so the two always
+    # reconcile instead of being counted from two different stat keys.
+    if give_us or give_them:
+        last["turnovers"] = {"team": as_number(give_us),
+                             "opponent": as_number(give_them),
+                             "forced": as_number(give_them)}
+    if sacks_for or sacks_allowed:
+        last["sacks"] = {"by_team": as_number(sacks_for),
+                         "allowed": as_number(sacks_allowed)}
 
     def best(rows, key):
         pick = None
@@ -455,7 +519,9 @@ def collect_nfl(cfg):
             "attempts": st.get("passing_attempts") or st.get("attempts"),
             "pass_yards": st.get("passing_yards"),
             "pass_tds": st.get("passing_touchdowns"),
-            "interceptions": st.get("interceptions_thrown") or st.get("passing_interceptions"),
+            "interceptions": st.get("interceptions"),  # thrown, this is a QB
+            "rating": st.get("qb_rating"),
+            "sacked": st.get("passing_sacks"),
             "rush_yards": st.get("rushing_yards"),
         }
     rb = best(ours_rows, "rushing_yards")
@@ -463,9 +529,10 @@ def collect_nfl(cfg):
         p, st, _ = rb
         last["top_rb"] = {
             "name": p.get("name"),
-            "carries": st.get("rushing_attempts") or st.get("carries"),
+            "carries": st.get("rushing_attempts"),
             "rush_yards": st.get("rushing_yards"),
             "rush_tds": st.get("rushing_touchdowns"),
+            "long": st.get("longest_rush"),
         }
     wr = best(ours_rows, "receiving_yards")
     if wr:
@@ -475,6 +542,7 @@ def collect_nfl(cfg):
             "receptions": st.get("receptions"),
             "rec_yards": st.get("receiving_yards"),
             "rec_tds": st.get("receiving_touchdowns"),
+            "long": st.get("longest_reception"),
         }
 
     out["last"] = last
