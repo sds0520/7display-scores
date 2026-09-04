@@ -77,7 +77,7 @@
       "venue": "Angel Stadium of Anaheim",
       "record": "80-60",
       "division_standing": "2nd AL East",
-      "games_back": "3.5 GB",
+      "games_back": "3 GB",
       "winning_pitcher": {
         "name": "David Bednar",
         "wins": 8,
@@ -516,5 +516,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": false
   },
-  "collected_at": "2026-09-03T08:22:30.704545-04:00"
+  "collected_at": "2026-09-04T03:31:14.336443-04:00"
 }
