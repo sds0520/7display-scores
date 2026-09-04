@@ -5,8 +5,17 @@ Data feed for the 7Display kitchen board's Scores screen.
 The ESP32 fetches one file over plain HTTPS (no auth, no redirects):
 
 ```
-https://raw.githubusercontent.com/sds0520/7display-scores/main/scores.json
+https://7display-scores.pplx.app/scores.json
 ```
+
+That URL is the **scores relay** - the same pattern the calendar feed already
+uses. The board no longer fetches from `raw.githubusercontent.com` directly,
+because GitHub rate-limited the ESP32 with HTTP 429 and returned empty bodies
+(the board showed "Scores fetch returned nothing" or silently kept old cards).
+A nightly job republishes the relay right after it regenerates `scores.json`,
+so the board always reads that morning's fresh feed. The copy at
+`raw.githubusercontent.com/sds0520/7display-scores/main/scores.json` is still
+updated every night and kept as the source of truth.
 
 ## Pipeline
 

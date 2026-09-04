@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>7Display Scores Feed</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background: #E3F2FD;
+    color: #0D47A1;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .card {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(13, 71, 161, 0.12);
+    max-width: 520px;
+    width: 100%;
+    padding: 32px;
+    text-align: center;
+  }
+  h1 { font-size: 22px; color: #1565C0; margin-bottom: 8px; }
+  p.sub { font-size: 14px; color: #5c7bb8; margin-bottom: 24px; }
+  .feed {
+    background: #E3F2FD;
+    border-radius: 10px;
+    padding: 14px;
+    font-family: "SF Mono", Consolas, monospace;
+    font-size: 13px;
+    word-break: break-all;
+    margin-bottom: 24px;
+    color: #0D47A1;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; text-align: left; }
+  th, td { padding: 8px 10px; border-bottom: 1px solid #BBDEFB; }
+  th { color: #1565C0; font-weight: 600; }
+  td { color: #0D47A1; }
+  tr:last-child th, tr:last-child td { border-bottom: none; }
+  .stamp { margin-top: 24px; font-size: 12px; color: #5c7bb8; }
+</style>
 </head>
 <body>
-<p>This is a small data feed for the 7Display kitchen board's Scores screen.</p>
-<p>See <a href="scores.json">scores.json</a> for the current data.</p>
+  <div class="card">
+    <h1>7Display Scores Feed</h1>
+    <p class="sub">Kitchen display sports scores relay. The board fetches the JSON below once a night.</p>
+    <div class="feed">https://7display-scores.pplx.app/scores.json</div>
+    <table id="cards">
+      <tr><th>Sport</th><th>Last result</th><th>Next event</th></tr>
+    </table>
+    <p class="stamp">Feed generated: <span id="generated">loading&hellip;</span></p>
+  </div>
+<script>
+  fetch('scores.json')
+    .then(r => r.json())
+    .then(d => {
+      document.getElementById('generated').textContent = d.generated_at || 'unknown';
+      const t = document.getElementById('cards');
+      (d.cards || []).forEach(c => {
+        const tr = document.createElement('tr');
+        const td1 = document.createElement('td'); td1.textContent = c.title || c.key;
+        const td2 = document.createElement('td'); td2.textContent = c.last || '-';
+        const td3 = document.createElement('td'); td3.textContent = c.next || '-';
+        tr.append(td1, td2, td3);
+        t.appendChild(tr);
+      });
+    })
+    .catch(() => { document.getElementById('generated').textContent = 'could not load feed'; });
+</script>
 </body>
 </html>
