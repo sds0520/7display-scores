@@ -4,14 +4,9 @@
     "next": {
       "is_home": false,
       "opponent": "San Diego Padres",
-      "date": "2026-09-05T01:40:00Z"
+      "date": "2026-09-05T23:15:00Z"
     },
     "schedule": [
-      {
-        "is_home": false,
-        "opponent": "San Diego Padres",
-        "date": "2026-09-05T01:40:00Z"
-      },
       {
         "is_home": false,
         "opponent": "San Diego Padres",
@@ -66,30 +61,42 @@
         "is_home": false,
         "opponent": "Minnesota Twins",
         "date": "2026-09-16T17:40:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "Arizona Diamondbacks",
+        "date": "2026-09-19T01:40:00Z"
       }
     ],
     "last": {
       "is_home": false,
-      "opponent": "Los Angeles Angels",
-      "team_score": 6,
+      "opponent": "San Diego Padres",
+      "team_score": 2,
       "opp_score": 3,
-      "date": "2026-09-03T01:38:00Z",
-      "venue": "Angel Stadium of Anaheim",
-      "record": "80-60",
+      "date": "2026-09-05T01:40:00Z",
+      "venue": "Petco Park",
+      "record": "80-61",
       "division_standing": "2nd AL East",
-      "games_back": "3 GB",
+      "games_back": "4 GB",
       "winning_pitcher": {
-        "name": "David Bednar",
-        "wins": 8,
-        "losses": 3,
-        "era": "2.49"
+        "name": "Mason Miller",
+        "wins": 5,
+        "losses": 2,
+        "era": "1.29"
       },
       "losing_pitcher": {
-        "name": "Luke Murphy",
-        "wins": 0,
-        "losses": 2,
-        "era": "4.15"
-      }
+        "name": "Paul Blackburn",
+        "wins": 8,
+        "losses": 4,
+        "era": "1.90"
+      },
+      "home_runs": [
+        {
+          "player": "Ben Rice",
+          "in_game": 1,
+          "season_total": 38
+        }
+      ]
     }
   },
   "nfl": {
@@ -516,5 +523,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": false
   },
-  "collected_at": "2026-09-04T03:31:14.336443-04:00"
+  "collected_at": "2026-09-05T02:33:22.806053-04:00"
 }

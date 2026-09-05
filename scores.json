@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-09-04T03:31:16.997087-04:00",
+  "generated_at": "2026-09-05T02:33:24.970933-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
-      "last": "W 6-3 @ Angels (Sep 2)",
-      "next": "@ Padres - Sep 4, 9:40 PM",
-      "recap": "Yankees beat Angels 6-3\nAway, Sep 2\nRecord: 80-60 (2nd AL East, 3 GB)\nW: David Bednar (8-3, 2.49 ERA)\nL: Luke Murphy (0-2, 4.15 ERA)",
+      "last": "L 2-3 @ Padres (Sep 4)",
+      "next": "@ Padres - Sep 5, 7:15 PM",
+      "recap": "Yankees lost to Padres 2-3\nAway, Sep 4\nRecord: 80-61 (2nd AL East, 4 GB)\nW: Mason Miller (5-2, 1.29 ERA)\nL: Paul Blackburn (8-4, 1.90 ERA)\nHome runs:\n  Ben Rice - 38 on the season",
       "schedule": [
-        "@ Padres - Sep 4, 9:40 PM",
         "@ Padres - Sep 5, 7:15 PM",
         "@ Padres - Sep 6, 4:10 PM",
         "vs Rockies - Sep 8, 7:05 PM",
@@ -19,7 +18,8 @@
         "vs Mets - Sep 13, 1:35 PM",
         "@ Twins - Sep 14, 7:40 PM",
         "@ Twins - Sep 15, 7:40 PM",
-        "@ Twins - Sep 16, 1:40 PM"
+        "@ Twins - Sep 16, 1:40 PM",
+        "@ Diamondbacks - Sep 18, 9:40 PM"
       ]
     },
     {
