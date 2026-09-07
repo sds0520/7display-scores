@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-09-06T02:33:13.986621-04:00",
+  "generated_at": "2026-09-07T02:31:09.621432-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
-      "last": "W 5-1 @ Padres (Sep 5)",
-      "next": "@ Padres - Sep 6, 4:10 PM",
-      "recap": "Yankees beat Padres 5-1\nAway, Sep 5\nRecord: 81-61 (2nd AL East, 4 GB)\nW: Carlos Rodon (5-3, 3.09 ERA)\nL: Robbie Ray (13-8, 3.16 ERA)",
+      "last": "L 3-4 @ Padres (Sep 6)",
+      "next": "vs Rockies - Sep 8, 7:05 PM",
+      "recap": "Yankees lost to Padres 3-4\nAway, Sep 6\nRecord: 81-62 (2nd AL East, 4 GB)\nW: Michael King (10-11, 3.64 ERA)\nL: Gerrit Cole (8-8, 3.40 ERA)\nSV: Mason Miller (33 SV, 1.27 ERA)",
       "schedule": [
-        "@ Padres - Sep 6, 4:10 PM",
         "vs Rockies - Sep 8, 7:05 PM",
         "vs Rockies - Sep 9, 7:05 PM",
         "vs Rockies - Sep 10, 7:05 PM",
@@ -19,7 +18,8 @@
         "@ Twins - Sep 15, 7:40 PM",
         "@ Twins - Sep 16, 1:40 PM",
         "@ Diamondbacks - Sep 18, 9:40 PM",
-        "@ Diamondbacks - Sep 19, 8:10 PM"
+        "@ Diamondbacks - Sep 19, 8:10 PM",
+        "@ Diamondbacks - Sep 20, 4:10 PM"
       ]
     },
     {
@@ -46,11 +46,10 @@
     {
       "key": "nascar",
       "title": "NASCAR",
-      "last": "Coke Zero Sugar 400 (Aug 29) - Winner: Ryan Preece",
-      "next": "Cook Out Southern 500 - Darlington Raceway (Sep 6)",
-      "recap": "Coke Zero Sugar 400 - Daytona International Speedway (Aug 29)\nWinner: Ryan Preece\n41 lead changes, 4 cautions\n\nTop 10 (points earned):\n   1. Ryan Preece - 67\n   2. Daniel Suarez - 38\n   3. Tyler Reddick - 34\n   4. Michael McDowell - 33\n   5. Ricky Stenhouse Jr - 32\n   6. Austin Cindric - 32\n   7. Austin Dillon - 30\n   8. Alex Bowman - 29\n   9. Josh Berry - 28\n  10. Cole Custer - 27",
+      "last": "Cook Out Southern 500 (Sep 6) - Winner: Christopher Bell",
+      "next": "Enjoy Illinois 300 - World Wide Technology Raceway (Sep 13)",
+      "recap": "Cook Out Southern 500 - Darlington Raceway (Sep 6)\nWinner: Christopher Bell\n29 lead changes, 6 cautions\n\nTop 10 (points earned):\n   1. Christopher Bell - 73\n   2. Ty Gibbs - 36\n   3. Tyler Reddick - 46\n   4. Ryan Blaney - 44\n   5. Kyle Larson - 41\n   6. Chase Briscoe - 43\n   7. Josh Berry - 34\n   8. Bubba Wallace - 44\n   9. Joey Logano - 28\n  10. Ryan Preece - 31",
       "schedule": [
-        "Cook Out Southern 500 - Darlington Raceway (Sep 6)",
         "Enjoy Illinois 300 - World Wide Technology Raceway (Sep 13)",
         "Bass Pro Shops Night Race - Bristol Motor Speedway (Sep 19)",
         "Hollywood Casino 400 - Kansas Speedway (Sep 27)",
@@ -62,25 +61,25 @@
         "NASCAR Championship Race - Homestead-Miami Speedway (Nov 8)"
       ],
       "columns": {
-        "title": "Playoff field - seeding, wins",
+        "title": "Playoffs - points, playoff wins",
         "cols": 2,
         "items": [
-          " 1 Hamlin 2040 0W",
-          " 2 Reddick 2034 0W",
-          " 3 Blaney 2033 0W",
-          " 4 Gibbs 2022 0W",
-          " 5 Elliott 2015 0W",
-          " 6 Logano 2014 0W",
-          " 7 Van Gisbergen 2012 0W",
-          " 8 Briscoe 2011 0W",
-          " 9 Bell 2009 0W",
-          "10 Larson 2009 0W",
-          "11 Preece 2007 0W",
-          "12 Suarez 2006 0W",
-          "13 Hocevar 2005 0W",
-          "14 Byron 2003 0W",
-          "15 Wallace 2002 0W",
-          "16 Buescher 2001 0W"
+          " 1 Bell 2089 1W",
+          " 2 Reddick 2081 0W",
+          " 3 Blaney 2077 0W",
+          " 4 Hamlin 2075 0W",
+          " 5 Gibbs 2058 0W",
+          " 6 Briscoe 2053 0W",
+          " 7 Larson 2050 0W",
+          " 8 Wallace 2047 0W",
+          " 9 Logano 2042 0W",
+          "10 Elliott 2038 0W",
+          "11 Preece 2038 0W",
+          "12 Hocevar 2031 0W",
+          "13 Van Gisbergen 2023 0W",
+          "14 Suarez 2022 0W",
+          "15 Buescher 2017 0W",
+          "16 Byron 2009 0W"
         ]
       }
     }
