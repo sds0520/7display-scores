@@ -4,14 +4,9 @@
     "next": {
       "is_home": true,
       "opponent": "Colorado Rockies",
-      "date": "2026-09-08T23:05:00Z"
+      "date": "2026-09-09T23:05:00Z"
     },
     "schedule": [
-      {
-        "is_home": true,
-        "opponent": "Colorado Rockies",
-        "date": "2026-09-08T23:05:00Z"
-      },
       {
         "is_home": true,
         "opponent": "Colorado Rockies",
@@ -66,35 +61,47 @@
         "is_home": false,
         "opponent": "Arizona Diamondbacks",
         "date": "2026-09-20T20:10:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Tampa Bay Rays",
+        "date": "2026-09-22T17:05:00Z"
       }
     ],
     "last": {
-      "is_home": false,
-      "opponent": "San Diego Padres",
-      "team_score": 3,
-      "opp_score": 4,
-      "date": "2026-09-06T20:10:00Z",
-      "venue": "Petco Park",
-      "record": "81-62",
+      "is_home": true,
+      "opponent": "Colorado Rockies",
+      "team_score": 5,
+      "opp_score": 3,
+      "date": "2026-09-08T23:05:00Z",
+      "venue": "Yankee Stadium",
+      "record": "82-62",
       "division_standing": "2nd AL East",
       "games_back": "4 GB",
       "winning_pitcher": {
-        "name": "Michael King",
-        "wins": 10,
-        "losses": 11,
-        "era": "3.64"
+        "name": "Cam Schlittler",
+        "wins": 15,
+        "losses": 6,
+        "era": "1.96"
       },
       "losing_pitcher": {
-        "name": "Gerrit Cole",
-        "wins": 8,
-        "losses": 8,
-        "era": "3.40"
+        "name": "Gabriel Hughes",
+        "wins": 0,
+        "losses": 7,
+        "era": "5.43"
       },
       "save_pitcher": {
-        "name": "Mason Miller",
-        "saves": 34,
-        "era": "1.25"
-      }
+        "name": "David Bednar",
+        "saves": 32,
+        "era": "2.44"
+      },
+      "home_runs": [
+        {
+          "player": "Heliot Ramos",
+          "in_game": 1,
+          "season_total": 12
+        }
+      ]
     }
   },
   "nfl": {
@@ -516,5 +523,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-09-08T02:31:52.423566-04:00"
+  "collected_at": "2026-09-09T02:32:24.867706-04:00"
 }

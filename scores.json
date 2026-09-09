@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-09-08T02:31:55.172251-04:00",
+  "generated_at": "2026-09-09T02:32:30.629115-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
-      "last": "L 3-4 @ Padres (Sep 6)",
-      "next": "vs Rockies - Sep 8, 7:05 PM",
-      "recap": "Yankees lost to Padres 3-4\nAway, Sep 6\nRecord: 81-62 (2nd AL East, 4 GB)\nW: Michael King (10-11, 3.64 ERA)\nL: Gerrit Cole (8-8, 3.40 ERA)\nSV: Mason Miller (34 SV, 1.25 ERA)",
+      "last": "W 5-3 vs Rockies (Sep 8)",
+      "next": "vs Rockies - Sep 9, 7:05 PM",
+      "recap": "Yankees beat Rockies 5-3\nHome, Sep 8\nRecord: 82-62 (2nd AL East, 4 GB)\nW: Cam Schlittler (15-6, 1.96 ERA)\nL: Gabriel Hughes (0-7, 5.43 ERA)\nSV: David Bednar (32 SV, 2.44 ERA)\nHome runs:\n  Heliot Ramos - 12 on the season",
       "schedule": [
-        "vs Rockies - Sep 8, 7:05 PM",
         "vs Rockies - Sep 9, 7:05 PM",
         "vs Rockies - Sep 10, 7:05 PM",
         "vs Mets - Sep 11, 7:05 PM",
@@ -19,7 +18,8 @@
         "@ Twins - Sep 16, 1:40 PM",
         "@ Diamondbacks - Sep 18, 9:40 PM",
         "@ Diamondbacks - Sep 19, 8:10 PM",
-        "@ Diamondbacks - Sep 20, 4:10 PM"
+        "@ Diamondbacks - Sep 20, 4:10 PM",
+        "vs Rays - Sep 22, 1:05 PM"
       ]
     },
     {
