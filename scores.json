@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-09-09T02:32:30.629115-04:00",
+  "generated_at": "2026-09-10T02:32:40.901249-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
-      "last": "W 5-3 vs Rockies (Sep 8)",
-      "next": "vs Rockies - Sep 9, 7:05 PM",
-      "recap": "Yankees beat Rockies 5-3\nHome, Sep 8\nRecord: 82-62 (2nd AL East, 4 GB)\nW: Cam Schlittler (15-6, 1.96 ERA)\nL: Gabriel Hughes (0-7, 5.43 ERA)\nSV: David Bednar (32 SV, 2.44 ERA)\nHome runs:\n  Heliot Ramos - 12 on the season",
+      "last": "W 6-1 vs Rockies (Sep 9)",
+      "next": "vs Rockies - Sep 10, 7:05 PM",
+      "recap": "Yankees beat Rockies 6-1\nHome, Sep 9\nRecord: 83-62 (2nd AL East, 4 GB)\nW: Will Warren (12-7, 3.60 ERA)\nL: Tomoyuki Sugano (12-9, 5.28 ERA)\nHome runs:\n  Cody Bellinger - 13 on the season\n  George Lombard Jr. - 3 on the season\n  Luis Garcia Jr. - 30 on the season",
       "schedule": [
-        "vs Rockies - Sep 9, 7:05 PM",
         "vs Rockies - Sep 10, 7:05 PM",
         "vs Mets - Sep 11, 7:05 PM",
         "vs Mets - Sep 12, 1:35 PM",
@@ -19,7 +18,8 @@
         "@ Diamondbacks - Sep 18, 9:40 PM",
         "@ Diamondbacks - Sep 19, 8:10 PM",
         "@ Diamondbacks - Sep 20, 4:10 PM",
-        "vs Rays - Sep 22, 1:05 PM"
+        "vs Rays - Sep 22, 1:05 PM",
+        "vs Rays - Sep 22, 7:05 PM"
       ]
     },
     {

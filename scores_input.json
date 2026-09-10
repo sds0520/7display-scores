@@ -4,14 +4,9 @@
     "next": {
       "is_home": true,
       "opponent": "Colorado Rockies",
-      "date": "2026-09-09T23:05:00Z"
+      "date": "2026-09-10T23:05:00Z"
     },
     "schedule": [
-      {
-        "is_home": true,
-        "opponent": "Colorado Rockies",
-        "date": "2026-09-09T23:05:00Z"
-      },
       {
         "is_home": true,
         "opponent": "Colorado Rockies",
@@ -66,40 +61,50 @@
         "is_home": true,
         "opponent": "Tampa Bay Rays",
         "date": "2026-09-22T17:05:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Tampa Bay Rays",
+        "date": "2026-09-22T23:05:00Z"
       }
     ],
     "last": {
       "is_home": true,
       "opponent": "Colorado Rockies",
-      "team_score": 5,
-      "opp_score": 3,
-      "date": "2026-09-08T23:05:00Z",
+      "team_score": 6,
+      "opp_score": 1,
+      "date": "2026-09-09T23:05:00Z",
       "venue": "Yankee Stadium",
-      "record": "82-62",
+      "record": "83-62",
       "division_standing": "2nd AL East",
       "games_back": "4 GB",
       "winning_pitcher": {
-        "name": "Cam Schlittler",
-        "wins": 15,
-        "losses": 6,
-        "era": "1.96"
+        "name": "Will Warren",
+        "wins": 12,
+        "losses": 7,
+        "era": "3.60"
       },
       "losing_pitcher": {
-        "name": "Gabriel Hughes",
-        "wins": 0,
-        "losses": 7,
-        "era": "5.43"
-      },
-      "save_pitcher": {
-        "name": "David Bednar",
-        "saves": 32,
-        "era": "2.44"
+        "name": "Tomoyuki Sugano",
+        "wins": 12,
+        "losses": 9,
+        "era": "5.28"
       },
       "home_runs": [
         {
-          "player": "Heliot Ramos",
+          "player": "Cody Bellinger",
           "in_game": 1,
-          "season_total": 12
+          "season_total": 13
+        },
+        {
+          "player": "George Lombard Jr.",
+          "in_game": 1,
+          "season_total": 3
+        },
+        {
+          "player": "Luis Garcia Jr.",
+          "in_game": 1,
+          "season_total": 30
         }
       ]
     }
@@ -523,5 +528,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-09-09T02:32:24.867706-04:00"
+  "collected_at": "2026-09-10T02:32:38.932286-04:00"
 }
