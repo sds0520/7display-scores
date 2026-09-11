@@ -3,15 +3,10 @@
     "team_label": "Yankees",
     "next": {
       "is_home": true,
-      "opponent": "Colorado Rockies",
-      "date": "2026-09-10T23:05:00Z"
+      "opponent": "New York Mets",
+      "date": "2026-09-11T23:05:00Z"
     },
     "schedule": [
-      {
-        "is_home": true,
-        "opponent": "Colorado Rockies",
-        "date": "2026-09-10T23:05:00Z"
-      },
       {
         "is_home": true,
         "opponent": "New York Mets",
@@ -66,45 +61,45 @@
         "is_home": true,
         "opponent": "Tampa Bay Rays",
         "date": "2026-09-22T23:05:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Tampa Bay Rays",
+        "date": "2026-09-23T23:05:00Z"
       }
     ],
     "last": {
       "is_home": true,
       "opponent": "Colorado Rockies",
-      "team_score": 6,
-      "opp_score": 1,
-      "date": "2026-09-09T23:05:00Z",
+      "team_score": 10,
+      "opp_score": 3,
+      "date": "2026-09-10T23:05:00Z",
       "venue": "Yankee Stadium",
-      "record": "83-62",
+      "record": "84-62",
       "division_standing": "2nd AL East",
-      "games_back": "4 GB",
+      "games_back": "1.5 GB",
       "winning_pitcher": {
-        "name": "Will Warren",
-        "wins": 12,
-        "losses": 7,
-        "era": "3.60"
+        "name": "John Schreiber",
+        "wins": 2,
+        "losses": 5,
+        "era": "3.73"
       },
       "losing_pitcher": {
-        "name": "Tomoyuki Sugano",
-        "wins": 12,
-        "losses": 9,
-        "era": "5.28"
+        "name": "Ryan Feltner",
+        "wins": 5,
+        "losses": 12,
+        "era": "6.42"
       },
       "home_runs": [
         {
-          "player": "Cody Bellinger",
+          "player": "Anthony Volpe",
           "in_game": 1,
-          "season_total": 13
-        },
-        {
-          "player": "George Lombard Jr.",
-          "in_game": 1,
-          "season_total": 3
+          "season_total": 2
         },
         {
           "player": "Luis Garcia Jr.",
           "in_game": 1,
-          "season_total": 30
+          "season_total": 31
         }
       ]
     }
@@ -230,7 +225,7 @@
       {
         "is_home": true,
         "opponent": "Maryland",
-        "date": "2026-12-05T05:00:00Z"
+        "date": "2026-12-05T21:30:00Z"
       },
       {
         "is_home": false,
@@ -528,5 +523,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-09-10T02:32:38.932286-04:00"
+  "collected_at": "2026-09-11T02:33:01.182681-04:00"
 }

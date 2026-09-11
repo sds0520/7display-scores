@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-09-10T16:57:11.088507-04:00",
+  "generated_at": "2026-09-11T02:33:05.102533-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
-      "last": "W 6-1 vs Rockies (Sep 9)",
-      "next": "vs Rockies - Sep 10, 7:05 PM",
-      "recap": "Yankees beat Rockies 6-1\nHome, Sep 9\nRecord: 83-62 (2nd AL East, 4 GB)\nW: Will Warren (12-7, 3.60 ERA)\nL: Tomoyuki Sugano (12-9, 5.28 ERA)\nHome runs:\n  Cody Bellinger - 13 on the season\n  George Lombard Jr. - 3 on the season\n  Luis Garcia Jr. - 30 on the season",
+      "last": "W 10-3 vs Rockies (Sep 10)",
+      "next": "vs Mets - Sep 11, 7:05 PM",
+      "recap": "Yankees beat Rockies 10-3\nHome, Sep 10\nRecord: 84-62 (2nd AL East, 1.5 GB)\nW: John Schreiber (2-5, 3.73 ERA)\nL: Ryan Feltner (5-12, 6.42 ERA)\nHome runs:\n  Anthony Volpe - 2 on the season\n  Luis Garcia Jr. - 31 on the season",
       "schedule": [
-        "vs Rockies - Sep 10, 7:05 PM",
         "vs Mets - Sep 11, 7:05 PM",
         "vs Mets - Sep 12, 1:35 PM",
         "vs Mets - Sep 13, 1:35 PM",
@@ -19,7 +18,8 @@
         "@ Diamondbacks - Sep 19, 8:10 PM",
         "@ Diamondbacks - Sep 20, 4:10 PM",
         "vs Rays - Sep 22, 1:05 PM",
-        "vs Rays - Sep 22, 7:05 PM"
+        "vs Rays - Sep 22, 7:05 PM",
+        "vs Rays - Sep 23, 7:05 PM"
       ]
     },
     {
