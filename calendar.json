@@ -1,34 +1,8 @@
 {
-  "generated_at": "2026-09-10T16:56:43.208166-04:00",
-  "today_date": "2026-09-10",
-  "tomorrow_date": "2026-09-11",
+  "generated_at": "2026-09-11T02:33:50.509764-04:00",
+  "today_date": "2026-09-11",
+  "tomorrow_date": "2026-09-12",
   "today": [
-    {
-      "title": "Wapping Fair (S. Windsor)",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby (StAbby)"
-    },
-    {
-      "title": "Meeting with the TAs",
-      "time": "8:30 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Office Hours",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Massage",
-      "time": "11:30 AM",
-      "all_day": false,
-      "who": "Abby (StAbby)"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "Japanese",
       "time": "8:30 AM",
@@ -60,37 +34,8 @@
       "who": "Abby"
     }
   ],
+  "tomorrow": [],
   "week": [
-    {
-      "date": "2026-09-10",
-      "day_name": "Thursday, Sep 10",
-      "events": [
-        {
-          "title": "Wapping Fair (S. Windsor)",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby (StAbby)"
-        },
-        {
-          "title": "Meeting with the TAs",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Office Hours",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Massage",
-          "time": "11:30 AM",
-          "all_day": false,
-          "who": "Abby (StAbby)"
-        }
-      ]
-    },
     {
       "date": "2026-09-11",
       "day_name": "Friday, Sep 11",
@@ -237,6 +182,36 @@
           "time": "6:15 PM",
           "all_day": false,
           "who": "Abby (StAbby)"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "day_name": "Thursday, Sep 17",
+      "events": [
+        {
+          "title": "Four Town Fair",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby (StAbby)"
+        },
+        {
+          "title": "Office Hours",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lab",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Posse Big Meeting",
+          "time": "5:00 PM",
+          "all_day": false,
+          "who": "Abby"
         }
       ]
     }
