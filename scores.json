@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-09-11T02:33:14.510767-04:00",
+  "generated_at": "2026-09-12T02:32:18.409476-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
-      "last": "W 10-3 vs Rockies (Sep 10)",
-      "next": "vs Mets - Sep 11, 7:05 PM",
-      "recap": "Yankees beat Rockies 10-3\nHome, Sep 10\nRecord: 84-62 (2nd AL East, 0.5 GB)\nW: John Schreiber (2-5, 3.73 ERA)\nL: Ryan Feltner (5-12, 6.42 ERA)\nHome runs:\n  Anthony Volpe - 2 on the season\n  Luis Garcia Jr. - 31 on the season",
+      "last": "W 6-4 vs Mets (Sep 11)",
+      "next": "vs Mets - Sep 12, 1:35 PM",
+      "recap": "Yankees beat Mets 6-4\nHome, Sep 11\nRecord: 85-62 (2nd AL East, 3 GB)\nW: Carlos Rodon (6-3, 2.94 ERA)\nL: Nolan McLean (12-9, 3.16 ERA)\nSV: David Bednar (33 SV, 2.51 ERA)\nHome runs:\n  Ben Rice - 39 on the season\n  Cody Bellinger - 14 on the season",
       "schedule": [
-        "vs Mets - Sep 11, 7:05 PM",
         "vs Mets - Sep 12, 1:35 PM",
         "vs Mets - Sep 13, 1:35 PM",
         "@ Twins - Sep 14, 7:40 PM",
@@ -19,7 +18,8 @@
         "@ Diamondbacks - Sep 20, 4:10 PM",
         "vs Rays - Sep 22, 1:05 PM",
         "vs Rays - Sep 22, 7:05 PM",
-        "vs Rays - Sep 23, 7:05 PM"
+        "vs Rays - Sep 23, 7:05 PM",
+        "vs Rays - Sep 24, 7:05 PM"
       ]
     },
     {
