@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-09-12T02:32:54.883484-04:00",
+  "generated_at": "2026-09-13T02:32:47.039275-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
-      "last": "W 6-4 vs Mets (Sep 11)",
-      "next": "vs Mets - Sep 12, 1:35 PM",
-      "recap": "Yankees beat Mets 6-4\nHome, Sep 11\nRecord: 85-62 (2nd AL East, 3 GB)\nW: Carlos Rodon (6-3, 2.94 ERA)\nL: Nolan McLean (12-9, 3.16 ERA)\nSV: David Bednar (33 SV, 2.51 ERA)\nHome runs:\n  Ben Rice - 39 on the season\n  Cody Bellinger - 14 on the season",
+      "last": "L 2-12 vs Mets (Sep 12)",
+      "next": "vs Mets - Sep 13, 1:35 PM",
+      "recap": "Yankees lost to Mets 2-12\nHome, Sep 12\nRecord: 85-63 (2nd AL East, 4 GB)\nW: Zach Thornton (4-5, 3.44 ERA)\nL: Gerrit Cole (8-9, 3.66 ERA)\nHome runs:\n  Cody Bellinger - 15 on the season",
       "schedule": [
-        "vs Mets - Sep 12, 1:35 PM",
         "vs Mets - Sep 13, 1:35 PM",
         "@ Twins - Sep 14, 7:40 PM",
         "@ Twins - Sep 15, 7:40 PM",
@@ -19,7 +18,8 @@
         "vs Rays - Sep 22, 1:05 PM",
         "vs Rays - Sep 22, 7:05 PM",
         "vs Rays - Sep 23, 7:05 PM",
-        "vs Rays - Sep 24, 7:05 PM"
+        "vs Rays - Sep 24, 7:05 PM",
+        "vs Orioles - Sep 25, 7:05 PM"
       ]
     },
     {
