@@ -38,6 +38,8 @@ from zoneinfo import ZoneInfo
 
 TZ = ZoneInfo("America/New_York")
 WEEK_DAYS = 7
+# Set in main() from --allow-empty-primary; module-level so the guard can see it.
+allow_empty_primary = False
 UA = {"User-Agent": "Mozilla/5.0 (7Display calendar feed)"}
 
 
@@ -93,7 +95,20 @@ def load_primary(path, label):
         return events
     for row in rows or []:
         all_day = bool(row.get("is_all_day"))
-        day, when = to_local(row.get("start"))
+        start_raw = row.get("start")
+        day, when = to_local(start_raw)
+        if all_day:
+            # All-day events arrive from the gcal connector as midnight UTC
+            # on the TRUE calendar date. to_local()'s timezone conversion shifts
+            # them a day (00:00 UTC = 8 PM the PREVIOUS day in EDT), which used
+            # to drop all-day events like "Payday" outside the 7-day window
+            # entirely. For all-day events use the calendar date as written.
+            text = str(start_raw or "")
+            try:
+                day = datetime.strptime(text[:10], "%Y-%m-%d").date()
+            except ValueError:
+                pass  # keep to_local()'s answer if the date is unparseable
+            when = None
         if not day:
             continue
         if not all_day and when is None:
@@ -101,6 +116,22 @@ def load_primary(path, label):
         events.append(make_event(row.get("title"), day, when, all_day, label))
     log(f"{label}: {len(events)} event(s) from primary calendar")
     return events
+
+
+def require_primary_if_present(path, events):
+    """Nightly-run guard: an EMPTY primary-calendar result is almost always a
+    connector failure, not a genuinely empty calendar - on 2026-09-13 the
+    gcal fetch failed, the cron wrote [], and the board displayed a blank
+    calendar all day. Fail loudly instead of publishing an empty feed; the
+    caller can override with --allow-empty-primary when the calendar really
+    is empty (keeps the last good file on GitHub until then)."""
+    if events or not path or allow_empty_primary:
+        return
+    log("FATAL: primary calendar came back EMPTY and --allow-empty-primary was "
+        "not given. This is usually a connector failure, NOT an empty calendar - "
+        "refusing to write a blank feed over the last good one. If the calendar "
+        "is genuinely empty, rerun with --allow-empty-primary.")
+    sys.exit(1)
 
 
 def load_ics(url, label, window_start, window_end):
@@ -156,6 +187,11 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--primary-json")
     ap.add_argument("--primary-label", default="Steven")
+    ap.add_argument("--allow-empty-primary", action="store_true",
+                    help="Permit an empty primary-calendar result (use only if "
+                         "the calendar is genuinely empty; the default is to "
+                         "fail loudly so a connector failure never publishes "
+                         "a blank feed).")
     ap.add_argument("--ics", action="append", default=[],
                     help='Repeatable. Format: "https://...basic.ics=Label"')
     ap.add_argument("--out", default="calendar.json")
@@ -166,7 +202,10 @@ def main():
     window_start = datetime.combine(today, datetime.min.time(), tzinfo=TZ)
     window_end = window_start + timedelta(days=WEEK_DAYS)
 
+    global allow_empty_primary
+    allow_empty_primary = args.allow_empty_primary
     events = load_primary(args.primary_json, args.primary_label)
+    require_primary_if_present(args.primary_json, events)
     for spec in args.ics:
         url, _, label = spec.rpartition("=")
         if not url:
