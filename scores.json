@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-09-13T02:32:47.039275-04:00",
+  "generated_at": "2026-09-14T02:33:13.016655-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
-      "last": "L 2-12 vs Mets (Sep 12)",
-      "next": "vs Mets - Sep 13, 1:35 PM",
-      "recap": "Yankees lost to Mets 2-12\nHome, Sep 12\nRecord: 85-63 (2nd AL East, 4 GB)\nW: Zach Thornton (4-5, 3.44 ERA)\nL: Gerrit Cole (8-9, 3.66 ERA)\nHome runs:\n  Cody Bellinger - 15 on the season",
+      "last": "W 2-0 vs Mets (Sep 13)",
+      "next": "@ Twins - Sep 14, 7:40 PM",
+      "recap": "Yankees beat Mets 2-0\nHome, Sep 13\nRecord: 86-63 (2nd AL East, 4 GB)\nW: Cam Schlittler (16-6, 1.90 ERA)\nL: Christian Scott (4-6, 3.80 ERA)\nSV: David Bednar (34 SV, 2.48 ERA)\nHome runs:\n  Austin Wells - 12 on the season\n  Ben Rice - 40 on the season",
       "schedule": [
-        "vs Mets - Sep 13, 1:35 PM",
         "@ Twins - Sep 14, 7:40 PM",
         "@ Twins - Sep 15, 7:40 PM",
         "@ Twins - Sep 16, 1:40 PM",
@@ -19,17 +18,17 @@
         "vs Rays - Sep 22, 7:05 PM",
         "vs Rays - Sep 23, 7:05 PM",
         "vs Rays - Sep 24, 7:05 PM",
-        "vs Orioles - Sep 25, 7:05 PM"
+        "vs Orioles - Sep 25, 7:05 PM",
+        "vs Orioles - Sep 26, 7:15 PM"
       ]
     },
     {
       "key": "nfl",
       "title": "NFL - Steelers",
-      "last": "No result yet",
-      "next": "vs Falcons - Sep 13, 1:00 PM",
-      "recap": "No completed game result yet.\nNext: vs Falcons - Sep 13, 1:00 PM",
+      "last": "W 20-13 vs Falcons (Sep 13)",
+      "next": "@ Patriots - Sep 20, 1:00 PM",
+      "recap": "Steelers beat Falcons 20-13\nHome, Sep 13\nRecord: 1-0-0 (1st AFC North, tied)\nQB Aaron Rodgers: 24/40, 221 yds, 1 TD, 0 INT\nRB Jaylen Warren: 10 car, 46 yds\nWR Michael Pittman Jr.: 3 rec, 58 yds\nTurnovers: 2 lost, 4 forced\nSacks: 8 for, 4 allowed",
       "schedule": [
-        "vs Falcons - Sep 13, 1:00 PM",
         "@ Patriots - Sep 20, 1:00 PM",
         "vs Bengals - Sep 27, 1:00 PM",
         "@ Browns - Oct 1, 8:15 PM",
@@ -40,17 +39,17 @@
         "@ Bengals - Nov 15, 8:20 PM",
         "@ Eagles - Nov 22, 4:25 PM",
         "vs Broncos - Nov 27, 3:00 PM",
-        "vs Texans - Dec 6, 8:20 PM"
+        "vs Texans - Dec 6, 8:20 PM",
+        "@ Jaguars - Dec 14, 8:15 PM"
       ]
     },
     {
       "key": "nascar",
       "title": "NASCAR",
-      "last": "Cook Out Southern 500 (Sep 6) - Winner: Christopher Bell",
-      "next": "Enjoy Illinois 300 - World Wide Technology Raceway (Sep 13)",
-      "recap": "Cook Out Southern 500 - Darlington Raceway (Sep 6)\nWinner: Christopher Bell\n29 lead changes, 6 cautions\n\nTop 10 (points earned):\n   1. Christopher Bell - 73\n   2. Ty Gibbs - 36\n   3. Tyler Reddick - 46\n   4. Ryan Blaney - 44\n   5. Kyle Larson - 41\n   6. Chase Briscoe - 43\n   7. Josh Berry - 34\n   8. Bubba Wallace - 44\n   9. Joey Logano - 28\n  10. Ryan Preece - 31",
+      "last": "Enjoy Illinois 300 (Sep 13) - Winner: Kyle Larson",
+      "next": "Bass Pro Shops Night Race - Bristol Motor Speedway (Sep 19)",
+      "recap": "Enjoy Illinois 300 - World Wide Technology Raceway (Sep 13)\nWinner: Kyle Larson\n11 lead changes, 18 cautions\n\nTop 10 (points earned):\n   1. Kyle Larson - 73\n   2. Alex Bowman - 38\n   3. Joey Logano - 54\n   4. William Byron - 33\n   5. Ross Chastain - 32\n   6. Austin Dillon - 31\n   7. Connor Zilisch - 30\n   8. Carson Hocevar - 34\n   9. Denny Hamlin - 33\n  10. Austin Cindric - 27",
       "schedule": [
-        "Enjoy Illinois 300 - World Wide Technology Raceway (Sep 13)",
         "Bass Pro Shops Night Race - Bristol Motor Speedway (Sep 19)",
         "Hollywood Casino 400 - Kansas Speedway (Sep 27)",
         "South Point 400 - Las Vegas Motor Speedway (Oct 4)",
@@ -64,22 +63,22 @@
         "title": "Playoffs - points, playoff wins",
         "cols": 2,
         "items": [
-          " 1 Bell 2089 1W",
-          " 2 Reddick 2081 0W",
-          " 3 Blaney 2077 0W",
-          " 4 Hamlin 2075 0W",
-          " 5 Gibbs 2058 0W",
-          " 6 Briscoe 2053 0W",
-          " 7 Larson 2050 0W",
-          " 8 Wallace 2047 0W",
-          " 9 Logano 2042 0W",
-          "10 Elliott 2038 0W",
-          "11 Preece 2038 0W",
-          "12 Hocevar 2031 0W",
-          "13 Van Gisbergen 2023 0W",
-          "14 Suarez 2022 0W",
-          "15 Buescher 2017 0W",
-          "16 Byron 2009 0W"
+          " 1 Larson 2130 1W",
+          " 2 Bell 2116 1W",
+          " 3 Hamlin 2108 0W",
+          " 4 Logano 2098 0W",
+          " 5 Reddick 2096 0W",
+          " 6 Blaney 2093 0W",
+          " 7 Gibbs 2079 0W",
+          " 8 Wallace 2070 0W",
+          " 9 Hocevar 2066 0W",
+          "10 Briscoe 2063 0W",
+          "11 Preece 2062 0W",
+          "12 Elliott 2049 0W",
+          "13 Byron 2042 0W",
+          "14 Van Gisbergen 2037 0W",
+          "15 Suarez 2030 0W",
+          "16 Buescher 2027 0W"
         ]
       }
     }

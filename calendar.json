@@ -1,29 +1,10 @@
 {
-  "generated_at": "2026-09-13T02:32:47.442417-04:00",
-  "today_date": "2026-09-13",
-  "tomorrow_date": "2026-09-14",
-  "today": [
-    {
-      "title": "Payday",
-      "time": "All day",
-      "all_day": true,
-      "who": "Steven"
-    }
-  ],
+  "generated_at": "2026-09-14T02:33:35.082761-04:00",
+  "today_date": "2026-09-14",
+  "tomorrow_date": "2026-09-15",
+  "today": [],
   "tomorrow": [],
   "week": [
-    {
-      "date": "2026-09-13",
-      "day_name": "Sunday, Sep 13",
-      "events": [
-        {
-          "title": "Payday",
-          "time": "All day",
-          "all_day": true,
-          "who": "Steven"
-        }
-      ]
-    },
     {
       "date": "2026-09-14",
       "day_name": "Monday, Sep 14",
@@ -66,6 +47,11 @@
     {
       "date": "2026-09-19",
       "day_name": "Saturday, Sep 19",
+      "events": []
+    },
+    {
+      "date": "2026-09-20",
+      "day_name": "Sunday, Sep 20",
       "events": []
     }
   ]
