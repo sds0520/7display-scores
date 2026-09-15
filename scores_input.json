@@ -4,14 +4,9 @@
     "next": {
       "is_home": false,
       "opponent": "Minnesota Twins",
-      "date": "2026-09-14T23:40:00Z"
+      "date": "2026-09-15T23:40:00Z"
     },
     "schedule": [
-      {
-        "is_home": false,
-        "opponent": "Minnesota Twins",
-        "date": "2026-09-14T23:40:00Z"
-      },
       {
         "is_home": false,
         "opponent": "Minnesota Twins",
@@ -66,45 +61,55 @@
         "is_home": true,
         "opponent": "Baltimore Orioles",
         "date": "2026-09-26T23:15:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Baltimore Orioles",
+        "date": "2026-09-27T19:20:00Z"
       }
     ],
     "last": {
-      "is_home": true,
-      "opponent": "New York Mets",
-      "team_score": 2,
-      "opp_score": 0,
-      "date": "2026-09-13T17:35:00Z",
-      "venue": "Yankee Stadium",
-      "record": "86-63",
+      "is_home": false,
+      "opponent": "Minnesota Twins",
+      "team_score": 8,
+      "opp_score": 3,
+      "date": "2026-09-14T23:40:00Z",
+      "venue": "Target Field",
+      "record": "87-63",
       "division_standing": "2nd AL East",
-      "games_back": "4 GB",
+      "games_back": "3.5 GB",
       "winning_pitcher": {
-        "name": "Cam Schlittler",
-        "wins": 16,
-        "losses": 6,
-        "era": "1.90"
+        "name": "Tim Hill",
+        "wins": 5,
+        "losses": 2,
+        "era": "4.52"
       },
       "losing_pitcher": {
-        "name": "Christian Scott",
+        "name": "Andrew Morris",
         "wins": 4,
-        "losses": 6,
-        "era": "3.80"
+        "losses": 9,
+        "era": "4.84"
       },
       "save_pitcher": {
-        "name": "David Bednar",
-        "saves": 34,
-        "era": "2.48"
+        "name": "John Schreiber",
+        "saves": 2,
+        "era": "3.66"
       },
       "home_runs": [
         {
-          "player": "Austin Wells",
+          "player": "Aaron Judge",
           "in_game": 1,
-          "season_total": 12
+          "season_total": 21
         },
         {
-          "player": "Ben Rice",
+          "player": "Austin Wells",
           "in_game": 1,
-          "season_total": 40
+          "season_total": 13
+        },
+        {
+          "player": "Jose Caballero",
+          "in_game": 1,
+          "season_total": 15
         }
       ]
     }
@@ -567,5 +572,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-09-14T02:33:04.249928-04:00"
+  "collected_at": "2026-09-15T02:33:37.186522-04:00"
 }

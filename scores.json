@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-09-14T02:33:13.016655-04:00",
+  "generated_at": "2026-09-15T02:33:49.192452-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
-      "last": "W 2-0 vs Mets (Sep 13)",
-      "next": "@ Twins - Sep 14, 7:40 PM",
-      "recap": "Yankees beat Mets 2-0\nHome, Sep 13\nRecord: 86-63 (2nd AL East, 4 GB)\nW: Cam Schlittler (16-6, 1.90 ERA)\nL: Christian Scott (4-6, 3.80 ERA)\nSV: David Bednar (34 SV, 2.48 ERA)\nHome runs:\n  Austin Wells - 12 on the season\n  Ben Rice - 40 on the season",
+      "last": "W 8-3 @ Twins (Sep 14)",
+      "next": "@ Twins - Sep 15, 7:40 PM",
+      "recap": "Yankees beat Twins 8-3\nAway, Sep 14\nRecord: 87-63 (2nd AL East, 3.5 GB)\nW: Tim Hill (5-2, 4.52 ERA)\nL: Andrew Morris (4-9, 4.84 ERA)\nSV: John Schreiber (2 SV, 3.66 ERA)\nHome runs:\n  Aaron Judge - 21 on the season\n  Austin Wells - 13 on the season\n  Jose Caballero - 15 on the season",
       "schedule": [
-        "@ Twins - Sep 14, 7:40 PM",
         "@ Twins - Sep 15, 7:40 PM",
         "@ Twins - Sep 16, 1:40 PM",
         "@ Diamondbacks - Sep 18, 9:40 PM",
@@ -19,7 +18,8 @@
         "vs Rays - Sep 23, 7:05 PM",
         "vs Rays - Sep 24, 7:05 PM",
         "vs Orioles - Sep 25, 7:05 PM",
-        "vs Orioles - Sep 26, 7:15 PM"
+        "vs Orioles - Sep 26, 7:15 PM",
+        "vs Orioles - Sep 27, 3:20 PM"
       ]
     },
     {
