@@ -1,28 +1,8 @@
 {
-  "generated_at": "2026-09-15T02:34:27.858662-04:00",
-  "today_date": "2026-09-15",
-  "tomorrow_date": "2026-09-16",
+  "generated_at": "2026-09-16T02:33:17.280583-04:00",
+  "today_date": "2026-09-16",
+  "tomorrow_date": "2026-09-17",
   "today": [
-    {
-      "title": "Add/Drop Deadline",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby"
-    },
-    {
-      "title": "Japanese Table",
-      "time": "12:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Faculty Meeting",
-      "time": "12:15 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "Posse Campus Visit",
       "time": "All day",
@@ -66,31 +46,33 @@
       "who": "Abby (StAbby)"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-09-15",
-      "day_name": "Tuesday, Sep 15",
-      "events": [
-        {
-          "title": "Add/Drop Deadline",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "Japanese Table",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Faculty Meeting",
-          "time": "12:15 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
+      "title": "Four Town Fair",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby (StAbby)"
     },
+    {
+      "title": "Office Hours",
+      "time": "11:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL182 Lab",
+      "time": "1:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Posse Big Meeting",
+      "time": "5:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-09-16",
       "day_name": "Wednesday, Sep 16",
@@ -264,6 +246,24 @@
         },
         {
           "title": "Office Hours",
+          "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "day_name": "Tuesday, Sep 22",
+      "events": [
+        {
+          "title": "Big E",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby (StAbby)"
+        },
+        {
+          "title": "Japanese Table",
           "time": "12:00 PM",
           "all_day": false,
           "who": "Abby"
