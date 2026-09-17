@@ -3,15 +3,10 @@
     "team_label": "Yankees",
     "next": {
       "is_home": false,
-      "opponent": "Minnesota Twins",
-      "date": "2026-09-16T17:40:00Z"
+      "opponent": "Arizona Diamondbacks",
+      "date": "2026-09-19T01:40:00Z"
     },
     "schedule": [
-      {
-        "is_home": false,
-        "opponent": "Minnesota Twins",
-        "date": "2026-09-16T17:40:00Z"
-      },
       {
         "is_home": false,
         "opponent": "Arizona Diamondbacks",
@@ -66,37 +61,25 @@
     "last": {
       "is_home": false,
       "opponent": "Minnesota Twins",
-      "team_score": 8,
-      "opp_score": 1,
-      "date": "2026-09-15T23:40:00Z",
+      "team_score": 4,
+      "opp_score": 5,
+      "date": "2026-09-16T17:40:00Z",
       "venue": "Target Field",
-      "record": "88-63",
+      "record": "88-64",
       "division_standing": "2nd AL East",
-      "games_back": "3.5 GB",
+      "games_back": "4.5 GB",
       "winning_pitcher": {
-        "name": "Max Fried",
-        "wins": 5,
+        "name": "Tommy Nance",
+        "wins": 4,
         "losses": 4,
-        "era": "2.84"
+        "era": "4.29"
       },
       "losing_pitcher": {
-        "name": "Bailey Ober",
-        "wins": 7,
-        "losses": 7,
-        "era": "4.30"
-      },
-      "home_runs": [
-        {
-          "player": "Cody Bellinger",
-          "in_game": 1,
-          "season_total": 16
-        },
-        {
-          "player": "Spencer Jones",
-          "in_game": 1,
-          "season_total": 16
-        }
-      ]
+        "name": "John Schreiber",
+        "wins": 2,
+        "losses": 6,
+        "era": "3.60"
+      }
     }
   },
   "nfl": {
@@ -557,5 +540,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-09-16T02:32:48.846560-04:00"
+  "collected_at": "2026-09-17T02:32:52.216186-04:00"
 }

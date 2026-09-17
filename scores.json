@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-09-16T02:32:54.761727-04:00",
+  "generated_at": "2026-09-17T02:32:56.126971-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
-      "last": "W 8-1 @ Twins (Sep 15)",
-      "next": "@ Twins - Sep 16, 1:40 PM",
-      "recap": "Yankees beat Twins 8-1\nAway, Sep 15\nRecord: 88-63 (2nd AL East, 3.5 GB)\nW: Max Fried (5-4, 2.84 ERA)\nL: Bailey Ober (7-7, 4.30 ERA)\nHome runs:\n  Cody Bellinger - 16 on the season\n  Spencer Jones - 16 on the season",
+      "last": "L 4-5 @ Twins (Sep 16)",
+      "next": "@ Diamondbacks - Sep 18, 9:40 PM",
+      "recap": "Yankees lost to Twins 4-5\nAway, Sep 16\nRecord: 88-64 (2nd AL East, 4.5 GB)\nW: Tommy Nance (4-4, 4.29 ERA)\nL: John Schreiber (2-6, 3.60 ERA)",
       "schedule": [
-        "@ Twins - Sep 16, 1:40 PM",
         "@ Diamondbacks - Sep 18, 9:40 PM",
         "@ Diamondbacks - Sep 19, 8:10 PM",
         "@ Diamondbacks - Sep 20, 4:10 PM",

@@ -1,52 +1,8 @@
 {
-  "generated_at": "2026-09-16T02:33:17.280583-04:00",
-  "today_date": "2026-09-16",
-  "tomorrow_date": "2026-09-17",
+  "generated_at": "2026-09-17T02:33:27.151381-04:00",
+  "today_date": "2026-09-17",
+  "tomorrow_date": "2026-09-18",
   "today": [
-    {
-      "title": "Posse Campus Visit",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL103 Quiz 1",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby"
-    },
-    {
-      "title": "Japanese",
-      "time": "8:30 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lecture",
-      "time": "10:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL103 Lecture",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lab",
-      "time": "1:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Setback 1",
-      "time": "6:15 PM",
-      "all_day": false,
-      "who": "Abby (StAbby)"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "Four Town Fair",
       "time": "All day",
@@ -72,55 +28,57 @@
       "who": "Abby"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-09-16",
-      "day_name": "Wednesday, Sep 16",
-      "events": [
-        {
-          "title": "Posse Campus Visit",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL103 Quiz 1",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "Japanese",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lecture",
-          "time": "10:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL103 Lecture",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lab",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Setback 1",
-          "time": "6:15 PM",
-          "all_day": false,
-          "who": "Abby (StAbby)"
-        }
-      ]
+      "title": "Japanese",
+      "time": "8:30 AM",
+      "all_day": false,
+      "who": "Abby"
     },
+    {
+      "title": "BIOL182 Lecture",
+      "time": "10:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL103 Lecture",
+      "time": "11:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Meeting with Claire",
+      "time": "12:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL182 Weekly Meeting",
+      "time": "12:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Biology Bakes",
+      "time": "1:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "NO Seminar - Organizational Meeting",
+      "time": "1:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Department Meeting",
+      "time": "1:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-09-17",
       "day_name": "Thursday, Sep 17",
@@ -208,7 +166,14 @@
     {
       "date": "2026-09-19",
       "day_name": "Saturday, Sep 19",
-      "events": []
+      "events": [
+        {
+          "title": "Hike?",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        }
+      ]
     },
     {
       "date": "2026-09-20",
@@ -267,6 +232,54 @@
           "time": "12:00 PM",
           "all_day": false,
           "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "day_name": "Wednesday, Sep 23",
+      "events": [
+        {
+          "title": "BIOL103 - Quiz 2",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Hebe Visits My Class",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Japanese",
+          "time": "8:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lecture",
+          "time": "10:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL103 Lecture",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lab",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Setback 10",
+          "time": "6:15 PM",
+          "all_day": false,
+          "who": "Abby (StAbby)"
         }
       ]
     }
