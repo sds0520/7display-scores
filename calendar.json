@@ -1,34 +1,8 @@
 {
-  "generated_at": "2026-09-17T02:33:27.151381-04:00",
-  "today_date": "2026-09-17",
-  "tomorrow_date": "2026-09-18",
+  "generated_at": "2026-09-18T02:32:07.444643-04:00",
+  "today_date": "2026-09-18",
+  "tomorrow_date": "2026-09-19",
   "today": [
-    {
-      "title": "Four Town Fair",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby (StAbby)"
-    },
-    {
-      "title": "Office Hours",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lab",
-      "time": "1:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Posse Big Meeting",
-      "time": "5:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "Japanese",
       "time": "8:30 AM",
@@ -66,49 +40,27 @@
       "who": "Abby"
     },
     {
-      "title": "NO Seminar - Organizational Meeting",
+      "title": "Department Meeting",
       "time": "1:30 PM",
       "all_day": false,
       "who": "Abby"
     },
     {
-      "title": "Department Meeting",
+      "title": "NO Seminar - Organizational Meeting",
       "time": "1:30 PM",
       "all_day": false,
       "who": "Abby"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-09-17",
-      "day_name": "Thursday, Sep 17",
-      "events": [
-        {
-          "title": "Four Town Fair",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby (StAbby)"
-        },
-        {
-          "title": "Office Hours",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lab",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Posse Big Meeting",
-          "time": "5:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
-    },
+      "title": "Hike?",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-09-18",
       "day_name": "Friday, Sep 18",
@@ -150,13 +102,13 @@
           "who": "Abby"
         },
         {
-          "title": "NO Seminar - Organizational Meeting",
+          "title": "Department Meeting",
           "time": "1:30 PM",
           "all_day": false,
           "who": "Abby"
         },
         {
-          "title": "Department Meeting",
+          "title": "NO Seminar - Organizational Meeting",
           "time": "1:30 PM",
           "all_day": false,
           "who": "Abby"
@@ -240,13 +192,13 @@
       "day_name": "Wednesday, Sep 23",
       "events": [
         {
-          "title": "BIOL103 - Quiz 2",
+          "title": "Hebe Visits My Class",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
         },
         {
-          "title": "Hebe Visits My Class",
+          "title": "BIOL103 - Quiz 2",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
@@ -280,6 +232,24 @@
           "time": "6:15 PM",
           "all_day": false,
           "who": "Abby (StAbby)"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "day_name": "Thursday, Sep 24",
+      "events": [
+        {
+          "title": "Office Hours",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lab",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
         }
       ]
     }

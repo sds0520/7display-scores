@@ -67,7 +67,7 @@
       "venue": "Target Field",
       "record": "88-64",
       "division_standing": "2nd AL East",
-      "games_back": "4.5 GB",
+      "games_back": "5 GB",
       "winning_pitcher": {
         "name": "Tommy Nance",
         "wins": 4,
@@ -540,5 +540,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-09-17T02:32:52.216186-04:00"
+  "collected_at": "2026-09-18T02:31:40.494342-04:00"
 }
