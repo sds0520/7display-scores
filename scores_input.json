@@ -4,14 +4,9 @@
     "next": {
       "is_home": false,
       "opponent": "Arizona Diamondbacks",
-      "date": "2026-09-19T01:40:00Z"
+      "date": "2026-09-20T00:10:00Z"
     },
     "schedule": [
-      {
-        "is_home": false,
-        "opponent": "Arizona Diamondbacks",
-        "date": "2026-09-19T01:40:00Z"
-      },
       {
         "is_home": false,
         "opponent": "Arizona Diamondbacks",
@@ -60,26 +55,38 @@
     ],
     "last": {
       "is_home": false,
-      "opponent": "Minnesota Twins",
-      "team_score": 4,
-      "opp_score": 5,
-      "date": "2026-09-16T17:40:00Z",
-      "venue": "Target Field",
-      "record": "88-64",
+      "opponent": "Arizona Diamondbacks",
+      "team_score": 9,
+      "opp_score": 2,
+      "date": "2026-09-19T01:40:00Z",
+      "venue": "Chase Field",
+      "record": "89-64",
       "division_standing": "2nd AL East",
-      "games_back": "5 GB",
+      "games_back": "4 GB",
       "winning_pitcher": {
-        "name": "Tommy Nance",
-        "wins": 4,
-        "losses": 4,
-        "era": "4.29"
+        "name": "Gerrit Cole",
+        "wins": 9,
+        "losses": 9,
+        "era": "3.63"
       },
       "losing_pitcher": {
-        "name": "John Schreiber",
-        "wins": 2,
-        "losses": 6,
-        "era": "3.60"
-      }
+        "name": "Eduardo Rodriguez",
+        "wins": 15,
+        "losses": 7,
+        "era": "2.86"
+      },
+      "home_runs": [
+        {
+          "player": "Ben Rice",
+          "in_game": 1,
+          "season_total": 41
+        },
+        {
+          "player": "George Lombard Jr.",
+          "in_game": 1,
+          "season_total": 4
+        }
+      ]
     }
   },
   "nfl": {
@@ -540,5 +547,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-09-18T02:31:40.494342-04:00"
+  "collected_at": "2026-09-19T02:32:06.887759-04:00"
 }

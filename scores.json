@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-09-18T02:31:44.476128-04:00",
+  "generated_at": "2026-09-19T02:32:10.490555-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
-      "last": "L 4-5 @ Twins (Sep 16)",
-      "next": "@ Diamondbacks - Sep 18, 9:40 PM",
-      "recap": "Yankees lost to Twins 4-5\nAway, Sep 16\nRecord: 88-64 (2nd AL East, 5 GB)\nW: Tommy Nance (4-4, 4.29 ERA)\nL: John Schreiber (2-6, 3.60 ERA)",
+      "last": "W 9-2 @ Diamondbacks (Sep 18)",
+      "next": "@ Diamondbacks - Sep 19, 8:10 PM",
+      "recap": "Yankees beat Diamondbacks 9-2\nAway, Sep 18\nRecord: 89-64 (2nd AL East, 4 GB)\nW: Gerrit Cole (9-9, 3.63 ERA)\nL: Eduardo Rodriguez (15-7, 2.86 ERA)\nHome runs:\n  Ben Rice - 41 on the season\n  George Lombard Jr. - 4 on the season",
       "schedule": [
-        "@ Diamondbacks - Sep 18, 9:40 PM",
         "@ Diamondbacks - Sep 19, 8:10 PM",
         "@ Diamondbacks - Sep 20, 4:10 PM",
         "vs Rays - Sep 22, 1:05 PM",
