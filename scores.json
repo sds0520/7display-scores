@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-09-19T02:32:10.490555-04:00",
+  "generated_at": "2026-09-20T02:32:51.141709-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
-      "last": "W 9-2 @ Diamondbacks (Sep 18)",
-      "next": "@ Diamondbacks - Sep 19, 8:10 PM",
-      "recap": "Yankees beat Diamondbacks 9-2\nAway, Sep 18\nRecord: 89-64 (2nd AL East, 4 GB)\nW: Gerrit Cole (9-9, 3.63 ERA)\nL: Eduardo Rodriguez (15-7, 2.86 ERA)\nHome runs:\n  Ben Rice - 41 on the season\n  George Lombard Jr. - 4 on the season",
+      "last": "L 3-5 @ Diamondbacks (Sep 19)",
+      "next": "@ Diamondbacks - Sep 20, 4:10 PM",
+      "recap": "Yankees lost to Diamondbacks 3-5\nAway, Sep 19\nRecord: 89-65 (2nd AL East, 5 GB)\nW: Juan Morillo (5-4, 2.17 ERA)\nL: Michael Fulmer (0-2, 3.68 ERA)\nHome runs:\n  Austin Wells - 14 on the season\n  Heliot Ramos - 13 on the season",
       "schedule": [
-        "@ Diamondbacks - Sep 19, 8:10 PM",
         "@ Diamondbacks - Sep 20, 4:10 PM",
         "vs Rays - Sep 22, 1:05 PM",
         "vs Rays - Sep 22, 7:05 PM",
@@ -43,11 +42,10 @@
     {
       "key": "nascar",
       "title": "NASCAR",
-      "last": "Enjoy Illinois 300 (Sep 13) - Winner: Kyle Larson",
-      "next": "Bass Pro Shops Night Race - Bristol Motor Speedway (Sep 19)",
-      "recap": "Enjoy Illinois 300 - World Wide Technology Raceway (Sep 13)\nWinner: Kyle Larson\n11 lead changes, 18 cautions\n\nTop 10 (points earned):\n   1. Kyle Larson - 73\n   2. Alex Bowman - 38\n   3. Joey Logano - 54\n   4. William Byron - 33\n   5. Ross Chastain - 32\n   6. Austin Dillon - 31\n   7. Connor Zilisch - 30\n   8. Carson Hocevar - 34\n   9. Denny Hamlin - 33\n  10. Austin Cindric - 27",
+      "last": "Bass Pro Shops Night Race (Sep 19) - Winner: Joey Logano",
+      "next": "Hollywood Casino 400 - Kansas Speedway (Sep 27)",
+      "recap": "Bass Pro Shops Night Race - Bristol Motor Speedway (Sep 19)\nWinner: Joey Logano\n13 lead changes, 10 cautions\n\nTop 10 (points earned):\n   1. Joey Logano - 73\n   2. Kyle Larson - 47\n   3. Carson Hocevar - 41\n   4. Christopher Bell - 39\n   5. Ty Gibbs - 47\n   6. Josh Berry - 38\n   7. Bubba Wallace - 36\n   8. Denny Hamlin - 37\n   9. William Byron - 31\n  10. Ryan Preece - 27",
       "schedule": [
-        "Bass Pro Shops Night Race - Bristol Motor Speedway (Sep 19)",
         "Hollywood Casino 400 - Kansas Speedway (Sep 27)",
         "South Point 400 - Las Vegas Motor Speedway (Oct 4)",
         "Bank of America 400 - Charlotte Motor Speedway (Oct 11)",
@@ -60,22 +58,22 @@
         "title": "Playoffs - points, playoff wins",
         "cols": 2,
         "items": [
-          " 1 Larson 2130 1W",
-          " 2 Bell 2116 1W",
-          " 3 Hamlin 2108 0W",
-          " 4 Logano 2098 0W",
-          " 5 Reddick 2096 0W",
-          " 6 Blaney 2093 0W",
-          " 7 Gibbs 2079 0W",
-          " 8 Wallace 2070 0W",
-          " 9 Hocevar 2066 0W",
-          "10 Briscoe 2063 0W",
-          "11 Preece 2062 0W",
-          "12 Elliott 2049 0W",
-          "13 Byron 2042 0W",
-          "14 Van Gisbergen 2037 0W",
-          "15 Suarez 2030 0W",
-          "16 Buescher 2027 0W"
+          " 1 Logano 2178 1W",
+          " 2 Larson 2177 1W",
+          " 3 Bell 2155 1W",
+          " 4 Hamlin 2145 0W",
+          " 5 Gibbs 2127 0W",
+          " 6 Reddick 2114 0W",
+          " 7 Blaney 2113 0W",
+          " 8 Hocevar 2108 0W",
+          " 9 Wallace 2106 0W",
+          "10 Preece 2089 0W",
+          "11 Byron 2073 0W",
+          "12 Briscoe 2072 0W",
+          "13 Elliott 2062 0W",
+          "14 Van Gisbergen 2054 0W",
+          "15 Suarez 2053 0W",
+          "16 Buescher 2052 0W"
         ]
       }
     }
