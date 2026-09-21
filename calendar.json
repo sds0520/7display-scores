@@ -1,16 +1,8 @@
 {
-  "generated_at": "2026-09-20T02:33:06.605485-04:00",
-  "today_date": "2026-09-20",
-  "tomorrow_date": "2026-09-21",
+  "generated_at": "2026-09-21T02:32:54.079590-04:00",
+  "today_date": "2026-09-21",
+  "tomorrow_date": "2026-09-22",
   "today": [
-    {
-      "title": "Donate Platelets",
-      "time": "8:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "Japanese",
       "time": "8:30 AM",
@@ -36,19 +28,21 @@
       "who": "Abby"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-09-20",
-      "day_name": "Sunday, Sep 20",
-      "events": [
-        {
-          "title": "Donate Platelets",
-          "time": "8:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
+      "title": "Big E",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby (StAbby)"
     },
+    {
+      "title": "Japanese Table",
+      "time": "12:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-09-21",
       "day_name": "Monday, Sep 21",
@@ -214,6 +208,11 @@
     {
       "date": "2026-09-26",
       "day_name": "Saturday, Sep 26",
+      "events": []
+    },
+    {
+      "date": "2026-09-27",
+      "day_name": "Sunday, Sep 27",
       "events": []
     }
   ]

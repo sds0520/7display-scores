@@ -2,16 +2,11 @@
   "mlb": {
     "team_label": "Yankees",
     "next": {
-      "is_home": false,
-      "opponent": "Arizona Diamondbacks",
-      "date": "2026-09-20T20:10:00Z"
+      "is_home": true,
+      "opponent": "Tampa Bay Rays",
+      "date": "2026-09-22T17:05:00Z"
     },
     "schedule": [
-      {
-        "is_home": false,
-        "opponent": "Arizona Diamondbacks",
-        "date": "2026-09-20T20:10:00Z"
-      },
       {
         "is_home": true,
         "opponent": "Tampa Bay Rays",
@@ -51,35 +46,40 @@
     "last": {
       "is_home": false,
       "opponent": "Arizona Diamondbacks",
-      "team_score": 3,
-      "opp_score": 5,
-      "date": "2026-09-20T00:10:00Z",
+      "team_score": 4,
+      "opp_score": 8,
+      "date": "2026-09-20T20:10:00Z",
       "venue": "Chase Field",
-      "record": "89-65",
+      "record": "89-66",
       "division_standing": "2nd AL East",
-      "games_back": "5 GB",
+      "games_back": "6 GB",
       "winning_pitcher": {
-        "name": "Juan Morillo",
-        "wins": 5,
-        "losses": 4,
-        "era": "2.17"
+        "name": "Justin Martinez",
+        "wins": 3,
+        "losses": 0,
+        "era": "0.00"
       },
       "losing_pitcher": {
-        "name": "Michael Fulmer",
-        "wins": 0,
-        "losses": 2,
-        "era": "3.68"
+        "name": "Brent Headrick",
+        "wins": 9,
+        "losses": 4,
+        "era": "2.14"
       },
       "home_runs": [
         {
-          "player": "Austin Wells",
+          "player": "George Lombard Jr.",
           "in_game": 1,
-          "season_total": 14
+          "season_total": 5
         },
         {
           "player": "Heliot Ramos",
           "in_game": 1,
-          "season_total": 13
+          "season_total": 14
+        },
+        {
+          "player": "Spencer Jones",
+          "in_game": 1,
+          "season_total": 17
         }
       ]
     }
@@ -87,16 +87,11 @@
   "nfl": {
     "team_label": "Steelers",
     "next": {
-      "is_home": false,
-      "opponent": "New England Patriots",
-      "date": "2026-09-20T17:00:00Z"
+      "is_home": true,
+      "opponent": "Cincinnati Bengals",
+      "date": "2026-09-27T17:00:00Z"
     },
     "schedule": [
-      {
-        "is_home": false,
-        "opponent": "New England Patriots",
-        "date": "2026-09-20T17:00:00Z"
-      },
       {
         "is_home": true,
         "opponent": "Cincinnati Bengals",
@@ -151,50 +146,55 @@
         "is_home": false,
         "opponent": "Jacksonville Jaguars",
         "date": "2026-12-15T01:15:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Baltimore Ravens",
+        "date": "2026-12-20T18:00:00Z"
       }
     ],
     "last": {
-      "is_home": true,
-      "opponent": "Atlanta Falcons",
-      "team_score": 20,
-      "opp_score": 13,
-      "date": "2026-09-13T17:00:00Z",
-      "record": "1-0-0",
-      "division_standing": "1st AFC North",
-      "games_back": "tied",
+      "is_home": false,
+      "opponent": "New England Patriots",
+      "team_score": 3,
+      "opp_score": 20,
+      "date": "2026-09-20T17:00:00Z",
+      "record": "1-1-0",
+      "division_standing": "2nd AFC North",
+      "games_back": "1 GB",
       "turnovers": {
-        "team": 2,
+        "team": 4,
         "opponent": 4,
         "forced": 4
       },
       "sacks": {
-        "by_team": 8,
-        "allowed": 4
+        "by_team": 6,
+        "allowed": 8
       },
       "qb": {
         "name": "Aaron Rodgers",
-        "completions": 24,
-        "attempts": 40,
-        "pass_yards": 221,
-        "pass_tds": 1,
-        "interceptions": 0,
-        "rating": 83.4,
-        "sacked": 2,
-        "rush_yards": -3
+        "completions": 23,
+        "attempts": 39,
+        "pass_yards": 187,
+        "pass_tds": 0,
+        "interceptions": 1,
+        "rating": 60.5,
+        "sacked": 4,
+        "rush_yards": 5
       },
       "top_rb": {
         "name": "Jaylen Warren",
-        "carries": 10,
-        "rush_yards": 46,
+        "carries": 11,
+        "rush_yards": 43,
         "rush_tds": 0,
-        "long": 17
+        "long": 10
       },
       "top_wr": {
-        "name": "Michael Pittman Jr.",
-        "receptions": 3,
-        "rec_yards": 58,
+        "name": "Germie Bernard",
+        "receptions": 4,
+        "rec_yards": 35,
         "rec_tds": 0,
-        "long": 28
+        "long": 19
       }
     }
   },
@@ -537,5 +537,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-09-20T02:32:44.637005-04:00"
+  "collected_at": "2026-09-21T02:32:31.153871-04:00"
 }

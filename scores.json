@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-09-20T02:32:51.141709-04:00",
+  "generated_at": "2026-09-21T02:32:36.295800-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
-      "last": "L 3-5 @ Diamondbacks (Sep 19)",
-      "next": "@ Diamondbacks - Sep 20, 4:10 PM",
-      "recap": "Yankees lost to Diamondbacks 3-5\nAway, Sep 19\nRecord: 89-65 (2nd AL East, 5 GB)\nW: Juan Morillo (5-4, 2.17 ERA)\nL: Michael Fulmer (0-2, 3.68 ERA)\nHome runs:\n  Austin Wells - 14 on the season\n  Heliot Ramos - 13 on the season",
+      "last": "L 4-8 @ Diamondbacks (Sep 20)",
+      "next": "vs Rays - Sep 22, 1:05 PM",
+      "recap": "Yankees lost to Diamondbacks 4-8\nAway, Sep 20\nRecord: 89-66 (2nd AL East, 6 GB)\nW: Justin Martinez (3-0, 0.00 ERA)\nL: Brent Headrick (9-4, 2.14 ERA)\nHome runs:\n  George Lombard Jr. - 5 on the season\n  Heliot Ramos - 14 on the season\n  Spencer Jones - 17 on the season",
       "schedule": [
-        "@ Diamondbacks - Sep 20, 4:10 PM",
         "vs Rays - Sep 22, 1:05 PM",
         "vs Rays - Sep 22, 7:05 PM",
         "vs Rays - Sep 23, 7:05 PM",
@@ -21,11 +20,10 @@
     {
       "key": "nfl",
       "title": "NFL - Steelers",
-      "last": "W 20-13 vs Falcons (Sep 13)",
-      "next": "@ Patriots - Sep 20, 1:00 PM",
-      "recap": "Steelers beat Falcons 20-13\nHome, Sep 13\nRecord: 1-0-0 (1st AFC North, tied)\nQB Aaron Rodgers: 24/40, 221 yds, 1 TD, 0 INT\nRB Jaylen Warren: 10 car, 46 yds\nWR Michael Pittman Jr.: 3 rec, 58 yds\nTurnovers: 2 lost, 4 forced\nSacks: 8 for, 4 allowed",
+      "last": "L 3-20 @ Patriots (Sep 20)",
+      "next": "vs Bengals - Sep 27, 1:00 PM",
+      "recap": "Steelers lost to Patriots 3-20\nAway, Sep 20\nRecord: 1-1-0 (2nd AFC North, 1 GB)\nQB Aaron Rodgers: 23/39, 187 yds, 0 TD, 1 INT\nRB Jaylen Warren: 11 car, 43 yds\nWR Germie Bernard: 4 rec, 35 yds\nTurnovers: 4 lost, 4 forced\nSacks: 6 for, 8 allowed",
       "schedule": [
-        "@ Patriots - Sep 20, 1:00 PM",
         "vs Bengals - Sep 27, 1:00 PM",
         "@ Browns - Oct 1, 8:15 PM",
         "vs Colts - Oct 11, 1:00 PM",
@@ -36,7 +34,8 @@
         "@ Eagles - Nov 22, 4:25 PM",
         "vs Broncos - Nov 27, 3:00 PM",
         "vs Texans - Dec 6, 8:20 PM",
-        "@ Jaguars - Dec 14, 8:15 PM"
+        "@ Jaguars - Dec 14, 8:15 PM",
+        "vs Ravens - Dec 20, 1:00 PM"
       ]
     },
     {
