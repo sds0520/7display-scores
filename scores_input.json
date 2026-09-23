@@ -4,19 +4,9 @@
     "next": {
       "is_home": true,
       "opponent": "Tampa Bay Rays",
-      "date": "2026-09-22T17:05:00Z"
+      "date": "2026-09-23T23:05:00Z"
     },
     "schedule": [
-      {
-        "is_home": true,
-        "opponent": "Tampa Bay Rays",
-        "date": "2026-09-22T17:05:00Z"
-      },
-      {
-        "is_home": true,
-        "opponent": "Tampa Bay Rays",
-        "date": "2026-09-22T23:05:00Z"
-      },
       {
         "is_home": true,
         "opponent": "Tampa Bay Rays",
@@ -44,44 +34,27 @@
       }
     ],
     "last": {
-      "is_home": false,
-      "opponent": "Arizona Diamondbacks",
-      "team_score": 4,
-      "opp_score": 8,
-      "date": "2026-09-20T20:10:00Z",
-      "venue": "Chase Field",
-      "record": "89-66",
+      "is_home": true,
+      "opponent": "Tampa Bay Rays",
+      "team_score": 1,
+      "opp_score": 6,
+      "date": "2026-09-22T23:05:00Z",
+      "venue": "Yankee Stadium",
+      "record": "90-67",
       "division_standing": "2nd AL East",
       "games_back": "6 GB",
       "winning_pitcher": {
-        "name": "Justin Martinez",
-        "wins": 3,
-        "losses": 0,
-        "era": "0.00"
+        "name": "Drew Rasmussen",
+        "wins": 16,
+        "losses": 6,
+        "era": "2.84"
       },
       "losing_pitcher": {
-        "name": "Brent Headrick",
-        "wins": 9,
-        "losses": 4,
-        "era": "2.14"
-      },
-      "home_runs": [
-        {
-          "player": "George Lombard Jr.",
-          "in_game": 1,
-          "season_total": 5
-        },
-        {
-          "player": "Heliot Ramos",
-          "in_game": 1,
-          "season_total": 14
-        },
-        {
-          "player": "Spencer Jones",
-          "in_game": 1,
-          "season_total": 17
-        }
-      ]
+        "name": "Max Fried",
+        "wins": 5,
+        "losses": 5,
+        "era": "2.98"
+      }
     }
   },
   "nfl": {
@@ -537,5 +510,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-09-22T02:32:00.841517-04:00"
+  "collected_at": "2026-09-23T02:32:44.754925-04:00"
 }
