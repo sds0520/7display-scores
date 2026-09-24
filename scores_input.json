@@ -4,14 +4,9 @@
     "next": {
       "is_home": true,
       "opponent": "Tampa Bay Rays",
-      "date": "2026-09-23T23:05:00Z"
+      "date": "2026-09-24T23:05:00Z"
     },
     "schedule": [
-      {
-        "is_home": true,
-        "opponent": "Tampa Bay Rays",
-        "date": "2026-09-23T23:05:00Z"
-      },
       {
         "is_home": true,
         "opponent": "Tampa Bay Rays",
@@ -36,25 +31,42 @@
     "last": {
       "is_home": true,
       "opponent": "Tampa Bay Rays",
-      "team_score": 1,
-      "opp_score": 6,
-      "date": "2026-09-22T23:05:00Z",
+      "team_score": 9,
+      "opp_score": 2,
+      "date": "2026-09-23T23:05:00Z",
       "venue": "Yankee Stadium",
-      "record": "90-67",
+      "record": "91-67",
       "division_standing": "2nd AL East",
-      "games_back": "6 GB",
+      "games_back": "5 GB",
       "winning_pitcher": {
-        "name": "Drew Rasmussen",
-        "wins": 16,
-        "losses": 6,
-        "era": "2.84"
+        "name": "Gerrit Cole",
+        "wins": 10,
+        "losses": 9,
+        "era": "3.61"
       },
       "losing_pitcher": {
-        "name": "Max Fried",
-        "wins": 5,
-        "losses": 5,
-        "era": "2.98"
-      }
+        "name": "Mason Englert",
+        "wins": 0,
+        "losses": 4,
+        "era": "4.91"
+      },
+      "home_runs": [
+        {
+          "player": "Ben Rice",
+          "in_game": 2,
+          "season_total": 43
+        },
+        {
+          "player": "George Lombard Jr.",
+          "in_game": 1,
+          "season_total": 6
+        },
+        {
+          "player": "Ryan McMahon",
+          "in_game": 1,
+          "season_total": 11
+        }
+      ]
     }
   },
   "nfl": {
@@ -510,5 +522,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-09-23T02:32:44.754925-04:00"
+  "collected_at": "2026-09-24T02:32:54.483062-04:00"
 }
