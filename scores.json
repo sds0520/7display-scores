@@ -1,16 +1,15 @@
 {
-  "generated_at": "2026-09-24T02:33:05.116300-04:00",
+  "generated_at": "2026-09-25T02:32:01.013166-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
-      "last": "W 9-2 vs Rays (Sep 23)",
-      "next": "vs Rays - Sep 24, 7:05 PM",
-      "recap": "Yankees beat Rays 9-2\nHome, Sep 23\nRecord: 91-67 (2nd AL East, 5 GB)\nW: Gerrit Cole (10-9, 3.61 ERA)\nL: Mason Englert (0-4, 4.91 ERA)\nHome runs:\n  Ben Rice x2 - 43 on the season\n  George Lombard Jr. - 6 on the season\n  Ryan McMahon - 11 on the season",
+      "last": "W 6-4 vs Rays (Sep 24)",
+      "next": "vs Orioles - Sep 25, 4:05 PM",
+      "recap": "Yankees beat Rays 6-4\nHome, Sep 24\nRecord: 92-67 (2nd AL East, 4 GB)\nW: Bradley Hanner (1-0, 8.59 ERA)\nL: Steven Matz (6-6, 4.88 ERA)\nHome runs:\n  Austin Wells - 15 on the season\n  George Lombard Jr. - 7 on the season",
       "schedule": [
-        "vs Rays - Sep 24, 7:05 PM",
-        "vs Orioles - Sep 25, 7:05 PM",
-        "vs Orioles - Sep 26, 7:15 PM",
+        "vs Orioles - Sep 25, 4:05 PM",
+        "vs Orioles - Sep 25, 7:25 PM",
         "vs Orioles - Sep 27, 3:20 PM"
       ]
     },

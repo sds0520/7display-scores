@@ -1,28 +1,8 @@
 {
-  "generated_at": "2026-09-24T02:33:15.643184-04:00",
-  "today_date": "2026-09-24",
-  "tomorrow_date": "2026-09-25",
+  "generated_at": "2026-09-25T02:32:20.215197-04:00",
+  "today_date": "2026-09-25",
+  "tomorrow_date": "2026-09-26",
   "today": [
-    {
-      "title": "Meeting with Hebe",
-      "time": "9:30 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Office Hours",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lab",
-      "time": "1:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "Hebe Visits My Class",
       "time": "All day",
@@ -66,31 +46,8 @@
       "who": "Abby"
     }
   ],
+  "tomorrow": [],
   "week": [
-    {
-      "date": "2026-09-24",
-      "day_name": "Thursday, Sep 24",
-      "events": [
-        {
-          "title": "Meeting with Hebe",
-          "time": "9:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Office Hours",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lab",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
-    },
     {
       "date": "2026-09-25",
       "day_name": "Friday, Sep 25",
@@ -260,6 +217,36 @@
           "time": "6:15 PM",
           "all_day": false,
           "who": "Abby (StAbby)"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "day_name": "Thursday, Oct 1",
+      "events": [
+        {
+          "title": "Able to donate blood again",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Dr. Solinsky",
+          "time": "8:30 AM",
+          "all_day": false,
+          "who": "Abby (StAbby)"
+        },
+        {
+          "title": "Office Hours",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lab",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
         }
       ]
     }

@@ -3,24 +3,19 @@
     "team_label": "Yankees",
     "next": {
       "is_home": true,
-      "opponent": "Tampa Bay Rays",
-      "date": "2026-09-24T23:05:00Z"
+      "opponent": "Baltimore Orioles",
+      "date": "2026-09-25T20:05:00Z"
     },
     "schedule": [
       {
         "is_home": true,
-        "opponent": "Tampa Bay Rays",
-        "date": "2026-09-24T23:05:00Z"
+        "opponent": "Baltimore Orioles",
+        "date": "2026-09-25T20:05:00Z"
       },
       {
         "is_home": true,
         "opponent": "Baltimore Orioles",
-        "date": "2026-09-25T23:05:00Z"
-      },
-      {
-        "is_home": true,
-        "opponent": "Baltimore Orioles",
-        "date": "2026-09-26T23:15:00Z"
+        "date": "2026-09-25T23:25:00Z"
       },
       {
         "is_home": true,
@@ -31,40 +26,35 @@
     "last": {
       "is_home": true,
       "opponent": "Tampa Bay Rays",
-      "team_score": 9,
-      "opp_score": 2,
-      "date": "2026-09-23T23:05:00Z",
+      "team_score": 6,
+      "opp_score": 4,
+      "date": "2026-09-24T23:05:00Z",
       "venue": "Yankee Stadium",
-      "record": "91-67",
+      "record": "92-67",
       "division_standing": "2nd AL East",
-      "games_back": "5 GB",
+      "games_back": "4 GB",
       "winning_pitcher": {
-        "name": "Gerrit Cole",
-        "wins": 10,
-        "losses": 9,
-        "era": "3.61"
+        "name": "Bradley Hanner",
+        "wins": 1,
+        "losses": 0,
+        "era": "8.59"
       },
       "losing_pitcher": {
-        "name": "Mason Englert",
-        "wins": 0,
-        "losses": 4,
-        "era": "4.91"
+        "name": "Steven Matz",
+        "wins": 6,
+        "losses": 6,
+        "era": "4.88"
       },
       "home_runs": [
         {
-          "player": "Ben Rice",
-          "in_game": 2,
-          "season_total": 43
+          "player": "Austin Wells",
+          "in_game": 1,
+          "season_total": 15
         },
         {
           "player": "George Lombard Jr.",
           "in_game": 1,
-          "season_total": 6
-        },
-        {
-          "player": "Ryan McMahon",
-          "in_game": 1,
-          "season_total": 11
+          "season_total": 7
         }
       ]
     }
@@ -522,5 +512,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-09-24T02:32:54.483062-04:00"
+  "collected_at": "2026-09-25T02:31:57.090404-04:00"
 }
