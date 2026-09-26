@@ -1,15 +1,13 @@
 {
-  "generated_at": "2026-09-25T02:32:01.013166-04:00",
+  "generated_at": "2026-09-26T02:32:22.211425-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
-      "last": "W 6-4 vs Rays (Sep 24)",
-      "next": "vs Orioles - Sep 25, 4:05 PM",
-      "recap": "Yankees beat Rays 6-4\nHome, Sep 24\nRecord: 92-67 (2nd AL East, 4 GB)\nW: Bradley Hanner (1-0, 8.59 ERA)\nL: Steven Matz (6-6, 4.88 ERA)\nHome runs:\n  Austin Wells - 15 on the season\n  George Lombard Jr. - 7 on the season",
+      "last": "W 6-3 vs Orioles (Sep 25)",
+      "next": "vs Orioles - Sep 27, 3:20 PM",
+      "recap": "Yankees beat Orioles 6-3\nHome, Sep 25\nRecord: 92-68 (2nd AL East, 5 GB)\nW: Will Warren (13-7, 3.52 ERA)\nL: Brandon Young (9-6, 3.70 ERA)",
       "schedule": [
-        "vs Orioles - Sep 25, 4:05 PM",
-        "vs Orioles - Sep 25, 7:25 PM",
         "vs Orioles - Sep 27, 3:20 PM"
       ]
     },

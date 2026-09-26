@@ -1,101 +1,10 @@
 {
-  "generated_at": "2026-09-25T02:32:20.215197-04:00",
-  "today_date": "2026-09-25",
-  "tomorrow_date": "2026-09-26",
-  "today": [
-    {
-      "title": "Hebe Visits My Class",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby"
-    },
-    {
-      "title": "Japanese",
-      "time": "8:30 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lecture",
-      "time": "10:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL103 Lecture",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Meeting with Claire",
-      "time": "12:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Biology Bakes",
-      "time": "1:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Seminar: Guest Speaker (James Castellano)",
-      "time": "1:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
+  "generated_at": "2026-09-26T02:32:50.233026-04:00",
+  "today_date": "2026-09-26",
+  "tomorrow_date": "2026-09-27",
+  "today": [],
   "tomorrow": [],
   "week": [
-    {
-      "date": "2026-09-25",
-      "day_name": "Friday, Sep 25",
-      "events": [
-        {
-          "title": "Hebe Visits My Class",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "Japanese",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lecture",
-          "time": "10:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL103 Lecture",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Meeting with Claire",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Biology Bakes",
-          "time": "1:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Seminar: Guest Speaker (James Castellano)",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
-    },
     {
       "date": "2026-09-26",
       "day_name": "Saturday, Sep 26",
@@ -245,6 +154,66 @@
         {
           "title": "BIOL182 Lab",
           "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "day_name": "Friday, Oct 2",
+      "events": [
+        {
+          "title": "Silver Scream Con",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby (StAbby)"
+        },
+        {
+          "title": "Japanese",
+          "time": "8:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lecture",
+          "time": "10:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL103 Lecture",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Meeting with Claire",
+          "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Weekly Meeting",
+          "time": "12:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Biology Bakes",
+          "time": "1:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Seminar: Students",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Department Meeting",
+          "time": "2:30 PM",
           "all_day": false,
           "who": "Abby"
         }
