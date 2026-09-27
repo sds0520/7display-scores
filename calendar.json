@@ -1,15 +1,53 @@
 {
-  "generated_at": "2026-09-26T02:32:50.233026-04:00",
-  "today_date": "2026-09-26",
-  "tomorrow_date": "2026-09-27",
+  "generated_at": "2026-09-27T02:32:27.143583-04:00",
+  "today_date": "2026-09-27",
+  "tomorrow_date": "2026-09-28",
   "today": [],
-  "tomorrow": [],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-09-26",
-      "day_name": "Saturday, Sep 26",
-      "events": []
+      "title": "Japanese",
+      "time": "8:30 AM",
+      "all_day": false,
+      "who": "Abby"
     },
+    {
+      "title": "BIOL182 Lecture",
+      "time": "10:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL103 Lecture",
+      "time": "11:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Office Hours",
+      "time": "12:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Prep Time",
+      "time": "1:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Leah",
+      "time": "2:15 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Call Lauren",
+      "time": "3:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-09-27",
       "day_name": "Sunday, Sep 27",
@@ -214,6 +252,24 @@
         {
           "title": "Department Meeting",
           "time": "2:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "day_name": "Saturday, Oct 3",
+      "events": [
+        {
+          "title": "Payless for Oil Anniversary Sale",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Anime Club at the Library",
+          "time": "11:00 AM",
           "all_day": false,
           "who": "Abby"
         }

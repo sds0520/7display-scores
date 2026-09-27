@@ -4,13 +4,13 @@
     "next": {
       "is_home": true,
       "opponent": "Baltimore Orioles",
-      "date": "2026-09-27T19:20:00Z"
+      "date": "2026-09-27T17:05:00Z"
     },
     "schedule": [
       {
         "is_home": true,
         "opponent": "Baltimore Orioles",
-        "date": "2026-09-27T19:20:00Z"
+        "date": "2026-09-27T17:05:00Z"
       }
     ],
     "last": {
@@ -22,7 +22,7 @@
       "venue": "Yankee Stadium",
       "record": "92-68",
       "division_standing": "2nd AL East",
-      "games_back": "5 GB",
+      "games_back": "5.5 GB",
       "winning_pitcher": {
         "name": "Will Warren",
         "wins": 13,
@@ -490,5 +490,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-09-26T02:32:18.686250-04:00"
+  "collected_at": "2026-09-27T02:32:00.282258-04:00"
 }
