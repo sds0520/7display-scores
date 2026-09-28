@@ -1,9 +1,8 @@
 {
-  "generated_at": "2026-09-27T02:32:27.143583-04:00",
-  "today_date": "2026-09-27",
-  "tomorrow_date": "2026-09-28",
-  "today": [],
-  "tomorrow": [
+  "generated_at": "2026-09-28T02:33:20.274294-04:00",
+  "today_date": "2026-09-28",
+  "tomorrow_date": "2026-09-29",
+  "today": [
     {
       "title": "Japanese",
       "time": "8:30 AM",
@@ -47,12 +46,21 @@
       "who": "Abby"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-09-27",
-      "day_name": "Sunday, Sep 27",
-      "events": []
+      "title": "Japanese Table",
+      "time": "12:00 PM",
+      "all_day": false,
+      "who": "Abby"
     },
+    {
+      "title": "Jury Pool Meeting (Tentative)",
+      "time": "3:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-09-28",
       "day_name": "Monday, Sep 28",
@@ -274,6 +282,11 @@
           "who": "Abby"
         }
       ]
+    },
+    {
+      "date": "2026-10-04",
+      "day_name": "Sunday, Oct 4",
+      "events": []
     }
   ]
 }

@@ -1,24 +1,25 @@
 {
-  "generated_at": "2026-09-27T02:32:03.323325-04:00",
+  "generated_at": "2026-09-28T02:32:59.773913-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
       "last": "W 6-3 vs Orioles (Sep 25)",
-      "next": "vs Orioles - Sep 27, 1:05 PM",
-      "recap": "Yankees beat Orioles 6-3\nHome, Sep 25\nRecord: 92-68 (2nd AL East, 5.5 GB)\nW: Will Warren (13-7, 3.52 ERA)\nL: Brandon Young (9-6, 3.70 ERA)",
+      "next": "vs Sox - Sep 29, 8:00 PM",
+      "recap": "Yankees beat Orioles 6-3\nHome, Sep 25\nRecord: 92-68 (2nd AL East, 5 GB)\nW: Will Warren (13-7, 3.52 ERA)\nL: Brandon Young (9-6, 3.70 ERA)",
       "schedule": [
-        "vs Orioles - Sep 27, 1:05 PM"
+        "vs Sox - Sep 29, 8:00 PM",
+        "vs Sox - Sep 30, 8:00 PM",
+        "vs Sox - Oct 1, 8:00 PM"
       ]
     },
     {
       "key": "nfl",
       "title": "NFL - Steelers",
-      "last": "L 3-20 @ Patriots (Sep 20)",
-      "next": "vs Bengals - Sep 27, 1:00 PM",
-      "recap": "Steelers lost to Patriots 3-20\nAway, Sep 20\nRecord: 1-1-0 (2nd AFC North, 1 GB)\nQB Aaron Rodgers: 23/39, 187 yds, 0 TD, 1 INT\nRB Jaylen Warren: 11 car, 43 yds\nWR Germie Bernard: 4 rec, 35 yds\nTurnovers: 4 lost, 4 forced\nSacks: 6 for, 8 allowed",
+      "last": "W 30-27 vs Bengals (Sep 27)",
+      "next": "@ Browns - Oct 1, 8:15 PM",
+      "recap": "Steelers beat Bengals 30-27\nHome, Sep 27\nRecord: 2-1-0 (1st AFC North, tied)\nQB Aaron Rodgers: 19/34, 292 yds, 3 TD, 1 INT\nRB Jaylen Warren: 17 car, 127 yds\nWR Darnell Washington: 3 rec, 67 yds\nTurnovers: 2 lost, 4 forced\nSacks: 2 for, 4 allowed",
       "schedule": [
-        "vs Bengals - Sep 27, 1:00 PM",
         "@ Browns - Oct 1, 8:15 PM",
         "vs Colts - Oct 11, 1:00 PM",
         "@ Buccaneers - Oct 18, 1:00 PM",
@@ -29,17 +30,17 @@
         "vs Broncos - Nov 27, 3:00 PM",
         "vs Texans - Dec 6, 8:20 PM",
         "@ Jaguars - Dec 14, 8:15 PM",
-        "vs Ravens - Dec 20, 1:00 PM"
+        "vs Ravens - Dec 20, 1:00 PM",
+        "vs Panthers - Dec 27, 12:00 AM"
       ]
     },
     {
       "key": "nascar",
       "title": "NASCAR",
-      "last": "Bass Pro Shops Night Race (Sep 19) - Winner: Joey Logano",
-      "next": "Hollywood Casino 400 - Kansas Speedway (Sep 27)",
-      "recap": "Bass Pro Shops Night Race - Bristol Motor Speedway (Sep 19)\nWinner: Joey Logano\n13 lead changes, 10 cautions\n\nTop 10 (points earned):\n   1. Joey Logano - 73\n   2. Kyle Larson - 47\n   3. Carson Hocevar - 41\n   4. Christopher Bell - 39\n   5. Ty Gibbs - 47\n   6. Josh Berry - 38\n   7. Bubba Wallace - 36\n   8. Denny Hamlin - 37\n   9. William Byron - 31\n  10. Ryan Preece - 27",
+      "last": "Hollywood Casino 400 (Sep 27) - Winner: Kyle Larson",
+      "next": "South Point 400 - Las Vegas Motor Speedway (Oct 4)",
+      "recap": "Hollywood Casino 400 - Kansas Speedway (Sep 27)\nWinner: Kyle Larson\n13 lead changes, 5 cautions\n\nTop 10 (points earned):\n   1. Kyle Larson - 76\n   2. Austin Cindric - 52\n   3. Denny Hamlin - 51\n   4. Chase Briscoe - 40\n   5. Ryan Blaney - 37\n   6. Christopher Bell - 43\n   7. William Byron - 39\n   8. Chase Elliott - 32\n   9. Bubba Wallace - 28\n  10. Ryan Preece - 27",
       "schedule": [
-        "Hollywood Casino 400 - Kansas Speedway (Sep 27)",
         "South Point 400 - Las Vegas Motor Speedway (Oct 4)",
         "Bank of America 400 - Charlotte Motor Speedway (Oct 11)",
         "Freeway Insurance 500 - Phoenix Raceway (Oct 18)",
@@ -51,22 +52,22 @@
         "title": "Playoffs - points, playoff wins",
         "cols": 2,
         "items": [
-          " 1 Logano 2178 1W",
-          " 2 Larson 2177 1W",
-          " 3 Bell 2155 1W",
-          " 4 Hamlin 2145 0W",
-          " 5 Gibbs 2127 0W",
-          " 6 Reddick 2114 0W",
-          " 7 Blaney 2113 0W",
-          " 8 Hocevar 2108 0W",
-          " 9 Wallace 2106 0W",
-          "10 Preece 2089 0W",
-          "11 Byron 2073 0W",
-          "12 Briscoe 2072 0W",
-          "13 Elliott 2062 0W",
-          "14 Van Gisbergen 2054 0W",
-          "15 Suarez 2053 0W",
-          "16 Buescher 2052 0W"
+          " 1 Larson 2261 2W",
+          " 2 Logano 2203 1W",
+          " 3 Bell 2197 1W",
+          " 4 Hamlin 2196 0W",
+          " 5 Gibbs 2151 0W",
+          " 6 Blaney 2150 0W",
+          " 7 Reddick 2140 0W",
+          " 8 Cindric 2138 0W",
+          " 9 Wallace 2135 0W",
+          "10 Hocevar 2117 0W",
+          "11 Preece 2116 0W",
+          "12 Briscoe 2112 0W",
+          "13 Byron 2112 0W",
+          "14 Elliott 2095 0W",
+          "15 Suarez 2076 0W",
+          "16 Van Gisbergen 2067 0W"
         ]
       }
     }

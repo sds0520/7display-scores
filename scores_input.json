@@ -3,14 +3,24 @@
     "team_label": "Yankees",
     "next": {
       "is_home": true,
-      "opponent": "Baltimore Orioles",
-      "date": "2026-09-27T17:05:00Z"
+      "opponent": "Boston Red Sox",
+      "date": "2026-09-30T00:00:00Z"
     },
     "schedule": [
       {
         "is_home": true,
-        "opponent": "Baltimore Orioles",
-        "date": "2026-09-27T17:05:00Z"
+        "opponent": "Boston Red Sox",
+        "date": "2026-09-30T00:00:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Boston Red Sox",
+        "date": "2026-10-01T00:00:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Boston Red Sox",
+        "date": "2026-10-02T00:00:00Z"
       }
     ],
     "last": {
@@ -22,7 +32,7 @@
       "venue": "Yankee Stadium",
       "record": "92-68",
       "division_standing": "2nd AL East",
-      "games_back": "5.5 GB",
+      "games_back": "5 GB",
       "winning_pitcher": {
         "name": "Will Warren",
         "wins": 13,
@@ -40,16 +50,11 @@
   "nfl": {
     "team_label": "Steelers",
     "next": {
-      "is_home": true,
-      "opponent": "Cincinnati Bengals",
-      "date": "2026-09-27T17:00:00Z"
+      "is_home": false,
+      "opponent": "Cleveland Browns",
+      "date": "2026-10-02T00:15:00Z"
     },
     "schedule": [
-      {
-        "is_home": true,
-        "opponent": "Cincinnati Bengals",
-        "date": "2026-09-27T17:00:00Z"
-      },
       {
         "is_home": false,
         "opponent": "Cleveland Browns",
@@ -104,50 +109,55 @@
         "is_home": true,
         "opponent": "Baltimore Ravens",
         "date": "2026-12-20T18:00:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Carolina Panthers",
+        "date": "2026-12-27T05:00:00Z"
       }
     ],
     "last": {
-      "is_home": false,
-      "opponent": "New England Patriots",
-      "team_score": 3,
-      "opp_score": 20,
-      "date": "2026-09-20T17:00:00Z",
-      "record": "1-1-0",
-      "division_standing": "2nd AFC North",
-      "games_back": "1 GB",
+      "is_home": true,
+      "opponent": "Cincinnati Bengals",
+      "team_score": 30,
+      "opp_score": 27,
+      "date": "2026-09-27T17:00:00Z",
+      "record": "2-1-0",
+      "division_standing": "1st AFC North",
+      "games_back": "tied",
       "turnovers": {
-        "team": 4,
+        "team": 2,
         "opponent": 4,
         "forced": 4
       },
       "sacks": {
-        "by_team": 6,
-        "allowed": 8
+        "by_team": 2,
+        "allowed": 4
       },
       "qb": {
         "name": "Aaron Rodgers",
-        "completions": 23,
-        "attempts": 39,
-        "pass_yards": 187,
-        "pass_tds": 0,
+        "completions": 19,
+        "attempts": 34,
+        "pass_yards": 292,
+        "pass_tds": 3,
         "interceptions": 1,
-        "rating": 60.5,
-        "sacked": 4,
-        "rush_yards": 5
+        "rating": 101.6,
+        "sacked": 2,
+        "rush_yards": 10
       },
       "top_rb": {
         "name": "Jaylen Warren",
-        "carries": 11,
-        "rush_yards": 43,
+        "carries": 17,
+        "rush_yards": 127,
         "rush_tds": 0,
-        "long": 10
+        "long": 35
       },
       "top_wr": {
-        "name": "Germie Bernard",
-        "receptions": 4,
-        "rec_yards": 35,
+        "name": "Darnell Washington",
+        "receptions": 3,
+        "rec_yards": 67,
         "rec_tds": 0,
-        "long": 19
+        "long": 47
       }
     }
   },
@@ -223,16 +233,11 @@
   },
   "nascar": {
     "next": {
-      "name": "Hollywood Casino 400 ",
-      "date": "2026-09-27",
-      "venue": "Kansas Speedway"
+      "name": "South Point 400",
+      "date": "2026-10-04",
+      "venue": "Las Vegas Motor Speedway"
     },
     "schedule": [
-      {
-        "name": "Hollywood Casino 400 ",
-        "date": "2026-09-27",
-        "venue": "Kansas Speedway"
-      },
       {
         "name": "South Point 400",
         "date": "2026-10-04",
@@ -265,55 +270,55 @@
       }
     ],
     "last": {
-      "name": "Bass Pro Shops Night Race",
-      "date": "2026-09-19",
-      "venue": "Bristol Motor Speedway",
-      "winner": "Joey Logano",
+      "name": "Hollywood Casino 400 ",
+      "date": "2026-09-27",
+      "venue": "Kansas Speedway",
+      "winner": "Kyle Larson",
       "top_10_finishers": [
         {
           "position": 1,
-          "driver": "Joey Logano",
-          "points_earned": 73
+          "driver": "Kyle Larson",
+          "points_earned": 76
         },
         {
           "position": 2,
-          "driver": "Kyle Larson",
-          "points_earned": 47
+          "driver": "Austin Cindric",
+          "points_earned": 52
         },
         {
           "position": 3,
-          "driver": "Carson Hocevar",
-          "points_earned": 41
+          "driver": "Denny Hamlin",
+          "points_earned": 51
         },
         {
           "position": 4,
-          "driver": "Christopher Bell",
-          "points_earned": 39
+          "driver": "Chase Briscoe",
+          "points_earned": 40
         },
         {
           "position": 5,
-          "driver": "Ty Gibbs",
-          "points_earned": 47
-        },
-        {
-          "position": 6,
-          "driver": "Josh Berry",
-          "points_earned": 38
-        },
-        {
-          "position": 7,
-          "driver": "Bubba Wallace",
-          "points_earned": 36
-        },
-        {
-          "position": 8,
-          "driver": "Denny Hamlin",
+          "driver": "Ryan Blaney",
           "points_earned": 37
         },
         {
-          "position": 9,
+          "position": 6,
+          "driver": "Christopher Bell",
+          "points_earned": 43
+        },
+        {
+          "position": 7,
           "driver": "William Byron",
-          "points_earned": 31
+          "points_earned": 39
+        },
+        {
+          "position": 8,
+          "driver": "Chase Elliott",
+          "points_earned": 32
+        },
+        {
+          "position": 9,
+          "driver": "Bubba Wallace",
+          "points_earned": 28
         },
         {
           "position": 10,
@@ -321,36 +326,36 @@
           "points_earned": 27
         }
       ],
-      "cautions": 10,
+      "cautions": 5,
       "lead_changes": 13
     },
     "standings": [
       {
         "position": 1,
+        "last_name": "Larson",
+        "full_name": "Kyle Larson",
+        "playoff_points": 24,
+        "total_points": 2261,
+        "playoff_wins": 2,
+        "season_wins": 2,
+        "stage_wins": 8
+      },
+      {
+        "position": 2,
         "last_name": "Logano",
         "full_name": "Joey Logano",
         "playoff_points": 23,
-        "total_points": 2178,
+        "total_points": 2203,
         "playoff_wins": 1,
         "season_wins": 3,
         "stage_wins": 4
       },
       {
-        "position": 2,
-        "last_name": "Larson",
-        "full_name": "Kyle Larson",
-        "playoff_points": 16,
-        "total_points": 2177,
-        "playoff_wins": 1,
-        "season_wins": 1,
-        "stage_wins": 6
-      },
-      {
         "position": 3,
         "last_name": "Bell",
         "full_name": "Christopher Bell",
-        "playoff_points": 16,
-        "total_points": 2155,
+        "playoff_points": 15,
+        "total_points": 2197,
         "playoff_wins": 1,
         "season_wins": 1,
         "stage_wins": 5
@@ -360,7 +365,7 @@
         "last_name": "Hamlin",
         "full_name": "Denny Hamlin",
         "playoff_points": 40,
-        "total_points": 2145,
+        "total_points": 2196,
         "playoff_wins": 0,
         "season_wins": 4,
         "stage_wins": 5
@@ -370,97 +375,97 @@
         "last_name": "Gibbs",
         "full_name": "Ty Gibbs",
         "playoff_points": 23,
-        "total_points": 2127,
+        "total_points": 2151,
         "playoff_wins": 0,
         "season_wins": 2,
         "stage_wins": 5
       },
       {
         "position": 6,
-        "last_name": "Reddick",
-        "full_name": "Tyler Reddick",
-        "playoff_points": 34,
-        "total_points": 2114,
-        "playoff_wins": 0,
-        "season_wins": 5,
-        "stage_wins": 2
-      },
-      {
-        "position": 7,
         "last_name": "Blaney",
         "full_name": "Ryan Blaney",
         "playoff_points": 34,
-        "total_points": 2113,
+        "total_points": 2150,
         "playoff_wins": 0,
         "season_wins": 3,
         "stage_wins": 9
       },
       {
-        "position": 8,
-        "last_name": "Hocevar",
-        "full_name": "Carson Hocevar",
-        "playoff_points": 7,
-        "total_points": 2108,
+        "position": 7,
+        "last_name": "Reddick",
+        "full_name": "Tyler Reddick",
+        "playoff_points": 34,
+        "total_points": 2140,
         "playoff_wins": 0,
-        "season_wins": 1,
-        "stage_wins": 0
+        "season_wins": 5,
+        "stage_wins": 2
+      },
+      {
+        "position": 8,
+        "last_name": "Cindric",
+        "full_name": "Austin Cindric",
+        "playoff_points": 1,
+        "total_points": 2138,
+        "playoff_wins": 0,
+        "season_wins": 0,
+        "stage_wins": 1
       },
       {
         "position": 9,
         "last_name": "Wallace",
         "full_name": "Bubba Wallace",
-        "playoff_points": 2,
-        "total_points": 2106,
+        "playoff_points": 3,
+        "total_points": 2135,
         "playoff_wins": 0,
         "season_wins": 0,
         "stage_wins": 2
       },
       {
         "position": 10,
-        "last_name": "Preece",
-        "full_name": "Ryan Preece",
-        "playoff_points": 7,
-        "total_points": 2089,
+        "last_name": "Hocevar",
+        "full_name": "Carson Hocevar",
+        "playoff_points": 5,
+        "total_points": 2117,
         "playoff_wins": 0,
         "season_wins": 1,
-        "stage_wins": 2
+        "stage_wins": 0
       },
       {
         "position": 11,
-        "last_name": "Byron",
-        "full_name": "William Byron",
-        "playoff_points": 3,
-        "total_points": 2073,
+        "last_name": "Preece",
+        "full_name": "Ryan Preece",
+        "playoff_points": 7,
+        "total_points": 2116,
         "playoff_wins": 0,
-        "season_wins": 0,
-        "stage_wins": 3
+        "season_wins": 1,
+        "stage_wins": 2
       },
       {
         "position": 12,
         "last_name": "Briscoe",
         "full_name": "Chase Briscoe",
         "playoff_points": 8,
-        "total_points": 2072,
+        "total_points": 2112,
         "playoff_wins": 0,
         "season_wins": 1,
         "stage_wins": 0
       },
       {
         "position": 13,
-        "last_name": "Elliott",
-        "full_name": "Chase Elliott",
-        "playoff_points": 13,
-        "total_points": 2062,
+        "last_name": "Byron",
+        "full_name": "William Byron",
+        "playoff_points": 3,
+        "total_points": 2112,
         "playoff_wins": 0,
-        "season_wins": 2,
-        "stage_wins": 2
+        "season_wins": 0,
+        "stage_wins": 3
       },
       {
         "position": 14,
-        "last_name": "Van Gisbergen",
-        "full_name": "Shane Van Gisbergen",
-        "playoff_points": 12,
-        "total_points": 2054,
+        "last_name": "Elliott",
+        "full_name": "Chase Elliott",
+        "playoff_points": 14,
+        "total_points": 2095,
         "playoff_wins": 0,
         "season_wins": 2,
         "stage_wins": 2
@@ -470,25 +475,25 @@
         "last_name": "Suárez",
         "full_name": "Daniel Suárez",
         "playoff_points": 6,
-        "total_points": 2053,
+        "total_points": 2076,
         "playoff_wins": 0,
         "season_wins": 1,
         "stage_wins": 1
       },
       {
         "position": 16,
-        "last_name": "Buescher",
-        "full_name": "Chris Buescher",
-        "playoff_points": 0,
-        "total_points": 2052,
+        "last_name": "Van Gisbergen",
+        "full_name": "Shane Van Gisbergen",
+        "playoff_points": 12,
+        "total_points": 2067,
         "playoff_wins": 0,
-        "season_wins": 0,
-        "stage_wins": 0
+        "season_wins": 2,
+        "stage_wins": 2
       }
     ],
     "standings_mode": "playoffs",
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-09-27T02:32:00.282258-04:00"
+  "collected_at": "2026-09-28T02:32:55.162432-04:00"
 }
