@@ -1,13 +1,39 @@
 {
-  "generated_at": "2026-09-28T02:33:20.274294-04:00",
-  "today_date": "2026-09-28",
-  "tomorrow_date": "2026-09-29",
+  "generated_at": "2026-09-29T02:32:44.218913-04:00",
+  "today_date": "2026-09-29",
+  "tomorrow_date": "2026-09-30",
   "today": [
+    {
+      "title": "Japanese Table",
+      "time": "12:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Jury Pool Meeting (Tentative)",
+      "time": "3:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "tomorrow": [
+    {
+      "title": "BIOL103 - Exam I",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
+    },
     {
       "title": "Japanese",
       "time": "8:30 AM",
       "all_day": false,
       "who": "Abby"
+    },
+    {
+      "title": "Hand Surgeon",
+      "time": "8:30 AM",
+      "all_day": false,
+      "who": "Abby (StAbby)"
     },
     {
       "title": "BIOL182 Lecture",
@@ -22,93 +48,19 @@
       "who": "Abby"
     },
     {
-      "title": "Office Hours",
-      "time": "12:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Prep Time",
+      "title": "BIOL182 Lab",
       "time": "1:30 PM",
       "all_day": false,
       "who": "Abby"
     },
     {
-      "title": "Leah",
-      "time": "2:15 PM",
+      "title": "Setback 2",
+      "time": "6:15 PM",
       "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Call Lauren",
-      "time": "3:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
-    {
-      "title": "Japanese Table",
-      "time": "12:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Jury Pool Meeting (Tentative)",
-      "time": "3:00 PM",
-      "all_day": false,
-      "who": "Abby"
+      "who": "Abby (StAbby)"
     }
   ],
   "week": [
-    {
-      "date": "2026-09-28",
-      "day_name": "Monday, Sep 28",
-      "events": [
-        {
-          "title": "Japanese",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lecture",
-          "time": "10:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL103 Lecture",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Office Hours",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Prep Time",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Leah",
-          "time": "2:15 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Call Lauren",
-          "time": "3:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
-    },
     {
       "date": "2026-09-29",
       "day_name": "Tuesday, Sep 29",
@@ -287,6 +239,36 @@
       "date": "2026-10-04",
       "day_name": "Sunday, Oct 4",
       "events": []
+    },
+    {
+      "date": "2026-10-05",
+      "day_name": "Monday, Oct 5",
+      "events": [
+        {
+          "title": "Japanese",
+          "time": "8:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lecture",
+          "time": "10:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL103 Lecture",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Office Hours",
+          "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
     }
   ]
 }
