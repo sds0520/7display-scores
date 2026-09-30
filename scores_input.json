@@ -4,14 +4,9 @@
     "next": {
       "is_home": true,
       "opponent": "Boston Red Sox",
-      "date": "2026-09-30T00:00:00Z"
+      "date": "2026-10-01T00:00:00Z"
     },
     "schedule": [
-      {
-        "is_home": true,
-        "opponent": "Boston Red Sox",
-        "date": "2026-09-30T00:00:00Z"
-      },
       {
         "is_home": true,
         "opponent": "Boston Red Sox",
@@ -25,26 +20,32 @@
     ],
     "last": {
       "is_home": true,
-      "opponent": "Baltimore Orioles",
-      "team_score": 6,
-      "opp_score": 3,
-      "date": "2026-09-25T23:25:00Z",
+      "opponent": "Boston Red Sox",
+      "team_score": 9,
+      "opp_score": 0,
+      "date": "2026-09-30T00:00:00Z",
       "venue": "Yankee Stadium",
-      "record": "92-68",
       "division_standing": "2nd AL East",
       "games_back": "5 GB",
       "winning_pitcher": {
-        "name": "Will Warren",
-        "wins": 13,
-        "losses": 7,
-        "era": "3.52"
+        "name": "Cam Schlittler",
+        "wins": 17,
+        "losses": 6,
+        "era": "1.85"
       },
       "losing_pitcher": {
-        "name": "Brandon Young",
+        "name": "Payton Tolle",
         "wins": 9,
-        "losses": 6,
-        "era": "3.70"
-      }
+        "losses": 7,
+        "era": "3.07"
+      },
+      "home_runs": [
+        {
+          "player": "Ben Rice",
+          "in_game": 2,
+          "season_total": 45
+        }
+      ]
     }
   },
   "nfl": {
@@ -495,5 +496,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-09-29T02:32:18.790329-04:00"
+  "collected_at": "2026-09-30T02:31:59.011948-04:00"
 }

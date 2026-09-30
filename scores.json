@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-09-29T02:32:23.487813-04:00",
+  "generated_at": "2026-09-30T02:32:03.083667-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
-      "last": "W 6-3 vs Orioles (Sep 25)",
-      "next": "vs Sox - Sep 29, 8:00 PM",
-      "recap": "Yankees beat Orioles 6-3\nHome, Sep 25\nRecord: 92-68 (2nd AL East, 5 GB)\nW: Will Warren (13-7, 3.52 ERA)\nL: Brandon Young (9-6, 3.70 ERA)",
+      "last": "W 9-0 vs Sox (Sep 29)",
+      "next": "vs Sox - Sep 30, 8:00 PM",
+      "recap": "Yankees beat Sox 9-0\nHome, Sep 29\nStanding: 2nd AL East, 5 GB\nW: Cam Schlittler (17-6, 1.85 ERA)\nL: Payton Tolle (9-7, 3.07 ERA)\nHome runs:\n  Ben Rice x2 - 45 on the season",
       "schedule": [
-        "vs Sox - Sep 29, 8:00 PM",
         "vs Sox - Sep 30, 8:00 PM",
         "vs Sox - Oct 1, 8:00 PM"
       ]

@@ -1,22 +1,8 @@
 {
-  "generated_at": "2026-09-29T02:32:44.218913-04:00",
-  "today_date": "2026-09-29",
-  "tomorrow_date": "2026-09-30",
+  "generated_at": "2026-09-30T02:32:23.399511-04:00",
+  "today_date": "2026-09-30",
+  "tomorrow_date": "2026-10-01",
   "today": [
-    {
-      "title": "Japanese Table",
-      "time": "12:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Jury Pool Meeting (Tentative)",
-      "time": "3:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "BIOL103 - Exam I",
       "time": "All day",
@@ -60,25 +46,33 @@
       "who": "Abby (StAbby)"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-09-29",
-      "day_name": "Tuesday, Sep 29",
-      "events": [
-        {
-          "title": "Japanese Table",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Jury Pool Meeting (Tentative)",
-          "time": "3:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
+      "title": "Able to donate blood again",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
     },
+    {
+      "title": "Dr. Solinsky",
+      "time": "8:30 AM",
+      "all_day": false,
+      "who": "Abby (StAbby)"
+    },
+    {
+      "title": "Office Hours",
+      "time": "11:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL182 Lab",
+      "time": "1:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-09-30",
       "day_name": "Wednesday, Sep 30",
@@ -238,7 +232,14 @@
     {
       "date": "2026-10-04",
       "day_name": "Sunday, Oct 4",
-      "events": []
+      "events": [
+        {
+          "title": "MA Fettle Fest 2026",
+          "time": "10:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
     },
     {
       "date": "2026-10-05",
@@ -265,6 +266,30 @@
         {
           "title": "Office Hours",
           "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "day_name": "Tuesday, Oct 6",
+      "events": [
+        {
+          "title": "Prime Days",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Japanese Table",
+          "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Faculty Meeting",
+          "time": "12:15 PM",
           "all_day": false,
           "who": "Abby"
         }
