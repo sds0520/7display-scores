@@ -1,52 +1,8 @@
 {
-  "generated_at": "2026-09-30T02:32:23.399511-04:00",
-  "today_date": "2026-09-30",
-  "tomorrow_date": "2026-10-01",
+  "generated_at": "2026-10-01T02:32:59.024686-04:00",
+  "today_date": "2026-10-01",
+  "tomorrow_date": "2026-10-02",
   "today": [
-    {
-      "title": "BIOL103 - Exam I",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby"
-    },
-    {
-      "title": "Japanese",
-      "time": "8:30 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Hand Surgeon",
-      "time": "8:30 AM",
-      "all_day": false,
-      "who": "Abby (StAbby)"
-    },
-    {
-      "title": "BIOL182 Lecture",
-      "time": "10:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL103 Lecture",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lab",
-      "time": "1:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Setback 2",
-      "time": "6:15 PM",
-      "all_day": false,
-      "who": "Abby (StAbby)"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "Able to donate blood again",
       "time": "All day",
@@ -72,55 +28,63 @@
       "who": "Abby"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-09-30",
-      "day_name": "Wednesday, Sep 30",
-      "events": [
-        {
-          "title": "BIOL103 - Exam I",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "Japanese",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Hand Surgeon",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby (StAbby)"
-        },
-        {
-          "title": "BIOL182 Lecture",
-          "time": "10:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL103 Lecture",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lab",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Setback 2",
-          "time": "6:15 PM",
-          "all_day": false,
-          "who": "Abby (StAbby)"
-        }
-      ]
+      "title": "Silver Scream Con",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby (StAbby)"
     },
+    {
+      "title": "Japanese",
+      "time": "8:30 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL182 Lecture",
+      "time": "10:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL103 Lecture",
+      "time": "11:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Meeting with Claire",
+      "time": "12:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL182 Weekly Meeting",
+      "time": "12:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Biology Bakes",
+      "time": "1:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Seminar: Students",
+      "time": "1:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Department Meeting",
+      "time": "2:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-10-01",
       "day_name": "Thursday, Oct 1",
@@ -292,6 +256,48 @@
           "time": "12:15 PM",
           "all_day": false,
           "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "day_name": "Wednesday, Oct 7",
+      "events": [
+        {
+          "title": "BIOL103 - Quiz 3",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Japanese",
+          "time": "8:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lecture",
+          "time": "10:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL103 Lecture",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lab",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Setback 3",
+          "time": "6:15 PM",
+          "all_day": false,
+          "who": "Abby (StAbby)"
         }
       ]
     }
