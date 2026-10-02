@@ -25,17 +25,17 @@
       {
         "is_home": true,
         "opponent": "Tampa Bay Rays",
-        "date": "2026-10-07T10:48:00Z"
+        "date": "2026-10-08T00:00:00Z"
       },
       {
         "is_home": true,
         "opponent": "Tampa Bay Rays",
-        "date": "2026-10-08T10:48:00Z"
+        "date": "2026-10-09T00:00:00Z"
       },
       {
         "is_home": false,
         "opponent": "Tampa Bay Rays",
-        "date": "2026-10-10T10:48:00Z"
+        "date": "2026-10-11T00:00:00Z"
       }
     ],
     "last": {
@@ -45,8 +45,9 @@
       "opp_score": 2,
       "date": "2026-10-01T00:00:00Z",
       "venue": "Yankee Stadium",
-      "division_standing": "2nd AL East",
-      "games_back": "5 GB",
+      "record": "2-0",
+      "division_standing": "1st AL East",
+      "games_back": "tied",
       "winning_pitcher": {
         "name": "Max Fried",
         "wins": 6,
@@ -76,16 +77,11 @@
   "nfl": {
     "team_label": "Steelers",
     "next": {
-      "is_home": false,
-      "opponent": "Cleveland Browns",
-      "date": "2026-10-02T00:15:00Z"
+      "is_home": true,
+      "opponent": "Indianapolis Colts",
+      "date": "2026-10-11T17:00:00Z"
     },
     "schedule": [
-      {
-        "is_home": false,
-        "opponent": "Cleveland Browns",
-        "date": "2026-10-02T00:15:00Z"
-      },
       {
         "is_home": true,
         "opponent": "Indianapolis Colts",
@@ -140,50 +136,55 @@
         "is_home": true,
         "opponent": "Carolina Panthers",
         "date": "2026-12-27T05:00:00Z"
+      },
+      {
+        "is_home": false,
+        "opponent": "Tennessee Titans",
+        "date": "2027-01-03T18:00:00Z"
       }
     ],
     "last": {
-      "is_home": true,
-      "opponent": "Cincinnati Bengals",
-      "team_score": 30,
+      "is_home": false,
+      "opponent": "Cleveland Browns",
+      "team_score": 24,
       "opp_score": 27,
-      "date": "2026-09-27T17:00:00Z",
-      "record": "2-1-0",
-      "division_standing": "1st AFC North",
-      "games_back": "tied",
+      "date": "2026-10-02T00:15:00Z",
+      "record": "2-2-0",
+      "division_standing": "4th AFC North",
+      "games_back": "1 GB",
       "turnovers": {
-        "team": 2,
+        "team": 4,
         "opponent": 4,
         "forced": 4
       },
       "sacks": {
-        "by_team": 2,
-        "allowed": 4
+        "by_team": 5,
+        "allowed": 10
       },
       "qb": {
         "name": "Aaron Rodgers",
-        "completions": 19,
-        "attempts": 34,
-        "pass_yards": 292,
+        "completions": 22,
+        "attempts": 40,
+        "pass_yards": 299,
         "pass_tds": 3,
-        "interceptions": 1,
-        "rating": 101.6,
-        "sacked": 2,
-        "rush_yards": 10
+        "interceptions": 2,
+        "rating": 83.2,
+        "sacked": 5,
+        "rush_yards": 0
       },
       "top_rb": {
         "name": "Jaylen Warren",
         "carries": 17,
-        "rush_yards": 127,
+        "rush_yards": 93,
         "rush_tds": 0,
-        "long": 35
+        "long": 24
       },
       "top_wr": {
-        "name": "Darnell Washington",
-        "receptions": 3,
-        "rec_yards": 67,
+        "name": "DK Metcalf",
+        "receptions": 5,
+        "rec_yards": 115,
         "rec_tds": 0,
-        "long": 47
+        "long": 43
       }
     }
   },
@@ -521,5 +522,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-10-01T02:32:37.621097-04:00"
+  "collected_at": "2026-10-02T02:31:59.048054-04:00"
 }

@@ -1,34 +1,8 @@
 {
-  "generated_at": "2026-10-01T02:32:59.024686-04:00",
-  "today_date": "2026-10-01",
-  "tomorrow_date": "2026-10-02",
+  "generated_at": "2026-10-02T02:32:16.475902-04:00",
+  "today_date": "2026-10-02",
+  "tomorrow_date": "2026-10-03",
   "today": [
-    {
-      "title": "Able to donate blood again",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby"
-    },
-    {
-      "title": "Dr. Solinsky",
-      "time": "8:30 AM",
-      "all_day": false,
-      "who": "Abby (StAbby)"
-    },
-    {
-      "title": "Office Hours",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lab",
-      "time": "1:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "Silver Scream Con",
       "time": "All day",
@@ -84,37 +58,27 @@
       "who": "Abby"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-10-01",
-      "day_name": "Thursday, Oct 1",
-      "events": [
-        {
-          "title": "Able to donate blood again",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "Dr. Solinsky",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby (StAbby)"
-        },
-        {
-          "title": "Office Hours",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lab",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
+      "title": "Payless for Oil Anniversary Sale",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
     },
+    {
+      "title": "Anime Club at the Library",
+      "time": "11:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Donate Platelets",
+      "time": "1:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-10-02",
       "day_name": "Friday, Oct 2",
@@ -188,6 +152,12 @@
         {
           "title": "Anime Club at the Library",
           "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Donate Platelets",
+          "time": "1:30 PM",
           "all_day": false,
           "who": "Abby"
         }
@@ -298,6 +268,30 @@
           "time": "6:15 PM",
           "all_day": false,
           "who": "Abby (StAbby)"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "day_name": "Thursday, Oct 8",
+      "events": [
+        {
+          "title": "Geneticist Applications Due",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Office Hours",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lab",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
         }
       ]
     }

@@ -1,29 +1,28 @@
 {
-  "generated_at": "2026-10-01T02:32:37.731146-04:00",
+  "generated_at": "2026-10-02T02:31:59.196470-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
       "last": "W 9-2 vs Sox (Sep 30)",
       "next": "vs Sox - Oct 1, 8:00 PM",
-      "recap": "Yankees beat Sox 9-2\nHome, Sep 30\nStanding: 2nd AL East, 5 GB\nW: Max Fried (6-5, 2.91 ERA)\nL: Sonny Gray (18-7, 2.92 ERA)\nHome runs:\n  Cody Bellinger - 18 on the season\n  Luis Garcia Jr. - 32 on the season",
+      "recap": "Yankees beat Sox 9-2\nHome, Sep 30\nRecord: 2-0 (1st AL East, tied)\nW: Max Fried (6-5, 2.91 ERA)\nL: Sonny Gray (18-7, 2.92 ERA)\nHome runs:\n  Cody Bellinger - 18 on the season\n  Luis Garcia Jr. - 32 on the season",
       "schedule": [
         "vs Sox - Oct 1, 8:00 PM",
         "@ Rays - Oct 3, 6:30 PM",
         "@ Rays - Oct 5, 8:00 PM",
-        "vs Rays - Oct 7, 6:48 AM",
-        "vs Rays - Oct 8, 6:48 AM",
-        "@ Rays - Oct 10, 6:48 AM"
+        "vs Rays - Oct 7, 8:00 PM",
+        "vs Rays - Oct 8, 8:00 PM",
+        "@ Rays - Oct 10, 8:00 PM"
       ]
     },
     {
       "key": "nfl",
       "title": "NFL - Steelers",
-      "last": "W 30-27 vs Bengals (Sep 27)",
-      "next": "@ Browns - Oct 1, 8:15 PM",
-      "recap": "Steelers beat Bengals 30-27\nHome, Sep 27\nRecord: 2-1-0 (1st AFC North, tied)\nQB Aaron Rodgers: 19/34, 292 yds, 3 TD, 1 INT\nRB Jaylen Warren: 17 car, 127 yds\nWR Darnell Washington: 3 rec, 67 yds\nTurnovers: 2 lost, 4 forced\nSacks: 2 for, 4 allowed",
+      "last": "L 24-27 @ Browns (Oct 1)",
+      "next": "vs Colts - Oct 11, 1:00 PM",
+      "recap": "Steelers lost to Browns 24-27\nAway, Oct 1\nRecord: 2-2-0 (4th AFC North, 1 GB)\nQB Aaron Rodgers: 22/40, 299 yds, 3 TD, 2 INT\nRB Jaylen Warren: 17 car, 93 yds\nWR DK Metcalf: 5 rec, 115 yds\nTurnovers: 4 lost, 4 forced\nSacks: 5 for, 10 allowed",
       "schedule": [
-        "@ Browns - Oct 1, 8:15 PM",
         "vs Colts - Oct 11, 1:00 PM",
         "@ Buccaneers - Oct 18, 1:00 PM",
         "@ Saints - Oct 25, 9:30 AM",
@@ -34,7 +33,8 @@
         "vs Texans - Dec 6, 8:20 PM",
         "@ Jaguars - Dec 14, 8:15 PM",
         "vs Ravens - Dec 20, 1:00 PM",
-        "vs Panthers - Dec 27, 12:00 AM"
+        "vs Panthers - Dec 27, 12:00 AM",
+        "@ Titans - Jan 3, 1:00 PM"
       ]
     },
     {
