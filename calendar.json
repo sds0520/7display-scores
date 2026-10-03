@@ -1,64 +1,8 @@
 {
-  "generated_at": "2026-10-02T02:32:16.475902-04:00",
-  "today_date": "2026-10-02",
-  "tomorrow_date": "2026-10-03",
+  "generated_at": "2026-10-03T02:33:56.002607-04:00",
+  "today_date": "2026-10-03",
+  "tomorrow_date": "2026-10-04",
   "today": [
-    {
-      "title": "Silver Scream Con",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby (StAbby)"
-    },
-    {
-      "title": "Japanese",
-      "time": "8:30 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lecture",
-      "time": "10:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL103 Lecture",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Meeting with Claire",
-      "time": "12:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Weekly Meeting",
-      "time": "12:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Biology Bakes",
-      "time": "1:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Seminar: Students",
-      "time": "1:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Department Meeting",
-      "time": "2:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "Payless for Oil Anniversary Sale",
       "time": "All day",
@@ -78,67 +22,15 @@
       "who": "Abby"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-10-02",
-      "day_name": "Friday, Oct 2",
-      "events": [
-        {
-          "title": "Silver Scream Con",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby (StAbby)"
-        },
-        {
-          "title": "Japanese",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lecture",
-          "time": "10:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL103 Lecture",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Meeting with Claire",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Weekly Meeting",
-          "time": "12:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Biology Bakes",
-          "time": "1:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Seminar: Students",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Department Meeting",
-          "time": "2:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
-    },
+      "title": "MA Fettle Fest 2026",
+      "time": "10:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-10-03",
       "day_name": "Saturday, Oct 3",
@@ -290,6 +182,66 @@
         {
           "title": "BIOL182 Lab",
           "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "day_name": "Friday, Oct 9",
+      "events": [
+        {
+          "title": "Subscreening Committee Meeting",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Riverton Fair",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby (StAbby)"
+        },
+        {
+          "title": "Japanese",
+          "time": "8:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lecture",
+          "time": "10:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL103 Lecture",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Meeting with Claire",
+          "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Biology Bakes",
+          "time": "1:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Seminar: Students",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Meet with Hebe",
+          "time": "2:30 PM",
           "all_day": false,
           "who": "Abby"
         }
