@@ -15,11 +15,6 @@
       {
         "is_home": false,
         "opponent": "Tampa Bay Rays",
-        "date": "2026-10-03T22:30:00Z"
-      },
-      {
-        "is_home": false,
-        "opponent": "Tampa Bay Rays",
         "date": "2026-10-06T00:00:00Z"
       },
       {
@@ -39,39 +34,32 @@
       }
     ],
     "last": {
-      "is_home": true,
-      "opponent": "Boston Red Sox",
-      "team_score": 9,
-      "opp_score": 2,
-      "date": "2026-10-01T00:00:00Z",
-      "venue": "Yankee Stadium",
-      "record": "2-0",
-      "division_standing": "1st AL East",
-      "games_back": "tied",
+      "is_home": false,
+      "opponent": "Tampa Bay Rays",
+      "team_score": 0,
+      "opp_score": 1,
+      "date": "2026-10-03T22:30:00Z",
+      "venue": "Tropicana Field",
+      "record": "0-1",
+      "division_standing": "4th AL East",
+      "games_back": "1 GB",
       "winning_pitcher": {
-        "name": "Max Fried",
-        "wins": 6,
-        "losses": 5,
-        "era": "2.91"
+        "name": "Drew Rasmussen",
+        "wins": 17,
+        "losses": 6,
+        "era": "2.73"
       },
       "losing_pitcher": {
-        "name": "Sonny Gray",
-        "wins": 18,
-        "losses": 7,
-        "era": "2.92"
+        "name": "Gerrit Cole",
+        "wins": 10,
+        "losses": 10,
+        "era": "3.54"
       },
-      "home_runs": [
-        {
-          "player": "Cody Bellinger",
-          "in_game": 1,
-          "season_total": 18
-        },
-        {
-          "player": "Luis Garcia Jr.",
-          "in_game": 1,
-          "season_total": 32
-        }
-      ]
+      "save_pitcher": {
+        "name": "Bryan Baker",
+        "saves": 42,
+        "era": "2.05"
+      }
     }
   },
   "nfl": {
@@ -522,5 +510,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-10-03T02:33:17.173587-04:00"
+  "collected_at": "2026-10-04T02:32:26.936065-04:00"
 }

@@ -1,15 +1,14 @@
 {
-  "generated_at": "2026-10-03T02:33:17.339105-04:00",
+  "generated_at": "2026-10-04T02:32:27.067323-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
-      "last": "W 9-2 vs Sox (Sep 30)",
+      "last": "L 0-1 @ Rays (Oct 3)",
       "next": "vs Sox - Oct 1, 8:00 PM",
-      "recap": "Yankees beat Sox 9-2\nHome, Sep 30\nRecord: 2-0 (1st AL East, tied)\nW: Max Fried (6-5, 2.91 ERA)\nL: Sonny Gray (18-7, 2.92 ERA)\nHome runs:\n  Cody Bellinger - 18 on the season\n  Luis Garcia Jr. - 32 on the season",
+      "recap": "Yankees lost to Rays 0-1\nAway, Oct 3\nRecord: 0-1 (4th AL East, 1 GB)\nW: Drew Rasmussen (17-6, 2.73 ERA)\nL: Gerrit Cole (10-10, 3.54 ERA)\nSV: Bryan Baker (42 SV, 2.05 ERA)",
       "schedule": [
         "vs Sox - Oct 1, 8:00 PM",
-        "@ Rays - Oct 3, 6:30 PM",
         "@ Rays - Oct 5, 8:00 PM",
         "vs Rays - Oct 7, 8:00 PM",
         "vs Rays - Oct 8, 8:00 PM",
