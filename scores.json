@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T02:32:27.067323-04:00",
+  "generated_at": "2026-10-05T02:31:50.547243-04:00",
   "cards": [
     {
       "key": "mlb",
@@ -20,7 +20,7 @@
       "title": "NFL - Steelers",
       "last": "L 24-27 @ Browns (Oct 1)",
       "next": "vs Colts - Oct 11, 1:00 PM",
-      "recap": "Steelers lost to Browns 24-27\nAway, Oct 1\nRecord: 2-2-0 (4th AFC North, 1 GB)\nQB Aaron Rodgers: 22/40, 299 yds, 3 TD, 2 INT\nRB Jaylen Warren: 17 car, 93 yds\nWR DK Metcalf: 5 rec, 115 yds\nTurnovers: 4 lost, 4 forced\nSacks: 5 for, 10 allowed",
+      "recap": "Steelers lost to Browns 24-27\nAway, Oct 1\nRecord: 2-2-0 (3rd AFC North, 1 GB)\nQB Aaron Rodgers: 22/40, 299 yds, 3 TD, 2 INT\nRB Jaylen Warren: 17 car, 93 yds\nWR DK Metcalf: 5 rec, 115 yds\nTurnovers: 4 lost, 4 forced\nSacks: 5 for, 10 allowed",
       "schedule": [
         "vs Colts - Oct 11, 1:00 PM",
         "@ Buccaneers - Oct 18, 1:00 PM",
@@ -39,11 +39,10 @@
     {
       "key": "nascar",
       "title": "NASCAR",
-      "last": "Hollywood Casino 400 (Sep 27) - Winner: Kyle Larson",
-      "next": "South Point 400 - Las Vegas Motor Speedway (Oct 4)",
-      "recap": "Hollywood Casino 400 - Kansas Speedway (Sep 27)\nWinner: Kyle Larson\n13 lead changes, 5 cautions\n\nTop 10 (points earned):\n   1. Kyle Larson - 76\n   2. Austin Cindric - 52\n   3. Denny Hamlin - 51\n   4. Chase Briscoe - 40\n   5. Ryan Blaney - 37\n   6. Christopher Bell - 43\n   7. William Byron - 39\n   8. Chase Elliott - 32\n   9. Bubba Wallace - 28\n  10. Ryan Preece - 27",
+      "last": "South Point 400 (Oct 4) - Winner: Chase Briscoe",
+      "next": "Bank of America 400 - Charlotte Motor Speedway (Oct 11)",
+      "recap": "South Point 400 - Las Vegas Motor Speedway (Oct 4)\nWinner: Chase Briscoe\n12 lead changes, 4 cautions\n\nTop 10 (points earned):\n   1. Chase Briscoe - 75\n   2. Kyle Larson - 36\n   3. Tyler Reddick - 41\n   4. Austin Cindric - 48\n   5. Ryan Blaney - 47\n   6. William Byron - 34\n   7. Chase Elliott - 34\n   8. Bubba Wallace - 39\n   9. Shane Van Gisbergen - 28\n  10. Joey Logano - 32",
       "schedule": [
-        "South Point 400 - Las Vegas Motor Speedway (Oct 4)",
         "Bank of America 400 - Charlotte Motor Speedway (Oct 11)",
         "Freeway Insurance 500 - Phoenix Raceway (Oct 18)",
         "YellaWood 500 - Talladega Superspeedway (Oct 25)",
@@ -54,22 +53,22 @@
         "title": "Playoffs - points, playoff wins",
         "cols": 2,
         "items": [
-          " 1 Larson 2261 2W",
-          " 2 Logano 2203 1W",
-          " 3 Bell 2197 1W",
-          " 4 Hamlin 2196 0W",
-          " 5 Gibbs 2151 0W",
-          " 6 Blaney 2150 0W",
-          " 7 Reddick 2140 0W",
-          " 8 Cindric 2138 0W",
-          " 9 Wallace 2135 0W",
-          "10 Hocevar 2117 0W",
-          "11 Preece 2116 0W",
-          "12 Briscoe 2112 0W",
-          "13 Byron 2112 0W",
-          "14 Elliott 2095 0W",
-          "15 Suarez 2076 0W",
-          "16 Van Gisbergen 2067 0W"
+          " 1 Larson 2297 2W",
+          " 2 Logano 2234 1W",
+          " 3 Bell 2228 1W",
+          " 4 Hamlin 2218 0W",
+          " 5 Blaney 2197 0W",
+          " 6 Briscoe 2195 1W",
+          " 7 Cindric 2186 0W",
+          " 8 Reddick 2182 0W",
+          " 9 Wallace 2174 0W",
+          "10 Gibbs 2170 0W",
+          "11 Byron 2146 0W",
+          "12 Hocevar 2145 0W",
+          "13 Elliott 2129 0W",
+          "14 Preece 2125 0W",
+          "15 Suarez 2104 0W",
+          "16 Van Gisbergen 2095 0W"
         ]
       }
     }

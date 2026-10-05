@@ -1,16 +1,8 @@
 {
-  "generated_at": "2026-10-04T02:32:49.270415-04:00",
-  "today_date": "2026-10-04",
-  "tomorrow_date": "2026-10-05",
+  "generated_at": "2026-10-05T02:32:23.525324-04:00",
+  "today_date": "2026-10-05",
+  "tomorrow_date": "2026-10-06",
   "today": [
-    {
-      "title": "MA Fettle Fest 2026",
-      "time": "10:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "Japanese",
       "time": "8:30 AM",
@@ -36,19 +28,27 @@
       "who": "Abby"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-10-04",
-      "day_name": "Sunday, Oct 4",
-      "events": [
-        {
-          "title": "MA Fettle Fest 2026",
-          "time": "10:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
+      "title": "Prime Days",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
     },
+    {
+      "title": "Japanese Table",
+      "time": "12:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Faculty Meeting",
+      "time": "12:15 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-10-05",
       "day_name": "Monday, Oct 5",
@@ -233,6 +233,30 @@
       "date": "2026-10-10",
       "day_name": "Saturday, Oct 10",
       "events": []
+    },
+    {
+      "date": "2026-10-11",
+      "day_name": "Sunday, Oct 11",
+      "events": [
+        {
+          "title": "Donate Platelets",
+          "time": "7:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "LPOTL Side Stories Show at the Webster (Doors open at 7pm, Show 8pm)",
+          "time": "7:00 PM",
+          "all_day": false,
+          "who": "Abby (StAbby)"
+        },
+        {
+          "title": "\"SIDE STORIES\" Live Podcast",
+          "time": "8:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
     }
   ]
 }
