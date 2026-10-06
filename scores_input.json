@@ -13,11 +13,6 @@
         "date": "2026-10-02T00:00:00Z"
       },
       {
-        "is_home": false,
-        "opponent": "Tampa Bay Rays",
-        "date": "2026-10-06T00:00:00Z"
-      },
-      {
         "is_home": true,
         "opponent": "Tampa Bay Rays",
         "date": "2026-10-08T00:00:00Z"
@@ -36,30 +31,37 @@
     "last": {
       "is_home": false,
       "opponent": "Tampa Bay Rays",
-      "team_score": 0,
-      "opp_score": 1,
-      "date": "2026-10-03T22:30:00Z",
+      "team_score": 2,
+      "opp_score": 5,
+      "date": "2026-10-06T00:00:00Z",
       "venue": "Tropicana Field",
-      "record": "0-1",
+      "record": "0-2",
       "division_standing": "4th AL East",
-      "games_back": "1 GB",
+      "games_back": "2 GB",
       "winning_pitcher": {
-        "name": "Drew Rasmussen",
-        "wins": 17,
-        "losses": 6,
-        "era": "2.73"
+        "name": "Cam Booser",
+        "wins": 2,
+        "losses": 1,
+        "era": "1.72"
       },
       "losing_pitcher": {
-        "name": "Gerrit Cole",
-        "wins": 10,
-        "losses": 10,
-        "era": "3.54"
+        "name": "Cam Schlittler",
+        "wins": 17,
+        "losses": 7,
+        "era": "1.89"
       },
       "save_pitcher": {
         "name": "Bryan Baker",
-        "saves": 42,
-        "era": "2.05"
-      }
+        "saves": 43,
+        "era": "2.02"
+      },
+      "home_runs": [
+        {
+          "player": "Ben Rice",
+          "in_game": 2,
+          "season_total": 47
+        }
+      ]
     }
   },
   "nfl": {
@@ -181,13 +183,13 @@
     "next": {
       "is_home": true,
       "opponent": "Cornell",
-      "date": "2026-11-02T05:00:00Z"
+      "date": "2026-11-02T22:00:00Z"
     },
     "schedule": [
       {
         "is_home": true,
         "opponent": "Cornell",
-        "date": "2026-11-02T05:00:00Z"
+        "date": "2026-11-02T22:00:00Z"
       },
       {
         "is_home": false,
@@ -505,5 +507,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-10-05T02:31:46.032925-04:00"
+  "collected_at": "2026-10-06T02:31:47.392297-04:00"
 }

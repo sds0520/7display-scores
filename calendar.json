@@ -1,8 +1,46 @@
 {
-  "generated_at": "2026-10-05T02:32:23.525324-04:00",
-  "today_date": "2026-10-05",
-  "tomorrow_date": "2026-10-06",
+  "generated_at": "2026-10-06T02:32:19.400222-04:00",
+  "today_date": "2026-10-06",
+  "tomorrow_date": "2026-10-07",
   "today": [
+    {
+      "title": "Prime Days",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
+    },
+    {
+      "title": "Zoom Mtg with Izumi-sensei",
+      "time": "11:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Japanese Table",
+      "time": "12:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Faculty Meeting",
+      "time": "12:15 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "tomorrow": [
+    {
+      "title": "BIOL103 - Quiz 3",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
+    },
+    {
+      "title": "Aida Haile and Maley, Abigail",
+      "time": "8:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
     {
       "title": "Japanese",
       "time": "8:30 AM",
@@ -22,63 +60,25 @@
       "who": "Abby"
     },
     {
-      "title": "Office Hours",
-      "time": "12:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
-    {
-      "title": "Prime Days",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby"
-    },
-    {
-      "title": "Japanese Table",
+      "title": "Darril Rowe and Maley, Abigail",
       "time": "12:00 PM",
       "all_day": false,
       "who": "Abby"
     },
     {
-      "title": "Faculty Meeting",
-      "time": "12:15 PM",
+      "title": "BIOL182 Lab",
+      "time": "1:30 PM",
       "all_day": false,
       "who": "Abby"
+    },
+    {
+      "title": "Setback 3",
+      "time": "6:15 PM",
+      "all_day": false,
+      "who": "Abby (StAbby)"
     }
   ],
   "week": [
-    {
-      "date": "2026-10-05",
-      "day_name": "Monday, Oct 5",
-      "events": [
-        {
-          "title": "Japanese",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lecture",
-          "time": "10:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL103 Lecture",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Office Hours",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
-    },
     {
       "date": "2026-10-06",
       "day_name": "Tuesday, Oct 6",
@@ -87,6 +87,12 @@
           "title": "Prime Days",
           "time": "All day",
           "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Zoom Mtg with Izumi-sensei",
+          "time": "11:00 AM",
+          "all_day": false,
           "who": "Abby"
         },
         {
@@ -114,6 +120,12 @@
           "who": "Abby"
         },
         {
+          "title": "Aida Haile and Maley, Abigail",
+          "time": "8:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
           "title": "Japanese",
           "time": "8:30 AM",
           "all_day": false,
@@ -128,6 +140,12 @@
         {
           "title": "BIOL103 Lecture",
           "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Darril Rowe and Maley, Abigail",
+          "time": "12:00 PM",
           "all_day": false,
           "who": "Abby"
         },
@@ -253,6 +271,36 @@
         {
           "title": "\"SIDE STORIES\" Live Podcast",
           "time": "8:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "day_name": "Monday, Oct 12",
+      "events": [
+        {
+          "title": "Trinity Days",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Office Hours",
+          "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Prep Time",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Leah",
+          "time": "2:15 PM",
           "all_day": false,
           "who": "Abby"
         }

@@ -1,15 +1,14 @@
 {
-  "generated_at": "2026-10-05T02:31:50.547243-04:00",
+  "generated_at": "2026-10-06T02:31:53.527706-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
-      "last": "L 0-1 @ Rays (Oct 3)",
+      "last": "L 2-5 @ Rays (Oct 5)",
       "next": "vs Sox - Oct 1, 8:00 PM",
-      "recap": "Yankees lost to Rays 0-1\nAway, Oct 3\nRecord: 0-1 (4th AL East, 1 GB)\nW: Drew Rasmussen (17-6, 2.73 ERA)\nL: Gerrit Cole (10-10, 3.54 ERA)\nSV: Bryan Baker (42 SV, 2.05 ERA)",
+      "recap": "Yankees lost to Rays 2-5\nAway, Oct 5\nRecord: 0-2 (4th AL East, 2 GB)\nW: Cam Booser (2-1, 1.72 ERA)\nL: Cam Schlittler (17-7, 1.89 ERA)\nSV: Bryan Baker (43 SV, 2.02 ERA)\nHome runs:\n  Ben Rice x2 - 47 on the season",
       "schedule": [
         "vs Sox - Oct 1, 8:00 PM",
-        "@ Rays - Oct 5, 8:00 PM",
         "vs Rays - Oct 7, 8:00 PM",
         "vs Rays - Oct 8, 8:00 PM",
         "@ Rays - Oct 10, 8:00 PM"
