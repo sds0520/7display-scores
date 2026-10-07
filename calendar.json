@@ -1,34 +1,8 @@
 {
-  "generated_at": "2026-10-06T02:32:19.400222-04:00",
-  "today_date": "2026-10-06",
-  "tomorrow_date": "2026-10-07",
+  "generated_at": "2026-10-07T02:32:58.110897-04:00",
+  "today_date": "2026-10-07",
+  "tomorrow_date": "2026-10-08",
   "today": [
-    {
-      "title": "Prime Days",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby"
-    },
-    {
-      "title": "Zoom Mtg with Izumi-sensei",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Japanese Table",
-      "time": "12:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Faculty Meeting",
-      "time": "12:15 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "BIOL103 - Quiz 3",
       "time": "All day",
@@ -78,37 +52,27 @@
       "who": "Abby (StAbby)"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-10-06",
-      "day_name": "Tuesday, Oct 6",
-      "events": [
-        {
-          "title": "Prime Days",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "Zoom Mtg with Izumi-sensei",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Japanese Table",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Faculty Meeting",
-          "time": "12:15 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
+      "title": "Geneticist Applications Due",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
     },
+    {
+      "title": "Office Hours",
+      "time": "11:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL182 Lab",
+      "time": "1:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-10-07",
       "day_name": "Wednesday, Oct 7",
@@ -297,10 +261,28 @@
           "time": "1:30 PM",
           "all_day": false,
           "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "day_name": "Tuesday, Oct 13",
+      "events": [
+        {
+          "title": "Search Committee Meeting",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
         },
         {
-          "title": "Leah",
-          "time": "2:15 PM",
+          "title": "Lisa",
+          "time": "9:30 AM",
+          "all_day": false,
+          "who": "Abby (StAbby)"
+        },
+        {
+          "title": "Japanese Table",
+          "time": "12:00 PM",
           "all_day": false,
           "who": "Abby"
         }

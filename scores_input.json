@@ -194,7 +194,7 @@
       {
         "is_home": false,
         "opponent": "Michigan",
-        "date": "2026-11-05T05:00:00Z"
+        "date": "2026-11-05T23:30:00Z"
       },
       {
         "is_home": true,
@@ -224,7 +224,7 @@
       {
         "is_home": true,
         "opponent": "UNLV",
-        "date": "2026-12-02T05:00:00Z"
+        "date": "2026-12-02T23:30:00Z"
       },
       {
         "is_home": true,
@@ -234,7 +234,7 @@
       {
         "is_home": false,
         "opponent": "Notre Dame",
-        "date": "2026-12-09T05:00:00Z"
+        "date": "2026-12-10T00:00:00Z"
       },
       {
         "is_home": true,
@@ -507,5 +507,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-10-06T02:31:47.392297-04:00"
+  "collected_at": "2026-10-07T02:32:40.427993-04:00"
 }
