@@ -1,19 +1,51 @@
 {
-  "generated_at": "2026-10-07T02:32:58.110897-04:00",
-  "today_date": "2026-10-07",
-  "tomorrow_date": "2026-10-08",
+  "generated_at": "2026-10-08T02:33:00.802783-04:00",
+  "today_date": "2026-10-08",
+  "tomorrow_date": "2026-10-09",
   "today": [
     {
-      "title": "BIOL103 - Quiz 3",
+      "title": "Geneticist Applications Due",
       "time": "All day",
       "all_day": true,
       "who": "Abby"
     },
     {
-      "title": "Aida Haile and Maley, Abigail",
-      "time": "8:00 AM",
+      "title": "Amber Leonard and Maley, Abigail",
+      "time": "9:30 AM",
       "all_day": false,
       "who": "Abby"
+    },
+    {
+      "title": "Flu shot (Steve)",
+      "time": "10:00 AM",
+      "all_day": false,
+      "who": "Abby (StAbby)"
+    },
+    {
+      "title": "Office Hours",
+      "time": "11:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL182 Lab",
+      "time": "1:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "tomorrow": [
+    {
+      "title": "Subscreening Committee Meeting",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
+    },
+    {
+      "title": "Riverton Fair",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby (StAbby)"
     },
     {
       "title": "Japanese",
@@ -34,99 +66,31 @@
       "who": "Abby"
     },
     {
-      "title": "Darril Rowe and Maley, Abigail",
+      "title": "Meeting with Claire",
       "time": "12:00 PM",
       "all_day": false,
       "who": "Abby"
     },
     {
-      "title": "BIOL182 Lab",
+      "title": "Biology Bakes",
+      "time": "1:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Seminar: Students",
       "time": "1:30 PM",
       "all_day": false,
       "who": "Abby"
     },
     {
-      "title": "Setback 3",
-      "time": "6:15 PM",
-      "all_day": false,
-      "who": "Abby (StAbby)"
-    }
-  ],
-  "tomorrow": [
-    {
-      "title": "Geneticist Applications Due",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby"
-    },
-    {
-      "title": "Office Hours",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lab",
-      "time": "1:30 PM",
+      "title": "Meet with Hebe",
+      "time": "2:30 PM",
       "all_day": false,
       "who": "Abby"
     }
   ],
   "week": [
-    {
-      "date": "2026-10-07",
-      "day_name": "Wednesday, Oct 7",
-      "events": [
-        {
-          "title": "BIOL103 - Quiz 3",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "Aida Haile and Maley, Abigail",
-          "time": "8:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Japanese",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lecture",
-          "time": "10:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL103 Lecture",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Darril Rowe and Maley, Abigail",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lab",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Setback 3",
-          "time": "6:15 PM",
-          "all_day": false,
-          "who": "Abby (StAbby)"
-        }
-      ]
-    },
     {
       "date": "2026-10-08",
       "day_name": "Thursday, Oct 8",
@@ -136,6 +100,18 @@
           "time": "All day",
           "all_day": true,
           "who": "Abby"
+        },
+        {
+          "title": "Amber Leonard and Maley, Abigail",
+          "time": "9:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Flu shot (Steve)",
+          "time": "10:00 AM",
+          "all_day": false,
+          "who": "Abby (StAbby)"
         },
         {
           "title": "Office Hours",
@@ -283,6 +259,36 @@
         {
           "title": "Japanese Table",
           "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "day_name": "Wednesday, Oct 14",
+      "events": [
+        {
+          "title": "Japanese",
+          "time": "8:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lecture",
+          "time": "10:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL103 Lecture",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lab",
+          "time": "1:30 PM",
           "all_day": false,
           "who": "Abby"
         }

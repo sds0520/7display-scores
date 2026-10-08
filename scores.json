@@ -1,15 +1,14 @@
 {
-  "generated_at": "2026-10-07T02:32:40.533167-04:00",
+  "generated_at": "2026-10-08T02:32:29.416652-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
-      "last": "L 2-5 @ Rays (Oct 5)",
+      "last": "L 3-4 vs Rays (Oct 7)",
       "next": "vs Sox - Oct 1, 8:00 PM",
-      "recap": "Yankees lost to Rays 2-5\nAway, Oct 5\nRecord: 0-2 (4th AL East, 2 GB)\nW: Cam Booser (2-1, 1.72 ERA)\nL: Cam Schlittler (17-7, 1.89 ERA)\nSV: Bryan Baker (43 SV, 2.02 ERA)\nHome runs:\n  Ben Rice x2 - 47 on the season",
+      "recap": "Yankees lost to Rays 3-4\nHome, Oct 7\nRecord: 0-3 (4th AL East, 3 GB)\nW: Ian Seymour (10-7, 4.01 ERA)\nL: Max Fried (6-6, 3.05 ERA)\nSV: Bryan Baker (44 SV, 1.99 ERA)",
       "schedule": [
         "vs Sox - Oct 1, 8:00 PM",
-        "vs Rays - Oct 7, 8:00 PM",
         "vs Rays - Oct 8, 8:00 PM",
         "@ Rays - Oct 10, 8:00 PM"
       ]
