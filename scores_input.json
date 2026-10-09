@@ -1,28 +1,6 @@
 {
   "mlb": {
     "team_label": "Yankees",
-    "next": {
-      "is_home": true,
-      "opponent": "Boston Red Sox",
-      "date": "2026-10-02T00:00:00Z"
-    },
-    "schedule": [
-      {
-        "is_home": true,
-        "opponent": "Boston Red Sox",
-        "date": "2026-10-02T00:00:00Z"
-      },
-      {
-        "is_home": true,
-        "opponent": "Tampa Bay Rays",
-        "date": "2026-10-09T00:00:00Z"
-      },
-      {
-        "is_home": false,
-        "opponent": "Tampa Bay Rays",
-        "date": "2026-10-11T00:00:00Z"
-      }
-    ],
     "last": {
       "is_home": true,
       "opponent": "Tampa Bay Rays",
@@ -495,5 +473,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-10-08T02:32:25.052904-04:00"
+  "collected_at": "2026-10-09T02:33:10.622109-04:00"
 }

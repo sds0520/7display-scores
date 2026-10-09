@@ -1,40 +1,8 @@
 {
-  "generated_at": "2026-10-08T02:33:00.802783-04:00",
-  "today_date": "2026-10-08",
-  "tomorrow_date": "2026-10-09",
+  "generated_at": "2026-10-09T02:33:35.410846-04:00",
+  "today_date": "2026-10-09",
+  "tomorrow_date": "2026-10-10",
   "today": [
-    {
-      "title": "Geneticist Applications Due",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby"
-    },
-    {
-      "title": "Amber Leonard and Maley, Abigail",
-      "time": "9:30 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Flu shot (Steve)",
-      "time": "10:00 AM",
-      "all_day": false,
-      "who": "Abby (StAbby)"
-    },
-    {
-      "title": "Office Hours",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lab",
-      "time": "1:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "Subscreening Committee Meeting",
       "time": "All day",
@@ -90,43 +58,8 @@
       "who": "Abby"
     }
   ],
+  "tomorrow": [],
   "week": [
-    {
-      "date": "2026-10-08",
-      "day_name": "Thursday, Oct 8",
-      "events": [
-        {
-          "title": "Geneticist Applications Due",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "Amber Leonard and Maley, Abigail",
-          "time": "9:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Flu shot (Steve)",
-          "time": "10:00 AM",
-          "all_day": false,
-          "who": "Abby (StAbby)"
-        },
-        {
-          "title": "Office Hours",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lab",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
-    },
     {
       "date": "2026-10-09",
       "day_name": "Friday, Oct 9",
@@ -227,6 +160,12 @@
           "who": "Abby"
         },
         {
+          "title": "Flu & Covid Shots at SnS",
+          "time": "10:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
           "title": "Office Hours",
           "time": "12:00 PM",
           "all_day": false,
@@ -285,6 +224,36 @@
           "time": "11:00 AM",
           "all_day": false,
           "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lab",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "day_name": "Thursday, Oct 15",
+      "events": [
+        {
+          "title": "Meeting with Anthony (Zoom)",
+          "time": "9:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Office Hours",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Massage",
+          "time": "11:30 AM",
+          "all_day": false,
+          "who": "Abby (StAbby)"
         },
         {
           "title": "BIOL182 Lab",
