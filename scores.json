@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T02:33:10.755120-04:00",
+  "generated_at": "2026-10-10T02:32:09.856008-04:00",
   "cards": [
     {
       "key": "mlb",
@@ -7,9 +7,7 @@
       "last": "L 3-4 vs Rays (Oct 7)",
       "next": "Not yet scheduled",
       "recap": "Yankees lost to Rays 3-4\nHome, Oct 7\nRecord: 0-3 (4th AL East, 3 GB)\nW: Ian Seymour (10-7, 4.01 ERA)\nL: Max Fried (6-6, 3.05 ERA)\nSV: Bryan Baker (44 SV, 1.99 ERA)",
-      "schedule": [
-        "No upcoming events are available yet."
-      ]
+      "schedule": []
     },
     {
       "key": "nfl",
