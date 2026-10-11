@@ -1,130 +1,54 @@
 {
-  "generated_at": "2026-10-09T02:33:35.410846-04:00",
-  "today_date": "2026-10-09",
-  "tomorrow_date": "2026-10-10",
+  "generated_at": "2026-10-11T02:32:40.108434-04:00",
+  "today_date": "2026-10-11",
+  "tomorrow_date": "2026-10-12",
   "today": [
     {
-      "title": "Subscreening Committee Meeting",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby"
-    },
-    {
-      "title": "Riverton Fair",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby (StAbby)"
-    },
-    {
-      "title": "Japanese",
-      "time": "8:30 AM",
+      "title": "Donate Platelets",
+      "time": "7:30 AM",
       "all_day": false,
       "who": "Abby"
     },
     {
-      "title": "BIOL182 Lecture",
+      "title": "LPOTL Side Stories Show at the Webster (Doors open at 7pm, Show 8pm)",
+      "time": "7:00 PM",
+      "all_day": false,
+      "who": "Abby (StAbby)"
+    },
+    {
+      "title": "\"SIDE STORIES\" Live Podcast",
+      "time": "8:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "tomorrow": [
+    {
+      "title": "Trinity Days",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
+    },
+    {
+      "title": "Flu & Covid Shots at SnS",
       "time": "10:00 AM",
       "all_day": false,
       "who": "Abby"
     },
     {
-      "title": "BIOL103 Lecture",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Meeting with Claire",
+      "title": "Office Hours",
       "time": "12:00 PM",
       "all_day": false,
       "who": "Abby"
     },
     {
-      "title": "Biology Bakes",
-      "time": "1:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Seminar: Students",
+      "title": "Prep Time",
       "time": "1:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Meet with Hebe",
-      "time": "2:30 PM",
       "all_day": false,
       "who": "Abby"
     }
   ],
-  "tomorrow": [],
   "week": [
-    {
-      "date": "2026-10-09",
-      "day_name": "Friday, Oct 9",
-      "events": [
-        {
-          "title": "Subscreening Committee Meeting",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "Riverton Fair",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby (StAbby)"
-        },
-        {
-          "title": "Japanese",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lecture",
-          "time": "10:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL103 Lecture",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Meeting with Claire",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Biology Bakes",
-          "time": "1:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Seminar: Students",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Meet with Hebe",
-          "time": "2:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "day_name": "Saturday, Oct 10",
-      "events": []
-    },
     {
       "date": "2026-10-11",
       "day_name": "Sunday, Oct 11",
@@ -208,6 +132,12 @@
       "day_name": "Wednesday, Oct 14",
       "events": [
         {
+          "title": "Reserved",
+          "time": "8:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
           "title": "Japanese",
           "time": "8:30 AM",
           "all_day": false,
@@ -262,6 +192,71 @@
           "who": "Abby"
         }
       ]
+    },
+    {
+      "date": "2026-10-16",
+      "day_name": "Friday, Oct 16",
+      "events": [
+        {
+          "title": "BIOL103 - Quiz 4",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Reserved",
+          "time": "8:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Japanese",
+          "time": "8:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lecture",
+          "time": "10:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL103 Lecture",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Meeting with Claire",
+          "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Weekly Meeting",
+          "time": "12:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Biology Bakes",
+          "time": "1:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Seminar: Guest Speaker Guan-En Graham",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "day_name": "Saturday, Oct 17",
+      "events": []
     }
   ]
 }
