@@ -1,28 +1,8 @@
 {
-  "generated_at": "2026-10-11T02:32:40.108434-04:00",
-  "today_date": "2026-10-11",
-  "tomorrow_date": "2026-10-12",
+  "generated_at": "2026-10-12T02:33:02.235965-04:00",
+  "today_date": "2026-10-12",
+  "tomorrow_date": "2026-10-13",
   "today": [
-    {
-      "title": "Donate Platelets",
-      "time": "7:30 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "LPOTL Side Stories Show at the Webster (Doors open at 7pm, Show 8pm)",
-      "time": "7:00 PM",
-      "all_day": false,
-      "who": "Abby (StAbby)"
-    },
-    {
-      "title": "\"SIDE STORIES\" Live Podcast",
-      "time": "8:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "Trinity Days",
       "time": "All day",
@@ -48,31 +28,27 @@
       "who": "Abby"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-10-11",
-      "day_name": "Sunday, Oct 11",
-      "events": [
-        {
-          "title": "Donate Platelets",
-          "time": "7:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "LPOTL Side Stories Show at the Webster (Doors open at 7pm, Show 8pm)",
-          "time": "7:00 PM",
-          "all_day": false,
-          "who": "Abby (StAbby)"
-        },
-        {
-          "title": "\"SIDE STORIES\" Live Podcast",
-          "time": "8:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
+      "title": "Search Committee Meeting",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
     },
+    {
+      "title": "Lisa",
+      "time": "9:30 AM",
+      "all_day": false,
+      "who": "Abby (StAbby)"
+    },
+    {
+      "title": "Japanese Table",
+      "time": "12:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-10-12",
       "day_name": "Monday, Oct 12",
@@ -250,12 +226,23 @@
           "time": "1:30 PM",
           "all_day": false,
           "who": "Abby"
+        },
+        {
+          "title": "Bat Out of Helloween: Celebrating Meat Loaf and Rocky Horror",
+          "time": "8:00 PM",
+          "all_day": false,
+          "who": "Steven"
         }
       ]
     },
     {
       "date": "2026-10-17",
       "day_name": "Saturday, Oct 17",
+      "events": []
+    },
+    {
+      "date": "2026-10-18",
+      "day_name": "Sunday, Oct 18",
       "events": []
     }
   ]
