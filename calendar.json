@@ -1,28 +1,8 @@
 {
-  "generated_at": "2026-10-13T02:33:38.684965-04:00",
-  "today_date": "2026-10-13",
-  "tomorrow_date": "2026-10-14",
+  "generated_at": "2026-10-14T02:31:39.310707-04:00",
+  "today_date": "2026-10-14",
+  "tomorrow_date": "2026-10-15",
   "today": [
-    {
-      "title": "Search Committee Meeting",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby"
-    },
-    {
-      "title": "Lisa",
-      "time": "9:30 AM",
-      "all_day": false,
-      "who": "Abby (StAbby)"
-    },
-    {
-      "title": "Japanese Table",
-      "time": "12:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "Reserved",
       "time": "8:00 AM",
@@ -54,31 +34,33 @@
       "who": "Abby"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-10-13",
-      "day_name": "Tuesday, Oct 13",
-      "events": [
-        {
-          "title": "Search Committee Meeting",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "Lisa",
-          "time": "9:30 AM",
-          "all_day": false,
-          "who": "Abby (StAbby)"
-        },
-        {
-          "title": "Japanese Table",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
+      "title": "Aida Haile and Maley, Abigail",
+      "time": "8:30 AM",
+      "all_day": false,
+      "who": "Abby"
     },
+    {
+      "title": "Meeting with Anthony (Zoom)",
+      "time": "9:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Office Hours",
+      "time": "11:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Massage",
+      "time": "11:30 AM",
+      "all_day": false,
+      "who": "Abby (StAbby)"
+    }
+  ],
+  "week": [
     {
       "date": "2026-10-14",
       "day_name": "Wednesday, Oct 14",
@@ -277,6 +259,30 @@
         {
           "title": "Office Hours",
           "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "day_name": "Tuesday, Oct 20",
+      "events": [
+        {
+          "title": "Pre-op physical",
+          "time": "8:45 AM",
+          "all_day": false,
+          "who": "Abby (StAbby)"
+        },
+        {
+          "title": "Japanese Table",
+          "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Witch Hunting Talk at the Library",
+          "time": "6:30 PM",
           "all_day": false,
           "who": "Abby"
         }
