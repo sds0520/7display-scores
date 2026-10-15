@@ -302,31 +302,31 @@
         "position": 1,
         "last_name": "Larson",
         "full_name": "Kyle Larson",
-        "playoff_points": 25,
-        "total_points": 2347,
+        "playoff_points": 24,
+        "total_points": 2346,
         "playoff_wins": 2,
         "season_wins": 2,
-        "stage_wins": 9
+        "stage_wins": 8
       },
       {
         "position": 2,
         "last_name": "Bell",
         "full_name": "Christopher Bell",
-        "playoff_points": 16,
-        "total_points": 2282,
+        "playoff_points": 15,
+        "total_points": 2281,
         "playoff_wins": 1,
         "season_wins": 1,
-        "stage_wins": 6
+        "stage_wins": 5
       },
       {
         "position": 3,
         "last_name": "Briscoe",
         "full_name": "Chase Briscoe",
-        "playoff_points": 21,
-        "total_points": 2268,
+        "playoff_points": 19,
+        "total_points": 2266,
         "playoff_wins": 2,
         "season_wins": 3,
-        "stage_wins": 2
+        "stage_wins": 0
       },
       {
         "position": 4,
@@ -463,5 +463,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-10-14T02:31:11.847299-04:00"
+  "collected_at": "2026-10-15T02:32:54.296910-04:00"
 }
