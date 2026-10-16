@@ -1,34 +1,8 @@
 {
-  "generated_at": "2026-10-15T02:33:20.859281-04:00",
-  "today_date": "2026-10-15",
-  "tomorrow_date": "2026-10-16",
+  "generated_at": "2026-10-16T02:31:57.206502-04:00",
+  "today_date": "2026-10-16",
+  "tomorrow_date": "2026-10-17",
   "today": [
-    {
-      "title": "Aida Haile and Maley, Abigail",
-      "time": "8:30 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Meeting with Anthony (Zoom)",
-      "time": "9:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Office Hours",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Massage",
-      "time": "11:30 AM",
-      "all_day": false,
-      "who": "Abby (StAbby)"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "BIOL103 - Quiz 4",
       "time": "All day",
@@ -36,13 +10,13 @@
       "who": "Abby"
     },
     {
-      "title": "Brady - Quiz Makeup",
+      "title": "Reserved",
       "time": "8:00 AM",
       "all_day": false,
       "who": "Abby"
     },
     {
-      "title": "Reserved",
+      "title": "Brady - Quiz Makeup",
       "time": "8:00 AM",
       "all_day": false,
       "who": "Abby"
@@ -102,37 +76,8 @@
       "who": "Steven"
     }
   ],
+  "tomorrow": [],
   "week": [
-    {
-      "date": "2026-10-15",
-      "day_name": "Thursday, Oct 15",
-      "events": [
-        {
-          "title": "Aida Haile and Maley, Abigail",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Meeting with Anthony (Zoom)",
-          "time": "9:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Office Hours",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Massage",
-          "time": "11:30 AM",
-          "all_day": false,
-          "who": "Abby (StAbby)"
-        }
-      ]
-    },
     {
       "date": "2026-10-16",
       "day_name": "Friday, Oct 16",
@@ -144,13 +89,13 @@
           "who": "Abby"
         },
         {
-          "title": "Brady - Quiz Makeup",
+          "title": "Reserved",
           "time": "8:00 AM",
           "all_day": false,
           "who": "Abby"
         },
         {
-          "title": "Reserved",
+          "title": "Brady - Quiz Makeup",
           "time": "8:00 AM",
           "all_day": false,
           "who": "Abby"
@@ -345,6 +290,24 @@
           "time": "6:15 PM",
           "all_day": false,
           "who": "Abby (StAbby)"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "day_name": "Thursday, Oct 22",
+      "events": [
+        {
+          "title": "Office Hours",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lab",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
         }
       ]
     }

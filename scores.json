@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-15T02:32:54.464179-04:00",
+  "generated_at": "2026-10-16T02:31:33.142290-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
       "last": "L 3-4 vs Rays (Oct 7)",
       "next": "Not yet scheduled",
-      "recap": "Yankees lost to Rays 3-4\nHome, Oct 7\nRecord: 0-3 (4th AL East, 1.5 GB)\nW: Ian Seymour (10-7, 3.96 ERA)\nL: Max Fried (6-6, 3.05 ERA)\nSV: Bryan Baker (45 SV, 1.96 ERA)",
+      "recap": "Yankees lost to Rays 3-4\nHome, Oct 7\nRecord: 0-3 (4th AL East, 0.5 GB)\nW: Ian Seymour (10-7, 3.96 ERA)\nL: Max Fried (6-6, 3.05 ERA)\nSV: Bryan Baker (45 SV, 1.96 ERA)",
       "schedule": [
         "No upcoming events are available yet."
       ]
@@ -48,9 +48,9 @@
         "title": "Playoffs - points, playoff wins",
         "cols": 2,
         "items": [
-          " 1 Larson 2346 2W",
-          " 2 Bell 2281 1W",
-          " 3 Briscoe 2266 2W",
+          " 1 Larson 2347 2W",
+          " 2 Bell 2282 1W",
+          " 3 Briscoe 2268 2W",
           " 4 Logano 2262 1W",
           " 5 Hamlin 2258 0W",
           " 6 Blaney 2241 0W",
