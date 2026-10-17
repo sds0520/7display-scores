@@ -1,161 +1,17 @@
 {
-  "generated_at": "2026-10-16T02:31:57.206502-04:00",
-  "today_date": "2026-10-16",
-  "tomorrow_date": "2026-10-17",
-  "today": [
+  "generated_at": "2026-10-17T02:32:27.593689-04:00",
+  "today_date": "2026-10-17",
+  "tomorrow_date": "2026-10-18",
+  "today": [],
+  "tomorrow": [
     {
-      "title": "BIOL103 - Quiz 4",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby"
-    },
-    {
-      "title": "Reserved",
-      "time": "8:00 AM",
+      "title": "Appointment to give platelets",
+      "time": "7:30 AM",
       "all_day": false,
       "who": "Abby"
-    },
-    {
-      "title": "Brady - Quiz Makeup",
-      "time": "8:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Japanese",
-      "time": "8:30 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lecture",
-      "time": "10:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL103 Lecture",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Meeting with Claire",
-      "time": "12:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Weekly Meeting",
-      "time": "12:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Biology Bakes",
-      "time": "1:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Seminar: Guest Speaker Guan-En Graham",
-      "time": "1:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Meatloaf and Rocky Horror?",
-      "time": "2:30 PM",
-      "all_day": false,
-      "who": "Abby (StAbby)"
-    },
-    {
-      "title": "Bat Out of Helloween: Celebrating Meat Loaf and Rocky Horror",
-      "time": "8:00 PM",
-      "all_day": false,
-      "who": "Steven"
     }
   ],
-  "tomorrow": [],
   "week": [
-    {
-      "date": "2026-10-16",
-      "day_name": "Friday, Oct 16",
-      "events": [
-        {
-          "title": "BIOL103 - Quiz 4",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "Reserved",
-          "time": "8:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Brady - Quiz Makeup",
-          "time": "8:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Japanese",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lecture",
-          "time": "10:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL103 Lecture",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Meeting with Claire",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Weekly Meeting",
-          "time": "12:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Biology Bakes",
-          "time": "1:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Seminar: Guest Speaker Guan-En Graham",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Meatloaf and Rocky Horror?",
-          "time": "2:30 PM",
-          "all_day": false,
-          "who": "Abby (StAbby)"
-        },
-        {
-          "title": "Bat Out of Helloween: Celebrating Meat Loaf and Rocky Horror",
-          "time": "8:00 PM",
-          "all_day": false,
-          "who": "Steven"
-        }
-      ]
-    },
     {
       "date": "2026-10-17",
       "day_name": "Saturday, Oct 17",
@@ -306,6 +162,60 @@
         {
           "title": "BIOL182 Lab",
           "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "day_name": "Friday, Oct 23",
+      "events": [
+        {
+          "title": "Reserved",
+          "time": "8:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Japanese Oral Exam",
+          "time": "8:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lecture",
+          "time": "10:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL103 Lecture",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Meeting with Claire",
+          "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Biology Bakes",
+          "time": "1:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Seminar: Students",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Jury Pool Meeting",
+          "time": "3:15 PM",
           "all_day": false,
           "who": "Abby"
         }
