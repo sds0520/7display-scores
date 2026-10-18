@@ -1,9 +1,8 @@
 {
-  "generated_at": "2026-10-17T02:32:27.593689-04:00",
-  "today_date": "2026-10-17",
-  "tomorrow_date": "2026-10-18",
-  "today": [],
-  "tomorrow": [
+  "generated_at": "2026-10-18T02:32:30.467477-04:00",
+  "today_date": "2026-10-18",
+  "tomorrow_date": "2026-10-19",
+  "today": [
     {
       "title": "Appointment to give platelets",
       "time": "7:30 AM",
@@ -11,12 +10,51 @@
       "who": "Abby"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-10-17",
-      "day_name": "Saturday, Oct 17",
-      "events": []
+      "title": "Payday",
+      "time": "All day",
+      "all_day": true,
+      "who": "Steven"
     },
+    {
+      "title": "Ben observes my class",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
+    },
+    {
+      "title": "Reserved",
+      "time": "8:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Japanese",
+      "time": "8:30 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL182 Lecture",
+      "time": "10:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL103 Lecture",
+      "time": "11:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Office Hours",
+      "time": "12:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-10-18",
       "day_name": "Sunday, Oct 18",
@@ -220,6 +258,11 @@
           "who": "Abby"
         }
       ]
+    },
+    {
+      "date": "2026-10-24",
+      "day_name": "Saturday, Oct 24",
+      "events": []
     }
   ]
 }

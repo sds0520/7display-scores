@@ -10,12 +10,12 @@
       "venue": "Yankee Stadium",
       "record": "0-3",
       "division_standing": "4th AL East",
-      "games_back": "0.5 GB",
+      "games_back": "1.5 GB",
       "winning_pitcher": {
         "name": "Ian Seymour",
         "wins": 10,
         "losses": 7,
-        "era": "3.96"
+        "era": "4.05"
       },
       "losing_pitcher": {
         "name": "Max Fried",
@@ -26,7 +26,7 @@
       "save_pitcher": {
         "name": "Bryan Baker",
         "saves": 45,
-        "era": "1.96"
+        "era": "1.94"
       }
     }
   },
@@ -463,5 +463,5 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-10-17T02:31:54.083627-04:00"
+  "collected_at": "2026-10-18T02:31:48.369200-04:00"
 }
