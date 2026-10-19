@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-18T02:31:55.266986-04:00",
+  "generated_at": "2026-10-19T02:32:16.392060-04:00",
   "cards": [
     {
       "key": "mlb",
       "title": "MLB - Yankees",
       "last": "L 3-4 vs Rays (Oct 7)",
       "next": "Not yet scheduled",
-      "recap": "Yankees lost to Rays 3-4\nHome, Oct 7\nRecord: 0-3 (4th AL East, 1.5 GB)\nW: Ian Seymour (10-7, 4.05 ERA)\nL: Max Fried (6-6, 3.05 ERA)\nSV: Bryan Baker (45 SV, 1.94 ERA)",
+      "recap": "Yankees lost to Rays 3-4\nHome, Oct 7\nRecord: 0-3 (4th AL East, 2 GB)\nW: Ian Seymour (10-7, 4.05 ERA)\nL: Max Fried (6-6, 3.05 ERA)\nSV: Bryan Baker (46 SV, 1.91 ERA)",
       "schedule": [
         "No upcoming events are available yet."
       ]
@@ -14,11 +14,10 @@
     {
       "key": "nfl",
       "title": "NFL - Steelers",
-      "last": "W 34-22 vs Colts (Oct 11)",
-      "next": "@ Buccaneers - Oct 18, 1:00 PM",
-      "recap": "Steelers beat Colts 34-22\nHome, Oct 11\nRecord: 3-2-0 (2nd AFC North, 1 GB)\nQB Aaron Rodgers: 22/31, 235 yds, 3 TD, 0 INT\nRB Jaylen Warren: 15 car, 101 yds, 1 TD\nWR Jaylen Warren: 6 rec, 87 yds, 1 TD\nSacks: 2 for, 2 allowed",
+      "last": "W 26-19 @ Buccaneers (Oct 18)",
+      "next": "@ Saints - Oct 25, 9:30 AM",
+      "recap": "Steelers beat Buccaneers 26-19\nAway, Oct 18\nRecord: 4-2-0 (1st AFC North, tied)\nQB Aaron Rodgers: 33/49, 253 yds, 2 TD, 1 INT\nRB Jaylen Warren: 14 car, 50 yds\nWR DK Metcalf: 11 rec, 93 yds\nTurnovers: 2 lost, 4 forced\nSacks: 10 for, 10 allowed",
       "schedule": [
-        "@ Buccaneers - Oct 18, 1:00 PM",
         "@ Saints - Oct 25, 9:30 AM",
         "vs Browns - Nov 1, 1:00 PM",
         "@ Bengals - Nov 15, 8:20 PM",
@@ -35,11 +34,10 @@
     {
       "key": "nascar",
       "title": "NASCAR",
-      "last": "Bank of America 400 (Oct 11) - Winner: Chase Briscoe",
-      "next": "Freeway Insurance 500 - Phoenix Raceway (Oct 18)",
-      "recap": "Bank of America 400 - Charlotte Motor Speedway (Oct 11)\nWinner: Chase Briscoe\n11 lead changes, 6 cautions\n\nTop 10 (points earned):\n   1. Chase Briscoe - 68\n   2. Christopher Bell - 53\n   3. Ryan Blaney - 44\n   4. Josh Berry - 36\n   5. Denny Hamlin - 40\n   6. Kyle Larson - 49\n   7. Shane Van Gisbergen - 30\n   8. Tyler Reddick - 41\n   9. Joey Logano - 28\n  10. Chris Buescher - 29",
+      "last": "Freeway Insurance 500 (Oct 18) - Winner: Tyler Reddick",
+      "next": "YellaWood 500 - Talladega Superspeedway (Oct 25)",
+      "recap": "Freeway Insurance 500 - Phoenix Raceway (Oct 18)\nWinner: Tyler Reddick\n21 lead changes, 6 cautions\n\nTop 10 (points earned):\n   1. Tyler Reddick - 61\n   2. Ryan Blaney - 48\n   3. Chase Elliott - 39\n   4. Christopher Bell - 49\n   5. Corey Heim - 0\n   6. Joey Logano - 51\n   7. Daniel Suarez - 30\n   8. Chase Briscoe - 44\n   9. Ross Chastain - 31\n  10. Ty Gibbs - 27",
       "schedule": [
-        "Freeway Insurance 500 - Phoenix Raceway (Oct 18)",
         "YellaWood 500 - Talladega Superspeedway (Oct 25)",
         "Xfinity 500 - Martinsville Speedway (Nov 1)",
         "NASCAR Championship Race - Homestead-Miami Speedway (Nov 8)"
@@ -48,22 +46,22 @@
         "title": "Playoffs - points, playoff wins",
         "cols": 2,
         "items": [
-          " 1 Larson 2347 2W",
-          " 2 Bell 2282 1W",
-          " 3 Briscoe 2268 2W",
-          " 4 Logano 2262 1W",
-          " 5 Hamlin 2258 0W",
-          " 6 Blaney 2241 0W",
-          " 7 Reddick 2223 0W",
-          " 8 Cindric 2219 0W",
-          " 9 Wallace 2174 0W",
-          "10 Gibbs 2173 0W",
-          "11 Hocevar 2172 0W",
-          "12 Elliott 2156 0W",
-          "13 Preece 2147 0W",
-          "14 Byron 2147 0W",
-          "15 Suarez 2133 0W",
-          "16 Van Gisbergen 2125 0W"
+          " 1 Larson 2348 2W",
+          " 2 Bell 2332 1W",
+          " 3 Logano 2315 1W",
+          " 4 Briscoe 2313 2W",
+          " 5 Reddick 2289 1W",
+          " 6 Blaney 2289 0W",
+          " 7 Hamlin 2279 0W",
+          " 8 Cindric 2237 0W",
+          " 9 Gibbs 2200 0W",
+          "10 Wallace 2200 0W",
+          "11 Hocevar 2197 0W",
+          "12 Elliott 2195 0W",
+          "13 Byron 2168 0W",
+          "14 Preece 2166 0W",
+          "15 Suarez 2163 0W",
+          "16 Van Gisbergen 2136 0W"
         ]
       }
     }

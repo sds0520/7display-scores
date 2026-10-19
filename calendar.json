@@ -1,16 +1,8 @@
 {
-  "generated_at": "2026-10-18T02:32:30.467477-04:00",
-  "today_date": "2026-10-18",
-  "tomorrow_date": "2026-10-19",
+  "generated_at": "2026-10-19T02:32:40.466351-04:00",
+  "today_date": "2026-10-19",
+  "tomorrow_date": "2026-10-20",
   "today": [
-    {
-      "title": "Appointment to give platelets",
-      "time": "7:30 AM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "Payday",
       "time": "All day",
@@ -54,19 +46,27 @@
       "who": "Abby"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-10-18",
-      "day_name": "Sunday, Oct 18",
-      "events": [
-        {
-          "title": "Appointment to give platelets",
-          "time": "7:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
+      "title": "Pre-op physical",
+      "time": "8:45 AM",
+      "all_day": false,
+      "who": "Abby (StAbby)"
     },
+    {
+      "title": "Japanese Table",
+      "time": "12:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Witch Hunting Talk at the Library",
+      "time": "6:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-10-19",
       "day_name": "Monday, Oct 19",
@@ -262,6 +262,11 @@
     {
       "date": "2026-10-24",
       "day_name": "Saturday, Oct 24",
+      "events": []
+    },
+    {
+      "date": "2026-10-25",
+      "day_name": "Sunday, Oct 25",
       "events": []
     }
   ]
