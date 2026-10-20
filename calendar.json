@@ -1,16 +1,30 @@
 {
-  "generated_at": "2026-10-19T02:32:40.466351-04:00",
-  "today_date": "2026-10-19",
-  "tomorrow_date": "2026-10-20",
+  "generated_at": "2026-10-20T02:34:45.791743-04:00",
+  "today_date": "2026-10-20",
+  "tomorrow_date": "2026-10-21",
   "today": [
     {
-      "title": "Payday",
-      "time": "All day",
-      "all_day": true,
-      "who": "Steven"
+      "title": "Pre-op physical",
+      "time": "8:45 AM",
+      "all_day": false,
+      "who": "Abby (StAbby)"
     },
     {
-      "title": "Ben observes my class",
+      "title": "Japanese Table",
+      "time": "12:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Witch Hunting Talk at the Library",
+      "time": "6:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "tomorrow": [
+    {
+      "title": "BIOL103 - Prof. Keeffe Guest Lecture",
       "time": "All day",
       "all_day": true,
       "who": "Abby"
@@ -40,81 +54,25 @@
       "who": "Abby"
     },
     {
-      "title": "Office Hours",
+      "title": "Marrietta O'Connell and Maley, Abigail",
       "time": "12:00 PM",
       "all_day": false,
       "who": "Abby"
-    }
-  ],
-  "tomorrow": [
+    },
     {
-      "title": "Pre-op physical",
-      "time": "8:45 AM",
+      "title": "BIOL182 Lab",
+      "time": "1:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Setback 9",
+      "time": "6:15 PM",
       "all_day": false,
       "who": "Abby (StAbby)"
-    },
-    {
-      "title": "Japanese Table",
-      "time": "12:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Witch Hunting Talk at the Library",
-      "time": "6:30 PM",
-      "all_day": false,
-      "who": "Abby"
     }
   ],
   "week": [
-    {
-      "date": "2026-10-19",
-      "day_name": "Monday, Oct 19",
-      "events": [
-        {
-          "title": "Payday",
-          "time": "All day",
-          "all_day": true,
-          "who": "Steven"
-        },
-        {
-          "title": "Ben observes my class",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "Reserved",
-          "time": "8:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Japanese",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lecture",
-          "time": "10:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL103 Lecture",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Office Hours",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
-    },
     {
       "date": "2026-10-20",
       "day_name": "Tuesday, Oct 20",
@@ -174,6 +132,12 @@
           "who": "Abby"
         },
         {
+          "title": "Marrietta O'Connell and Maley, Abigail",
+          "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
           "title": "BIOL182 Lab",
           "time": "1:30 PM",
           "all_day": false,
@@ -218,6 +182,12 @@
         {
           "title": "Japanese Oral Exam",
           "time": "8:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Aida Haile and Maley, Abigail",
+          "time": "9:30 AM",
           "all_day": false,
           "who": "Abby"
         },
@@ -268,6 +238,72 @@
       "date": "2026-10-25",
       "day_name": "Sunday, Oct 25",
       "events": []
+    },
+    {
+      "date": "2026-10-26",
+      "day_name": "Monday, Oct 26",
+      "events": [
+        {
+          "title": "BIOL103 - Exam II",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "JAPN101 Midterm Exam",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Genetics Search Zoom Interviews, TBD",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Reserved",
+          "time": "8:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Japanese",
+          "time": "8:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lecture",
+          "time": "10:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL103 Lecture",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Office Hours",
+          "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Prep Time",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Leah",
+          "time": "2:15 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
     }
   ]
 }
