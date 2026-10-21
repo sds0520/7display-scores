@@ -1,28 +1,8 @@
 {
-  "generated_at": "2026-10-20T02:34:45.791743-04:00",
-  "today_date": "2026-10-20",
-  "tomorrow_date": "2026-10-21",
+  "generated_at": "2026-10-21T02:32:30.684116-04:00",
+  "today_date": "2026-10-21",
+  "tomorrow_date": "2026-10-22",
   "today": [
-    {
-      "title": "Pre-op physical",
-      "time": "8:45 AM",
-      "all_day": false,
-      "who": "Abby (StAbby)"
-    },
-    {
-      "title": "Japanese Table",
-      "time": "12:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Witch Hunting Talk at the Library",
-      "time": "6:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "BIOL103 - Prof. Keeffe Guest Lecture",
       "time": "All day",
@@ -72,31 +52,21 @@
       "who": "Abby (StAbby)"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-10-20",
-      "day_name": "Tuesday, Oct 20",
-      "events": [
-        {
-          "title": "Pre-op physical",
-          "time": "8:45 AM",
-          "all_day": false,
-          "who": "Abby (StAbby)"
-        },
-        {
-          "title": "Japanese Table",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Witch Hunting Talk at the Library",
-          "time": "6:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
+      "title": "Office Hours",
+      "time": "11:00 AM",
+      "all_day": false,
+      "who": "Abby"
     },
+    {
+      "title": "BIOL182 Lab",
+      "time": "1:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-10-21",
       "day_name": "Wednesday, Oct 21",
@@ -244,7 +214,7 @@
       "day_name": "Monday, Oct 26",
       "events": [
         {
-          "title": "BIOL103 - Exam II",
+          "title": "Genetics Search Zoom Interviews, TBD",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
@@ -256,7 +226,7 @@
           "who": "Abby"
         },
         {
-          "title": "Genetics Search Zoom Interviews, TBD",
+          "title": "BIOL103 - Exam II",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
@@ -300,6 +270,18 @@
         {
           "title": "Leah",
           "time": "2:15 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "day_name": "Tuesday, Oct 27",
+      "events": [
+        {
+          "title": "Japanese Table",
+          "time": "12:00 PM",
           "all_day": false,
           "who": "Abby"
         }
