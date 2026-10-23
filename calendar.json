@@ -1,22 +1,8 @@
 {
-  "generated_at": "2026-10-22T02:32:09.984379-04:00",
-  "today_date": "2026-10-22",
-  "tomorrow_date": "2026-10-23",
+  "generated_at": "2026-10-23T02:32:32.244965-04:00",
+  "today_date": "2026-10-23",
+  "tomorrow_date": "2026-10-24",
   "today": [
-    {
-      "title": "Office Hours",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lab",
-      "time": "1:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "Reserved",
       "time": "8:00 AM",
@@ -72,25 +58,8 @@
       "who": "Abby"
     }
   ],
+  "tomorrow": [],
   "week": [
-    {
-      "date": "2026-10-22",
-      "day_name": "Thursday, Oct 22",
-      "events": [
-        {
-          "title": "Office Hours",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lab",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
-    },
     {
       "date": "2026-10-23",
       "day_name": "Friday, Oct 23",
@@ -172,13 +141,13 @@
           "who": "Abby"
         },
         {
-          "title": "BIOL103 - Exam II",
+          "title": "Genetics Search Zoom Interviews, TBD",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
         },
         {
-          "title": "Genetics Search Zoom Interviews, TBD",
+          "title": "BIOL103 - Exam II",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
@@ -290,6 +259,24 @@
           "time": "6:15 PM",
           "all_day": false,
           "who": "Abby (StAbby)"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "day_name": "Thursday, Oct 29",
+      "events": [
+        {
+          "title": "Office Hours",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lab",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
         }
       ]
     }
