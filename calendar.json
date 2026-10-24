@@ -1,125 +1,10 @@
 {
-  "generated_at": "2026-10-23T02:32:32.244965-04:00",
-  "today_date": "2026-10-23",
-  "tomorrow_date": "2026-10-24",
-  "today": [
-    {
-      "title": "Reserved",
-      "time": "8:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Japanese Oral Exam",
-      "time": "8:30 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Aida Haile and Maley, Abigail",
-      "time": "9:30 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lecture",
-      "time": "10:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL103 Lecture",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Meeting with Claire",
-      "time": "12:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Biology Bakes",
-      "time": "1:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Seminar: Students",
-      "time": "1:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Jury Pool Meeting",
-      "time": "3:15 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
+  "generated_at": "2026-10-24T02:32:22.000568-04:00",
+  "today_date": "2026-10-24",
+  "tomorrow_date": "2026-10-25",
+  "today": [],
   "tomorrow": [],
   "week": [
-    {
-      "date": "2026-10-23",
-      "day_name": "Friday, Oct 23",
-      "events": [
-        {
-          "title": "Reserved",
-          "time": "8:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Japanese Oral Exam",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Aida Haile and Maley, Abigail",
-          "time": "9:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lecture",
-          "time": "10:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL103 Lecture",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Meeting with Claire",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Biology Bakes",
-          "time": "1:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Seminar: Students",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Jury Pool Meeting",
-          "time": "3:15 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
-    },
     {
       "date": "2026-10-24",
       "day_name": "Saturday, Oct 24",
@@ -135,13 +20,13 @@
       "day_name": "Monday, Oct 26",
       "events": [
         {
-          "title": "JAPN101 Midterm Exam",
+          "title": "Genetics Search Zoom Interviews, TBD",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
         },
         {
-          "title": "Genetics Search Zoom Interviews, TBD",
+          "title": "JAPN101 Midterm Exam",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
@@ -193,6 +78,36 @@
           "time": "2:15 PM",
           "all_day": false,
           "who": "Abby"
+        },
+        {
+          "title": "Kristin Johnson",
+          "time": "4:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Sara Wong",
+          "time": "5:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Elisa Visher",
+          "time": "5:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Erik Solhaug",
+          "time": "6:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Pamela Lovejoy",
+          "time": "6:30 PM",
+          "all_day": false,
+          "who": "Abby"
         }
       ]
     },
@@ -203,6 +118,36 @@
         {
           "title": "Japanese Table",
           "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Andrew Conith",
+          "time": "4:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Blair Bentley",
+          "time": "5:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Daniel Sorensen",
+          "time": "5:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Jennifer Wanat",
+          "time": "6:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Spencer Koury",
+          "time": "6:30 PM",
           "all_day": false,
           "who": "Abby"
         }
@@ -249,16 +194,16 @@
           "who": "Abby"
         },
         {
-          "title": "Biology Pizza Party",
-          "time": "6:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
           "title": "Setback 6",
           "time": "6:15 PM",
           "all_day": false,
           "who": "Abby (StAbby)"
+        },
+        {
+          "title": "Biology Pizza Party",
+          "time": "6:30 PM",
+          "all_day": false,
+          "who": "Abby"
         }
       ]
     },
@@ -275,6 +220,66 @@
         {
           "title": "BIOL182 Lab",
           "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "day_name": "Friday, Oct 30",
+      "events": [
+        {
+          "title": "Reserved",
+          "time": "8:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Japanese",
+          "time": "8:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lecture",
+          "time": "10:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL103 Lecture",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Meeting with Claire",
+          "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Weekly Meeting",
+          "time": "12:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Biology Bakes",
+          "time": "1:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Seminar: Students",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Search Committee Meeting for Finalists",
+          "time": "2:30 PM",
           "all_day": false,
           "who": "Abby"
         }
