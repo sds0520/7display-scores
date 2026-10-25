@@ -1,15 +1,101 @@
 {
-  "generated_at": "2026-10-24T02:32:22.000568-04:00",
-  "today_date": "2026-10-24",
-  "tomorrow_date": "2026-10-25",
+  "generated_at": "2026-10-25T02:32:23.858404-04:00",
+  "today_date": "2026-10-25",
+  "tomorrow_date": "2026-10-26",
   "today": [],
-  "tomorrow": [],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-10-24",
-      "day_name": "Saturday, Oct 24",
-      "events": []
+      "title": "Genetics Search Zoom Interviews, TBD",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
     },
+    {
+      "title": "JAPN101 Midterm Exam",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL103 - Exam II",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
+    },
+    {
+      "title": "Reserved",
+      "time": "8:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Japanese",
+      "time": "8:30 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL182 Lecture",
+      "time": "10:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL103 Lecture",
+      "time": "11:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Office Hours",
+      "time": "12:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Prep Time",
+      "time": "1:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Leah",
+      "time": "2:15 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Kristin Johnson",
+      "time": "4:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Sara Wong",
+      "time": "5:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Elisa Visher",
+      "time": "5:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Erik Solhaug",
+      "time": "6:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Pamela Lovejoy",
+      "time": "6:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-10-25",
       "day_name": "Sunday, Oct 25",
@@ -284,6 +370,11 @@
           "who": "Abby"
         }
       ]
+    },
+    {
+      "date": "2026-10-31",
+      "day_name": "Saturday, Oct 31",
+      "events": []
     }
   ]
 }

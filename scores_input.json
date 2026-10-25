@@ -15,7 +15,7 @@
         "name": "Ian Seymour",
         "wins": 10,
         "losses": 7,
-        "era": "4.05"
+        "era": "4.09"
       },
       "losing_pitcher": {
         "name": "Max Fried",
@@ -458,7 +458,7 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-10-24T02:31:58.833691-04:00",
+  "collected_at": "2026-10-25T02:32:04.856516-04:00",
   "ncaam": {
     "team_label": "UConn",
     "next": {
