@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T02:32:04.974882-04:00",
+  "generated_at": "2026-10-26T02:32:19.470060-04:00",
   "cards": [
     {
       "key": "mlb",
@@ -14,11 +14,10 @@
     {
       "key": "nfl",
       "title": "NFL - Steelers",
-      "last": "W 26-19 @ Buccaneers (Oct 18)",
-      "next": "@ Saints - Oct 25, 9:30 AM",
-      "recap": "Steelers beat Buccaneers 26-19\nAway, Oct 18\nRecord: 4-2-0 (1st AFC North, tied)\nQB Aaron Rodgers: 33/49, 253 yds, 2 TD, 1 INT\nRB Jaylen Warren: 14 car, 50 yds\nWR DK Metcalf: 11 rec, 93 yds\nTurnovers: 2 lost, 4 forced\nSacks: 10 for, 10 allowed",
+      "last": "W 16-10 @ Saints (Oct 25)",
+      "next": "vs Browns - Nov 1, 1:00 PM",
+      "recap": "Steelers beat Saints 16-10\nAway, Oct 25\nRecord: 5-2-0 (1st AFC North, tied)\nQB Aaron Rodgers: 19/30, 212 yds, 1 TD, 0 INT\nRB Jaylen Warren: 18 car, 101 yds\nWR DK Metcalf: 2 rec, 56 yds\nTurnovers: 0 lost, 2 forced\nSacks: 4 for, 6 allowed",
       "schedule": [
-        "@ Saints - Oct 25, 9:30 AM",
         "vs Browns - Nov 1, 1:00 PM",
         "@ Bengals - Nov 15, 8:20 PM",
         "@ Eagles - Nov 22, 4:25 PM",
@@ -34,11 +33,10 @@
     {
       "key": "nascar",
       "title": "NASCAR",
-      "last": "Freeway Insurance 500 (Oct 18) - Winner: Tyler Reddick",
-      "next": "YellaWood 500 - Talladega Superspeedway (Oct 25)",
-      "recap": "Freeway Insurance 500 - Phoenix Raceway (Oct 18)\nWinner: Tyler Reddick\n21 lead changes, 6 cautions\n\nTop 10 (points earned):\n   1. Tyler Reddick - 61\n   2. Ryan Blaney - 48\n   3. Chase Elliott - 39\n   4. Christopher Bell - 49\n   5. Corey Heim - 0\n   6. Joey Logano - 51\n   7. Daniel Suarez - 30\n   8. Chase Briscoe - 44\n   9. Ross Chastain - 31\n  10. Ty Gibbs - 27",
+      "last": "YellaWood 500 (Oct 25) - Winner: Kyle Larson",
+      "next": "Xfinity 500 - Martinsville Speedway (Nov 1)",
+      "recap": "YellaWood 500 - Talladega Superspeedway (Oct 25)\nWinner: Kyle Larson\n41 lead changes, 4 cautions\n\nTop 10 (points earned):\n   1. Kyle Larson - 71\n   2. William Byron - 47\n   3. Ricky Stenhouse Jr - 34\n   4. Ross Chastain - 33\n   5. Cole Custer - 32\n   6. Carson Hocevar - 31\n   7. Todd Gilliland - 30\n   8. Denny Hamlin - 29\n   9. Alex Bowman - 28\n  10. Michael McDowell - 27",
       "schedule": [
-        "YellaWood 500 - Talladega Superspeedway (Oct 25)",
         "Xfinity 500 - Martinsville Speedway (Nov 1)",
         "NASCAR Championship Race - Homestead-Miami Speedway (Nov 8)"
       ],
@@ -46,22 +44,22 @@
         "title": "Playoffs - points, playoff wins",
         "cols": 2,
         "items": [
-          " 1 Larson 2348 2W",
-          " 2 Bell 2332 1W",
-          " 3 Logano 2315 1W",
-          " 4 Briscoe 2313 2W",
-          " 5 Reddick 2289 1W",
-          " 6 Blaney 2289 0W",
-          " 7 Hamlin 2279 0W",
-          " 8 Cindric 2237 0W",
-          " 9 Gibbs 2200 0W",
-          "10 Wallace 2200 0W",
-          "11 Hocevar 2197 0W",
-          "12 Elliott 2195 0W",
-          "13 Byron 2168 0W",
-          "14 Preece 2166 0W",
-          "15 Suarez 2163 0W",
-          "16 Van Gisbergen 2136 0W"
+          " 1 Larson 2427 3W",
+          " 2 Bell 2333 1W",
+          " 3 Logano 2331 1W",
+          " 4 Briscoe 2328 2W",
+          " 5 Hamlin 2308 0W",
+          " 6 Blaney 2293 0W",
+          " 7 Reddick 2290 1W",
+          " 8 Cindric 2254 0W",
+          " 9 Hocevar 2229 0W",
+          "10 Gibbs 2219 0W",
+          "11 Byron 2215 0W",
+          "12 Wallace 2215 0W",
+          "13 Preece 2199 0W",
+          "14 Elliott 2197 0W",
+          "15 Suarez 2182 0W",
+          "16 Van Gisbergen 2146 0W"
         ]
       }
     }
