@@ -448,7 +448,7 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-10-26T02:31:54.404224-04:00",
+  "collected_at": "2026-10-27T02:31:54.588803-04:00",
   "ncaam": {
     "team_label": "UConn",
     "next": {
@@ -466,6 +466,11 @@
         "is_home": true,
         "opponent": "Michigan",
         "date": "2026-11-07T01:00:00Z"
+      },
+      {
+        "is_home": true,
+        "opponent": "Wagner",
+        "date": "2026-11-10T00:00:00Z"
       }
     ]
   }

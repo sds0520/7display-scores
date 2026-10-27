@@ -1,100 +1,8 @@
 {
-  "generated_at": "2026-10-26T02:32:19.459520-04:00",
-  "today_date": "2026-10-26",
-  "tomorrow_date": "2026-10-27",
+  "generated_at": "2026-10-27T02:32:45.429951-04:00",
+  "today_date": "2026-10-27",
+  "tomorrow_date": "2026-10-28",
   "today": [
-    {
-      "title": "JAPN101 Midterm Exam",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL103 - Exam II",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby"
-    },
-    {
-      "title": "Genetics Search Zoom Interviews, TBD",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby"
-    },
-    {
-      "title": "Reserved",
-      "time": "8:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Japanese",
-      "time": "8:30 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lecture",
-      "time": "10:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL103 Lecture",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Office Hours",
-      "time": "12:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Prep Time",
-      "time": "1:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Leah",
-      "time": "2:15 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Kristin Johnson",
-      "time": "4:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Sara Wong",
-      "time": "5:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Elisa Visher",
-      "time": "5:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Erik Solhaug",
-      "time": "6:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Pamela Lovejoy",
-      "time": "6:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "Japanese Table",
       "time": "12:00 PM",
@@ -132,103 +40,63 @@
       "who": "Abby"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-10-26",
-      "day_name": "Monday, Oct 26",
-      "events": [
-        {
-          "title": "JAPN101 Midterm Exam",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL103 - Exam II",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "Genetics Search Zoom Interviews, TBD",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "Reserved",
-          "time": "8:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Japanese",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lecture",
-          "time": "10:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL103 Lecture",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Office Hours",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Prep Time",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Leah",
-          "time": "2:15 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Kristin Johnson",
-          "time": "4:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Sara Wong",
-          "time": "5:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Elisa Visher",
-          "time": "5:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Erik Solhaug",
-          "time": "6:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Pamela Lovejoy",
-          "time": "6:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
+      "title": "Mid-Term",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
     },
+    {
+      "title": "Reserved",
+      "time": "8:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Japanese",
+      "time": "8:30 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL182 Lecture",
+      "time": "10:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL103 Lecture",
+      "time": "11:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Darril Rowe and Maley, Abigail",
+      "time": "12:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL182 Lab",
+      "time": "1:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Setback 6",
+      "time": "6:15 PM",
+      "all_day": false,
+      "who": "Abby (StAbby)"
+    },
+    {
+      "title": "Biology Pizza Party",
+      "time": "6:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-10-27",
       "day_name": "Tuesday, Oct 27",
@@ -302,6 +170,12 @@
         {
           "title": "BIOL103 Lecture",
           "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Darril Rowe and Maley, Abigail",
+          "time": "12:00 PM",
           "all_day": false,
           "who": "Abby"
         },
@@ -412,6 +286,66 @@
       "date": "2026-11-01",
       "day_name": "Sunday, Nov 1",
       "events": []
+    },
+    {
+      "date": "2026-11-02",
+      "day_name": "Monday, Nov 2",
+      "events": [
+        {
+          "title": "Posse Fall Career Visit (for scholars)",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Advising Week",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL103 - Quiz 5",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Reserved",
+          "time": "8:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Japanese",
+          "time": "8:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Technos Mini Presentation",
+          "time": "8:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lecture",
+          "time": "10:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL103 Lecture",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Office Hours",
+          "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
     }
   ]
 }
