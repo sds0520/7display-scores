@@ -13,9 +13,9 @@
       "games_back": "0.5 GB",
       "winning_pitcher": {
         "name": "Ian Seymour",
-        "wins": 10,
+        "wins": 11,
         "losses": 7,
-        "era": "4.09"
+        "era": "4.12"
       },
       "losing_pitcher": {
         "name": "Max Fried",
@@ -26,7 +26,7 @@
       "save_pitcher": {
         "name": "Bryan Baker",
         "saves": 46,
-        "era": "1.89"
+        "era": "1.84"
       }
     }
   },
@@ -448,7 +448,7 @@
     "standings_basis": "Playoff standings - points, playoff wins",
     "playoffs_underway": true
   },
-  "collected_at": "2026-10-27T02:31:54.588803-04:00",
+  "collected_at": "2026-10-28T02:32:49.285716-04:00",
   "ncaam": {
     "team_label": "UConn",
     "next": {
