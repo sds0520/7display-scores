@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-10-28T02:33:20.244657-04:00",
-  "today_date": "2026-10-28",
-  "tomorrow_date": "2026-10-29",
+  "generated_at": "2026-10-29T02:31:59.769727-04:00",
+  "today_date": "2026-10-29",
+  "tomorrow_date": "2026-10-30",
   "today": [
     {
-      "title": "Mid-Term",
-      "time": "All day",
-      "all_day": true,
+      "title": "Office Hours",
+      "time": "11:00 AM",
+      "all_day": false,
       "who": "Abby"
     },
+    {
+      "title": "BIOL182 Lab",
+      "time": "1:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "tomorrow": [
     {
       "title": "Reserved",
       "time": "8:00 AM",
@@ -34,105 +42,37 @@
       "who": "Abby"
     },
     {
-      "title": "Darril Rowe and Maley, Abigail",
+      "title": "Meeting with Claire",
       "time": "12:00 PM",
       "all_day": false,
       "who": "Abby"
     },
     {
-      "title": "BIOL182 Lab",
+      "title": "BIOL182 Weekly Meeting",
+      "time": "12:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Biology Bakes",
+      "time": "1:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Seminar: Students",
       "time": "1:30 PM",
       "all_day": false,
       "who": "Abby"
     },
     {
-      "title": "Setback 6",
-      "time": "6:15 PM",
-      "all_day": false,
-      "who": "Abby (StAbby)"
-    },
-    {
-      "title": "Biology Pizza Party",
-      "time": "6:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
-    {
-      "title": "Office Hours",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lab",
-      "time": "1:30 PM",
+      "title": "Search Committee Meeting for Finalists",
+      "time": "2:30 PM",
       "all_day": false,
       "who": "Abby"
     }
   ],
   "week": [
-    {
-      "date": "2026-10-28",
-      "day_name": "Wednesday, Oct 28",
-      "events": [
-        {
-          "title": "Mid-Term",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "Reserved",
-          "time": "8:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Japanese",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lecture",
-          "time": "10:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL103 Lecture",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Darril Rowe and Maley, Abigail",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lab",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Setback 6",
-          "time": "6:15 PM",
-          "all_day": false,
-          "who": "Abby (StAbby)"
-        },
-        {
-          "title": "Biology Pizza Party",
-          "time": "6:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
-    },
     {
       "date": "2026-10-29",
       "day_name": "Thursday, Oct 29",
@@ -226,12 +166,6 @@
       "day_name": "Monday, Nov 2",
       "events": [
         {
-          "title": "BIOL103 - Quiz 5",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
           "title": "Posse Fall Career Visit (for scholars)",
           "time": "All day",
           "all_day": true,
@@ -239,6 +173,12 @@
         },
         {
           "title": "Advising Week",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL103 - Quiz 5",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
@@ -308,6 +248,48 @@
           "time": "4:15 PM",
           "all_day": false,
           "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "day_name": "Wednesday, Nov 4",
+      "events": [
+        {
+          "title": "Reserved",
+          "time": "8:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Japanese",
+          "time": "8:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lecture",
+          "time": "10:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL103 Lecture",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lab",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Setback 4",
+          "time": "6:15 PM",
+          "all_day": false,
+          "who": "Abby (StAbby)"
         }
       ]
     }
