@@ -1,22 +1,8 @@
 {
-  "generated_at": "2026-10-29T02:31:59.769727-04:00",
-  "today_date": "2026-10-29",
-  "tomorrow_date": "2026-10-30",
+  "generated_at": "2026-10-30T02:31:54.311176-04:00",
+  "today_date": "2026-10-30",
+  "tomorrow_date": "2026-10-31",
   "today": [
-    {
-      "title": "Office Hours",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lab",
-      "time": "1:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "Reserved",
       "time": "8:00 AM",
@@ -72,25 +58,8 @@
       "who": "Abby"
     }
   ],
+  "tomorrow": [],
   "week": [
-    {
-      "date": "2026-10-29",
-      "day_name": "Thursday, Oct 29",
-      "events": [
-        {
-          "title": "Office Hours",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lab",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
-    },
     {
       "date": "2026-10-30",
       "day_name": "Friday, Oct 30",
@@ -172,13 +141,13 @@
           "who": "Abby"
         },
         {
-          "title": "Advising Week",
+          "title": "BIOL103 - Quiz 5",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
         },
         {
-          "title": "BIOL103 - Quiz 5",
+          "title": "Advising Week",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
@@ -290,6 +259,36 @@
           "time": "6:15 PM",
           "all_day": false,
           "who": "Abby (StAbby)"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "day_name": "Thursday, Nov 5",
+      "events": [
+        {
+          "title": "Meeting with Anthony",
+          "time": "9:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Conor Stiles and Maley, Abigail",
+          "time": "9:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Office Hours",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lab",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
         }
       ]
     }
