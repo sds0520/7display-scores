@@ -1,125 +1,10 @@
 {
-  "generated_at": "2026-10-30T02:31:54.311176-04:00",
-  "today_date": "2026-10-30",
-  "tomorrow_date": "2026-10-31",
-  "today": [
-    {
-      "title": "Reserved",
-      "time": "8:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Japanese",
-      "time": "8:30 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lecture",
-      "time": "10:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL103 Lecture",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Meeting with Claire",
-      "time": "12:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Weekly Meeting",
-      "time": "12:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Biology Bakes",
-      "time": "1:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Seminar: Students",
-      "time": "1:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Search Committee Meeting for Finalists",
-      "time": "2:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
+  "generated_at": "2026-10-31T02:32:04.450774-04:00",
+  "today_date": "2026-10-31",
+  "tomorrow_date": "2026-11-01",
+  "today": [],
   "tomorrow": [],
   "week": [
-    {
-      "date": "2026-10-30",
-      "day_name": "Friday, Oct 30",
-      "events": [
-        {
-          "title": "Reserved",
-          "time": "8:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Japanese",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lecture",
-          "time": "10:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL103 Lecture",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Meeting with Claire",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Weekly Meeting",
-          "time": "12:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Biology Bakes",
-          "time": "1:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Seminar: Students",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Search Committee Meeting for Finalists",
-          "time": "2:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
-    },
     {
       "date": "2026-10-31",
       "day_name": "Saturday, Oct 31",
@@ -287,6 +172,66 @@
         {
           "title": "BIOL182 Lab",
           "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "day_name": "Friday, Nov 6",
+      "events": [
+        {
+          "title": "Godzilla - 0.0 Releases in Theaters (US)",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby (StAbby)"
+        },
+        {
+          "title": "Reserved",
+          "time": "8:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Japanese",
+          "time": "8:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lecture",
+          "time": "10:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL103 Lecture",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Meeting with Claire",
+          "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Biology Bakes",
+          "time": "1:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Seminar: Guest Speaker Patty Brennan",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Dylan Muskrat and Maley, Abigail",
+          "time": "2:30 PM",
           "all_day": false,
           "who": "Abby"
         }
