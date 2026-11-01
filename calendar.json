@@ -1,15 +1,65 @@
 {
-  "generated_at": "2026-10-31T02:32:04.450774-04:00",
-  "today_date": "2026-10-31",
-  "tomorrow_date": "2026-11-01",
+  "generated_at": "2026-11-01T01:31:47.140687-05:00",
+  "today_date": "2026-11-01",
+  "tomorrow_date": "2026-11-02",
   "today": [],
-  "tomorrow": [],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-10-31",
-      "day_name": "Saturday, Oct 31",
-      "events": []
+      "title": "Posse Fall Career Visit (for scholars)",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
     },
+    {
+      "title": "Advising Week",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL103 - Quiz 5",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
+    },
+    {
+      "title": "Reserved",
+      "time": "8:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Technos Mini Presentation",
+      "time": "8:30 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Japanese",
+      "time": "8:30 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL182 Lecture",
+      "time": "10:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL103 Lecture",
+      "time": "11:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Office Hours",
+      "time": "12:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-11-01",
       "day_name": "Sunday, Nov 1",
@@ -26,13 +76,13 @@
           "who": "Abby"
         },
         {
-          "title": "BIOL103 - Quiz 5",
+          "title": "Advising Week",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
         },
         {
-          "title": "Advising Week",
+          "title": "BIOL103 - Quiz 5",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
@@ -236,6 +286,11 @@
           "who": "Abby"
         }
       ]
+    },
+    {
+      "date": "2026-11-07",
+      "day_name": "Saturday, Nov 7",
+      "events": []
     }
   ]
 }
