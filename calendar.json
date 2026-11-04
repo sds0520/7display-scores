@@ -1,26 +1,8 @@
 {
-  "generated_at": "2026-11-02T01:32:49.707970-05:00",
-  "today_date": "2026-11-02",
-  "tomorrow_date": "2026-11-03",
+  "generated_at": "2026-11-04T01:32:40.082163-05:00",
+  "today_date": "2026-11-04",
+  "tomorrow_date": "2026-11-05",
   "today": [
-    {
-      "title": "Posse Fall Career Visit (for scholars)",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL103 - Quiz 5",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby"
-    },
-    {
-      "title": "Advising Week",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby"
-    },
     {
       "title": "Reserved",
       "time": "8:00 AM",
@@ -29,12 +11,6 @@
     },
     {
       "title": "Japanese",
-      "time": "8:30 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Technos Mini Presentation",
       "time": "8:30 AM",
       "all_day": false,
       "who": "Abby"
@@ -52,129 +28,51 @@
       "who": "Abby"
     },
     {
-      "title": "Office Hours",
+      "title": "Riley Harrington and Maley, Abigail",
       "time": "12:00 PM",
       "all_day": false,
       "who": "Abby"
+    },
+    {
+      "title": "BIOL182 Lab",
+      "time": "1:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Setback 4",
+      "time": "6:15 PM",
+      "all_day": false,
+      "who": "Abby (StAbby)"
     }
   ],
   "tomorrow": [
     {
-      "title": "Reserved",
-      "time": "8:00 AM",
+      "title": "Meeting with Anthony",
+      "time": "9:00 AM",
       "all_day": false,
       "who": "Abby"
     },
     {
-      "title": "Steve Pulmonary Appt",
+      "title": "Conor Stiles and Maley, Abigail",
+      "time": "9:30 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Office Hours",
       "time": "11:00 AM",
       "all_day": false,
-      "who": "Abby (StAbby)"
-    },
-    {
-      "title": "Japanese Table",
-      "time": "12:00 PM",
-      "all_day": false,
       "who": "Abby"
     },
     {
-      "title": "Technos Presentation",
-      "time": "4:15 PM",
+      "title": "BIOL182 Lab",
+      "time": "1:30 PM",
       "all_day": false,
       "who": "Abby"
     }
   ],
   "week": [
-    {
-      "date": "2026-11-02",
-      "day_name": "Monday, Nov 2",
-      "events": [
-        {
-          "title": "Posse Fall Career Visit (for scholars)",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL103 - Quiz 5",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "Advising Week",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "Reserved",
-          "time": "8:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Japanese",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Technos Mini Presentation",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lecture",
-          "time": "10:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL103 Lecture",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Office Hours",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "day_name": "Tuesday, Nov 3",
-      "events": [
-        {
-          "title": "Reserved",
-          "time": "8:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Steve Pulmonary Appt",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby (StAbby)"
-        },
-        {
-          "title": "Japanese Table",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Technos Presentation",
-          "time": "4:15 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
-    },
     {
       "date": "2026-11-04",
       "day_name": "Wednesday, Nov 4",
@@ -200,6 +98,12 @@
         {
           "title": "BIOL103 Lecture",
           "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Riley Harrington and Maley, Abigail",
+          "time": "12:00 PM",
           "all_day": false,
           "who": "Abby"
         },
@@ -316,6 +220,96 @@
       "date": "2026-11-08",
       "day_name": "Sunday, Nov 8",
       "events": []
+    },
+    {
+      "date": "2026-11-09",
+      "day_name": "Monday, Nov 9",
+      "events": [
+        {
+          "title": "Genetics Search Finalists on Campus, TBD",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL103 - Quiz 6",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Reserved",
+          "time": "8:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Japanese",
+          "time": "8:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lecture",
+          "time": "10:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL103 Lecture",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Office Hours",
+          "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Prep Time",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Leah",
+          "time": "2:15 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Donate Platelets",
+          "time": "5:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "day_name": "Tuesday, Nov 10",
+      "events": [
+        {
+          "title": "Stop aspirin and THC",
+          "time": "7:00 AM",
+          "all_day": false,
+          "who": "Abby (StAbby)"
+        },
+        {
+          "title": "Japanese Table",
+          "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Faculty Meeting",
+          "time": "12:15 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
     }
   ]
 }
