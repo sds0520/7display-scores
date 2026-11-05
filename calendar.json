@@ -1,52 +1,8 @@
 {
-  "generated_at": "2026-11-04T01:32:40.082163-05:00",
-  "today_date": "2026-11-04",
-  "tomorrow_date": "2026-11-05",
+  "generated_at": "2026-11-05T01:32:59.303388-05:00",
+  "today_date": "2026-11-05",
+  "tomorrow_date": "2026-11-06",
   "today": [
-    {
-      "title": "Reserved",
-      "time": "8:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Japanese",
-      "time": "8:30 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lecture",
-      "time": "10:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL103 Lecture",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Riley Harrington and Maley, Abigail",
-      "time": "12:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lab",
-      "time": "1:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Setback 4",
-      "time": "6:15 PM",
-      "all_day": false,
-      "who": "Abby (StAbby)"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "Meeting with Anthony",
       "time": "9:00 AM",
@@ -72,55 +28,63 @@
       "who": "Abby"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-11-04",
-      "day_name": "Wednesday, Nov 4",
-      "events": [
-        {
-          "title": "Reserved",
-          "time": "8:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Japanese",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lecture",
-          "time": "10:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL103 Lecture",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Riley Harrington and Maley, Abigail",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lab",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Setback 4",
-          "time": "6:15 PM",
-          "all_day": false,
-          "who": "Abby (StAbby)"
-        }
-      ]
+      "title": "Godzilla - 0.0 Releases in Theaters (US)",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby (StAbby)"
     },
+    {
+      "title": "Reserved",
+      "time": "8:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Japanese",
+      "time": "8:30 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL182 Lecture",
+      "time": "10:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL103 Lecture",
+      "time": "11:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Meeting with Claire",
+      "time": "12:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Biology Bakes",
+      "time": "1:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Seminar: Guest Speaker Patty Brennan",
+      "time": "1:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Dylan Muskrat and Maley, Abigail",
+      "time": "2:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-11-05",
       "day_name": "Thursday, Nov 5",
@@ -226,13 +190,13 @@
       "day_name": "Monday, Nov 9",
       "events": [
         {
-          "title": "Genetics Search Finalists on Campus, TBD",
+          "title": "BIOL103 - Quiz 6",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
         },
         {
-          "title": "BIOL103 - Quiz 6",
+          "title": "Genetics Search Finalists on Campus, TBD",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
@@ -308,6 +272,60 @@
           "time": "12:15 PM",
           "all_day": false,
           "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "day_name": "Wednesday, Nov 11",
+      "events": [
+        {
+          "title": "Withdraw Deadline",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Reserved",
+          "time": "8:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Japanese",
+          "time": "8:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lecture",
+          "time": "10:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL103 Lecture",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lab",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Candidate Seminar",
+          "time": "4:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Setback 7",
+          "time": "6:15 PM",
+          "all_day": false,
+          "who": "Abby (StAbby)"
         }
       ]
     }
