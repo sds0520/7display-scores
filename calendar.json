@@ -1,34 +1,8 @@
 {
-  "generated_at": "2026-11-05T01:32:59.303388-05:00",
-  "today_date": "2026-11-05",
-  "tomorrow_date": "2026-11-06",
+  "generated_at": "2026-11-06T01:32:28.914876-05:00",
+  "today_date": "2026-11-06",
+  "tomorrow_date": "2026-11-07",
   "today": [
-    {
-      "title": "Meeting with Anthony",
-      "time": "9:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Conor Stiles and Maley, Abigail",
-      "time": "9:30 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Office Hours",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lab",
-      "time": "1:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "Godzilla - 0.0 Releases in Theaters (US)",
       "time": "All day",
@@ -84,37 +58,8 @@
       "who": "Abby"
     }
   ],
+  "tomorrow": [],
   "week": [
-    {
-      "date": "2026-11-05",
-      "day_name": "Thursday, Nov 5",
-      "events": [
-        {
-          "title": "Meeting with Anthony",
-          "time": "9:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Conor Stiles and Maley, Abigail",
-          "time": "9:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Office Hours",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lab",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
-    },
     {
       "date": "2026-11-06",
       "day_name": "Friday, Nov 6",
@@ -191,12 +136,6 @@
       "events": [
         {
           "title": "BIOL103 - Quiz 6",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "Genetics Search Finalists on Campus, TBD",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
@@ -280,6 +219,12 @@
       "day_name": "Wednesday, Nov 11",
       "events": [
         {
+          "title": "Job Candidate on Campus",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
           "title": "Withdraw Deadline",
           "time": "All day",
           "all_day": true,
@@ -326,6 +271,24 @@
           "time": "6:15 PM",
           "all_day": false,
           "who": "Abby (StAbby)"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "day_name": "Thursday, Nov 12",
+      "events": [
+        {
+          "title": "Office Hours",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lab",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
         }
       ]
     }
