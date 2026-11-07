@@ -1,125 +1,10 @@
 {
-  "generated_at": "2026-11-06T01:32:28.914876-05:00",
-  "today_date": "2026-11-06",
-  "tomorrow_date": "2026-11-07",
-  "today": [
-    {
-      "title": "Godzilla - 0.0 Releases in Theaters (US)",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby (StAbby)"
-    },
-    {
-      "title": "Reserved",
-      "time": "8:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Japanese",
-      "time": "8:30 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lecture",
-      "time": "10:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL103 Lecture",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Meeting with Claire",
-      "time": "12:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Biology Bakes",
-      "time": "1:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Seminar: Guest Speaker Patty Brennan",
-      "time": "1:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Dylan Muskrat and Maley, Abigail",
-      "time": "2:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
+  "generated_at": "2026-11-07T01:31:47.928499-05:00",
+  "today_date": "2026-11-07",
+  "tomorrow_date": "2026-11-08",
+  "today": [],
   "tomorrow": [],
   "week": [
-    {
-      "date": "2026-11-06",
-      "day_name": "Friday, Nov 6",
-      "events": [
-        {
-          "title": "Godzilla - 0.0 Releases in Theaters (US)",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby (StAbby)"
-        },
-        {
-          "title": "Reserved",
-          "time": "8:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Japanese",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lecture",
-          "time": "10:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL103 Lecture",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Meeting with Claire",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Biology Bakes",
-          "time": "1:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Seminar: Guest Speaker Patty Brennan",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Dylan Muskrat and Maley, Abigail",
-          "time": "2:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
-    },
     {
       "date": "2026-11-07",
       "day_name": "Saturday, Nov 7",
@@ -219,13 +104,13 @@
       "day_name": "Wednesday, Nov 11",
       "events": [
         {
-          "title": "Job Candidate on Campus",
+          "title": "Withdraw Deadline",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
         },
         {
-          "title": "Withdraw Deadline",
+          "title": "Job Candidate on Campus",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
@@ -287,6 +172,84 @@
         {
           "title": "BIOL182 Lab",
           "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "day_name": "Friday, Nov 13",
+      "events": [
+        {
+          "title": "Job Candidate on Campus",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Search Committee Meeting to Rank Finalists (or 11/16)",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL103 - Presentation Topic Due",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Reserved",
+          "time": "8:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Japanese",
+          "time": "8:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lecture",
+          "time": "10:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL103 Lecture",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Meeting with Claire",
+          "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Weekly Meeting",
+          "time": "12:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Biology Bakes",
+          "time": "1:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Seminar: Job Candidate(s)",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Search Committee Mtg",
+          "time": "2:30 PM",
           "all_day": false,
           "who": "Abby"
         }
