@@ -1,9 +1,8 @@
 {
-  "generated_at": "2026-11-08T01:30:59.152589-05:00",
-  "today_date": "2026-11-08",
-  "tomorrow_date": "2026-11-09",
-  "today": [],
-  "tomorrow": [
+  "generated_at": "2026-11-09T01:31:52.102997-05:00",
+  "today_date": "2026-11-09",
+  "tomorrow_date": "2026-11-10",
+  "today": [
     {
       "title": "BIOL103 - Quiz 6",
       "time": "All day",
@@ -59,12 +58,27 @@
       "who": "Abby"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-11-08",
-      "day_name": "Sunday, Nov 8",
-      "events": []
+      "title": "Stop aspirin and THC",
+      "time": "7:00 AM",
+      "all_day": false,
+      "who": "Abby (StAbby)"
     },
+    {
+      "title": "Japanese Table",
+      "time": "12:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Faculty Meeting",
+      "time": "12:15 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-11-09",
       "day_name": "Monday, Nov 9",
@@ -184,6 +198,12 @@
           "who": "Abby"
         },
         {
+          "title": "Meeting with Job Candidate",
+          "time": "10:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
           "title": "BIOL103 Lecture",
           "time": "11:00 AM",
           "all_day": false,
@@ -197,7 +217,7 @@
         },
         {
           "title": "Candidate Seminar",
-          "time": "4:00 PM",
+          "time": "4:30 PM",
           "all_day": false,
           "who": "Abby"
         },
@@ -232,7 +252,7 @@
       "day_name": "Friday, Nov 13",
       "events": [
         {
-          "title": "Search Committee Meeting to Rank Finalists (or 11/16)",
+          "title": "Job Candidate on Campus",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
@@ -244,7 +264,7 @@
           "who": "Abby"
         },
         {
-          "title": "Job Candidate on Campus",
+          "title": "Search Committee Meeting to Rank Finalists (or 11/16)",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
@@ -274,13 +294,13 @@
           "who": "Abby"
         },
         {
-          "title": "Meeting with Claire",
+          "title": "Meeting with Job Candidate",
           "time": "12:00 PM",
           "all_day": false,
           "who": "Abby"
         },
         {
-          "title": "Meeting with Job Candidate",
+          "title": "Meeting with Claire",
           "time": "12:00 PM",
           "all_day": false,
           "who": "Abby"
@@ -308,6 +328,12 @@
           "time": "2:30 PM",
           "all_day": false,
           "who": "Abby"
+        },
+        {
+          "title": "Candidate Seminar",
+          "time": "4:30 PM",
+          "all_day": false,
+          "who": "Abby"
         }
       ]
     },
@@ -315,6 +341,18 @@
       "date": "2026-11-14",
       "day_name": "Saturday, Nov 14",
       "events": []
+    },
+    {
+      "date": "2026-11-15",
+      "day_name": "Sunday, Nov 15",
+      "events": [
+        {
+          "title": "ABLE Edits due to Reviewers",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        }
+      ]
     }
   ]
 }

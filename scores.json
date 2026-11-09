@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T01:30:44.560713-05:00",
+  "generated_at": "2026-11-09T01:31:35.488027-05:00",
   "cards": [
     {
       "key": "mlb",
@@ -33,32 +33,32 @@
     {
       "key": "nascar",
       "title": "NASCAR",
-      "last": "Xfinity 500 (Nov 1) - Winner: William Byron",
-      "next": "NASCAR Cup Series Championship Race - Homestead-Miami Speedway (Nov 8)",
-      "recap": "Xfinity 500 - Martinsville Speedway (Nov 1)\nWinner: William Byron\n11 lead changes, 6 cautions\n\nTop 10 (points earned):\n   1. William Byron - 76\n   2. Chase Elliott - 45\n   3. Ty Gibbs - 51\n   4. Josh Berry - 43\n   5. Shane Van Gisbergen - 32\n   6. Denny Hamlin - 31\n   7. Austin Dillon - 30\n   8. Bubba Wallace - 34\n   9. Kyle Larson - 28\n  10. Christopher Bell - 35",
+      "last": "NASCAR Cup Series Championship Race (Nov 8) - Winner: Ryan Blaney",
+      "next": "Not yet scheduled",
+      "recap": "NASCAR Cup Series Championship Race - Homestead-Miami Speedway (Nov 8)\nWinner: Ryan Blaney\n18 lead changes, 3 cautions\n\nTop 10 (points earned):\n   1. Ryan Blaney - 71\n   2. Tyler Reddick - 53\n   3. William Byron - 41\n   4. Christopher Bell - 50\n   5. Bubba Wallace - 36\n   6. Denny Hamlin - 46\n   7. Austin Cindric - 43\n   8. Daniel Suarez - 33\n   9. Noah Gragson - 28\n  10. Michael McDowell - 27",
       "schedule": [
-        "NASCAR Cup Series Championship Race - Homestead-Miami Speedway (Nov 8)"
+        "No upcoming events are available yet."
       ],
       "columns": {
         "title": "Playoffs - points, playoff wins",
         "cols": 2,
         "items": [
-          " 1 Larson 2455 3W",
-          " 2 Bell 2368 1W",
-          " 3 Logano 2356 1W",
-          " 4 Briscoe 2351 2W",
-          " 5 Hamlin 2339 0W",
-          " 6 Reddick 2319 1W",
-          " 7 Byron 2300 1W",
-          " 8 Blaney 2295 0W",
-          " 9 Gibbs 2270 0W",
-          "10 Cindric 2259 0W",
-          "11 Wallace 2249 0W",
-          "12 Hocevar 2244 0W",
-          "13 Elliott 2241 0W",
-          "14 Preece 2221 0W",
-          "15 Suarez 2191 0W",
-          "16 Van Gisbergen 2178 0W"
+          " 1 Larson 2487 3W",
+          " 2 Bell 2418 1W",
+          " 3 Hamlin 2386 0W",
+          " 4 Logano 2376 1W",
+          " 5 Reddick 2373 1W",
+          " 6 Blaney 2371 1W",
+          " 7 Briscoe 2352 2W",
+          " 8 Byron 2341 1W",
+          " 9 Cindric 2302 0W",
+          "10 Gibbs 2296 0W",
+          "11 Wallace 2285 0W",
+          "12 Elliott 2260 0W",
+          "13 Hocevar 2244 0W",
+          "14 Preece 2233 0W",
+          "15 Suarez 2224 0W",
+          "16 Van Gisbergen 2181 0W"
         ]
       }
     }
