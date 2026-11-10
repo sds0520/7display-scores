@@ -1,10 +1,36 @@
 {
-  "generated_at": "2026-11-09T01:31:52.102997-05:00",
-  "today_date": "2026-11-09",
-  "tomorrow_date": "2026-11-10",
+  "generated_at": "2026-11-10T01:32:30.229042-05:00",
+  "today_date": "2026-11-10",
+  "tomorrow_date": "2026-11-11",
   "today": [
     {
-      "title": "BIOL103 - Quiz 6",
+      "title": "Stop aspirin and THC",
+      "time": "7:00 AM",
+      "all_day": false,
+      "who": "Abby (StAbby)"
+    },
+    {
+      "title": "Japanese Table",
+      "time": "12:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Faculty Meeting",
+      "time": "12:15 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "tomorrow": [
+    {
+      "title": "Withdraw Deadline",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
+    },
+    {
+      "title": "Job Candidate on Campus",
       "time": "All day",
       "all_day": true,
       "who": "Abby"
@@ -28,117 +54,37 @@
       "who": "Abby"
     },
     {
+      "title": "Meeting with Job Candidate",
+      "time": "10:30 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
       "title": "BIOL103 Lecture",
       "time": "11:00 AM",
       "all_day": false,
       "who": "Abby"
     },
     {
-      "title": "Office Hours",
-      "time": "12:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Prep Time",
+      "title": "BIOL182 Lab",
       "time": "1:30 PM",
       "all_day": false,
       "who": "Abby"
     },
     {
-      "title": "Leah",
-      "time": "2:15 PM",
+      "title": "Candidate Seminar",
+      "time": "4:30 PM",
       "all_day": false,
       "who": "Abby"
     },
     {
-      "title": "Donate Platelets",
-      "time": "5:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
-    {
-      "title": "Stop aspirin and THC",
-      "time": "7:00 AM",
+      "title": "Setback 7",
+      "time": "6:15 PM",
       "all_day": false,
       "who": "Abby (StAbby)"
-    },
-    {
-      "title": "Japanese Table",
-      "time": "12:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Faculty Meeting",
-      "time": "12:15 PM",
-      "all_day": false,
-      "who": "Abby"
     }
   ],
   "week": [
-    {
-      "date": "2026-11-09",
-      "day_name": "Monday, Nov 9",
-      "events": [
-        {
-          "title": "BIOL103 - Quiz 6",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "Reserved",
-          "time": "8:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Japanese",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lecture",
-          "time": "10:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL103 Lecture",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Office Hours",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Prep Time",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Leah",
-          "time": "2:15 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Donate Platelets",
-          "time": "5:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
-    },
     {
       "date": "2026-11-10",
       "day_name": "Tuesday, Nov 10",
@@ -252,13 +198,13 @@
       "day_name": "Friday, Nov 13",
       "events": [
         {
-          "title": "Job Candidate on Campus",
+          "title": "BIOL103 - Presentation Topic Due",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
         },
         {
-          "title": "BIOL103 - Presentation Topic Due",
+          "title": "Job Candidate on Campus",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
@@ -350,6 +296,66 @@
           "title": "ABLE Edits due to Reviewers",
           "time": "All day",
           "all_day": true,
+          "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "day_name": "Monday, Nov 16",
+      "events": [
+        {
+          "title": "Job Candidate on Campus",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Search Committee Meeting to Rank Finalists (or 11/13)",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Reserved",
+          "time": "8:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Japanese",
+          "time": "8:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lecture",
+          "time": "10:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL103 Lecture",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Meeting with Job Candidate",
+          "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Office Hours",
+          "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Candidate Seminar",
+          "time": "4:30 PM",
+          "all_day": false,
           "who": "Abby"
         }
       ]
