@@ -1,28 +1,8 @@
 {
-  "generated_at": "2026-11-10T01:32:30.229042-05:00",
-  "today_date": "2026-11-10",
-  "tomorrow_date": "2026-11-11",
+  "generated_at": "2026-11-11T01:33:15.722328-05:00",
+  "today_date": "2026-11-11",
+  "tomorrow_date": "2026-11-12",
   "today": [
-    {
-      "title": "Stop aspirin and THC",
-      "time": "7:00 AM",
-      "all_day": false,
-      "who": "Abby (StAbby)"
-    },
-    {
-      "title": "Japanese Table",
-      "time": "12:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Faculty Meeting",
-      "time": "12:15 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "Withdraw Deadline",
       "time": "All day",
@@ -78,37 +58,33 @@
       "who": "Abby"
     },
     {
+      "title": "Dinner with Job Candidate",
+      "time": "6:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
       "title": "Setback 7",
       "time": "6:15 PM",
       "all_day": false,
       "who": "Abby (StAbby)"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-11-10",
-      "day_name": "Tuesday, Nov 10",
-      "events": [
-        {
-          "title": "Stop aspirin and THC",
-          "time": "7:00 AM",
-          "all_day": false,
-          "who": "Abby (StAbby)"
-        },
-        {
-          "title": "Japanese Table",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Faculty Meeting",
-          "time": "12:15 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
+      "title": "Office Hours",
+      "time": "11:00 AM",
+      "all_day": false,
+      "who": "Abby"
     },
+    {
+      "title": "BIOL182 Lab",
+      "time": "1:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-11-11",
       "day_name": "Wednesday, Nov 11",
@@ -168,6 +144,12 @@
           "who": "Abby"
         },
         {
+          "title": "Dinner with Job Candidate",
+          "time": "6:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
           "title": "Setback 7",
           "time": "6:15 PM",
           "all_day": false,
@@ -198,7 +180,7 @@
       "day_name": "Friday, Nov 13",
       "events": [
         {
-          "title": "BIOL103 - Presentation Topic Due",
+          "title": "Search Committee Meeting to Rank Finalists (or 11/16)",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
@@ -210,7 +192,7 @@
           "who": "Abby"
         },
         {
-          "title": "Search Committee Meeting to Rank Finalists (or 11/16)",
+          "title": "BIOL103 - Presentation Topic Due",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
@@ -240,13 +222,13 @@
           "who": "Abby"
         },
         {
-          "title": "Meeting with Job Candidate",
+          "title": "Meeting with Claire",
           "time": "12:00 PM",
           "all_day": false,
           "who": "Abby"
         },
         {
-          "title": "Meeting with Claire",
+          "title": "Meeting with Job Candidate",
           "time": "12:00 PM",
           "all_day": false,
           "who": "Abby"
@@ -278,6 +260,12 @@
         {
           "title": "Candidate Seminar",
           "time": "4:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Dinner with Job Candidate",
+          "time": "6:00 PM",
           "all_day": false,
           "who": "Abby"
         }
@@ -355,6 +343,30 @@
         {
           "title": "Candidate Seminar",
           "time": "4:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Dinner with Job Candidate",
+          "time": "6:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "day_name": "Tuesday, Nov 17",
+      "events": [
+        {
+          "title": "Surgery (Steve's thumb)",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby (StAbby)"
+        },
+        {
+          "title": "Japanese Table",
+          "time": "12:00 PM",
           "all_day": false,
           "who": "Abby"
         }
