@@ -1,28 +1,8 @@
 {
-  "generated_at": "2026-11-12T01:32:33.528319-05:00",
-  "today_date": "2026-11-12",
-  "tomorrow_date": "2026-11-13",
+  "generated_at": "2026-11-13T01:32:51.184424-05:00",
+  "today_date": "2026-11-13",
+  "tomorrow_date": "2026-11-14",
   "today": [
-    {
-      "title": "Meet with Candidate",
-      "time": "9:30 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Office Hours",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lab",
-      "time": "1:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "Search Committee Meeting to Rank Finalists (or 11/16)",
       "time": "All day",
@@ -96,12 +76,6 @@
       "who": "Abby"
     },
     {
-      "title": "Search Committee Mtg",
-      "time": "2:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
       "title": "Candidate Seminar",
       "time": "4:30 PM",
       "all_day": false,
@@ -114,31 +88,8 @@
       "who": "Abby"
     }
   ],
+  "tomorrow": [],
   "week": [
-    {
-      "date": "2026-11-12",
-      "day_name": "Thursday, Nov 12",
-      "events": [
-        {
-          "title": "Meet with Candidate",
-          "time": "9:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Office Hours",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lab",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
-    },
     {
       "date": "2026-11-13",
       "day_name": "Friday, Nov 13",
@@ -216,12 +167,6 @@
           "who": "Abby"
         },
         {
-          "title": "Search Committee Mtg",
-          "time": "2:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
           "title": "Candidate Seminar",
           "time": "4:30 PM",
           "all_day": false,
@@ -293,13 +238,13 @@
           "who": "Abby"
         },
         {
-          "title": "Office Hours",
+          "title": "Meeting with Job Candidate",
           "time": "12:00 PM",
           "all_day": false,
           "who": "Abby"
         },
         {
-          "title": "Meeting with Job Candidate",
+          "title": "Office Hours",
           "time": "12:00 PM",
           "all_day": false,
           "who": "Abby"
@@ -341,13 +286,13 @@
       "day_name": "Wednesday, Nov 18",
       "events": [
         {
-          "title": "Offer Made to Candidate",
+          "title": "BIOL103 - Exam III",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
         },
         {
-          "title": "BIOL103 - Exam III",
+          "title": "Offer Made to Candidate",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
@@ -387,6 +332,42 @@
           "time": "6:15 PM",
           "all_day": false,
           "who": "Abby (StAbby)"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "day_name": "Thursday, Nov 19",
+      "events": [
+        {
+          "title": "Job Candidate on Campus",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Meeting with Job Candidate",
+          "time": "8:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Office Hours",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lab",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Candidate Seminar",
+          "time": "4:30 PM",
+          "all_day": false,
+          "who": "Abby"
         }
       ]
     }
