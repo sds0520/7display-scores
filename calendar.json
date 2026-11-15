@@ -1,9 +1,8 @@
 {
-  "generated_at": "2026-11-14T01:32:15.269781-05:00",
-  "today_date": "2026-11-14",
-  "tomorrow_date": "2026-11-15",
-  "today": [],
-  "tomorrow": [
+  "generated_at": "2026-11-15T01:32:06.069179-05:00",
+  "today_date": "2026-11-15",
+  "tomorrow_date": "2026-11-16",
+  "today": [
     {
       "title": "ABLE Edits due to Reviewers",
       "time": "All day",
@@ -11,12 +10,69 @@
       "who": "Abby"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-11-14",
-      "day_name": "Saturday, Nov 14",
-      "events": []
+      "title": "Job Candidate on Campus",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
     },
+    {
+      "title": "Search Committee Meeting to Rank Finalists (or 11/13)",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
+    },
+    {
+      "title": "Reserved",
+      "time": "8:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Japanese",
+      "time": "8:30 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL182 Lecture",
+      "time": "10:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL103 Lecture",
+      "time": "11:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Meeting with Job Candidate",
+      "time": "12:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Office Hours",
+      "time": "12:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Candidate Seminar",
+      "time": "4:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Dinner with Job Candidate",
+      "time": "6:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-11-15",
       "day_name": "Sunday, Nov 15",
@@ -34,13 +90,13 @@
       "day_name": "Monday, Nov 16",
       "events": [
         {
-          "title": "Search Committee Meeting to Rank Finalists (or 11/13)",
+          "title": "Job Candidate on Campus",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
         },
         {
-          "title": "Job Candidate on Campus",
+          "title": "Search Committee Meeting to Rank Finalists (or 11/13)",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
@@ -70,13 +126,13 @@
           "who": "Abby"
         },
         {
-          "title": "Office Hours",
+          "title": "Meeting with Job Candidate",
           "time": "12:00 PM",
           "all_day": false,
           "who": "Abby"
         },
         {
-          "title": "Meeting with Job Candidate",
+          "title": "Office Hours",
           "time": "12:00 PM",
           "all_day": false,
           "who": "Abby"
@@ -118,13 +174,13 @@
       "day_name": "Wednesday, Nov 18",
       "events": [
         {
-          "title": "Offer Made to Candidate",
+          "title": "BIOL103 - Exam III",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
         },
         {
-          "title": "BIOL103 - Exam III",
+          "title": "Offer Made to Candidate",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
@@ -262,6 +318,11 @@
           "who": "Abby"
         }
       ]
+    },
+    {
+      "date": "2026-11-21",
+      "day_name": "Saturday, Nov 21",
+      "events": []
     }
   ]
 }
