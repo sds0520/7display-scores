@@ -1,24 +1,16 @@
 {
-  "generated_at": "2026-11-15T01:32:06.069179-05:00",
-  "today_date": "2026-11-15",
-  "tomorrow_date": "2026-11-16",
+  "generated_at": "2026-11-16T01:32:12.455330-05:00",
+  "today_date": "2026-11-16",
+  "tomorrow_date": "2026-11-17",
   "today": [
     {
-      "title": "ABLE Edits due to Reviewers",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
-    {
-      "title": "Job Candidate on Campus",
+      "title": "Search Committee Meeting to Rank Finalists (or 11/13)",
       "time": "All day",
       "all_day": true,
       "who": "Abby"
     },
     {
-      "title": "Search Committee Meeting to Rank Finalists (or 11/13)",
+      "title": "Job Candidate on Campus",
       "time": "All day",
       "all_day": true,
       "who": "Abby"
@@ -72,31 +64,33 @@
       "who": "Abby"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-11-15",
-      "day_name": "Sunday, Nov 15",
-      "events": [
-        {
-          "title": "ABLE Edits due to Reviewers",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        }
-      ]
+      "title": "Surgery (Steve's thumb)",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby (StAbby)"
     },
+    {
+      "title": "Japanese Table",
+      "time": "12:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-11-16",
       "day_name": "Monday, Nov 16",
       "events": [
         {
-          "title": "Job Candidate on Campus",
+          "title": "Search Committee Meeting to Rank Finalists (or 11/13)",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
         },
         {
-          "title": "Search Committee Meeting to Rank Finalists (or 11/13)",
+          "title": "Job Candidate on Campus",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
@@ -174,13 +168,13 @@
       "day_name": "Wednesday, Nov 18",
       "events": [
         {
-          "title": "BIOL103 - Exam III",
+          "title": "Offer Made to Candidate",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
         },
         {
-          "title": "Offer Made to Candidate",
+          "title": "BIOL103 - Exam III",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
@@ -322,6 +316,11 @@
     {
       "date": "2026-11-21",
       "day_name": "Saturday, Nov 21",
+      "events": []
+    },
+    {
+      "date": "2026-11-22",
+      "day_name": "Sunday, Nov 22",
       "events": []
     }
   ]
