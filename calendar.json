@@ -1,16 +1,30 @@
 {
-  "generated_at": "2026-11-16T01:32:12.455330-05:00",
-  "today_date": "2026-11-16",
-  "tomorrow_date": "2026-11-17",
+  "generated_at": "2026-11-17T01:33:10.891378-05:00",
+  "today_date": "2026-11-17",
+  "tomorrow_date": "2026-11-18",
   "today": [
     {
-      "title": "Search Committee Meeting to Rank Finalists (or 11/13)",
+      "title": "Surgery (Steve's thumb)",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby (StAbby)"
+    },
+    {
+      "title": "Japanese Table",
+      "time": "12:00 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "tomorrow": [
+    {
+      "title": "Offer Made to Candidate",
       "time": "All day",
       "all_day": true,
       "who": "Abby"
     },
     {
-      "title": "Job Candidate on Campus",
+      "title": "BIOL103 - Exam III",
       "time": "All day",
       "all_day": true,
       "who": "Abby"
@@ -40,111 +54,19 @@
       "who": "Abby"
     },
     {
-      "title": "Meeting with Job Candidate",
-      "time": "12:00 PM",
+      "title": "BIOL182 Lab",
+      "time": "1:30 PM",
       "all_day": false,
       "who": "Abby"
     },
     {
-      "title": "Office Hours",
-      "time": "12:00 PM",
+      "title": "Setback 8",
+      "time": "6:15 PM",
       "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Candidate Seminar",
-      "time": "4:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Dinner with Job Candidate",
-      "time": "6:00 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
-    {
-      "title": "Surgery (Steve's thumb)",
-      "time": "All day",
-      "all_day": true,
       "who": "Abby (StAbby)"
-    },
-    {
-      "title": "Japanese Table",
-      "time": "12:00 PM",
-      "all_day": false,
-      "who": "Abby"
     }
   ],
   "week": [
-    {
-      "date": "2026-11-16",
-      "day_name": "Monday, Nov 16",
-      "events": [
-        {
-          "title": "Search Committee Meeting to Rank Finalists (or 11/13)",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "Job Candidate on Campus",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "Reserved",
-          "time": "8:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Japanese",
-          "time": "8:30 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lecture",
-          "time": "10:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL103 Lecture",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Meeting with Job Candidate",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Office Hours",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Candidate Seminar",
-          "time": "4:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Dinner with Job Candidate",
-          "time": "6:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
-    },
     {
       "date": "2026-11-17",
       "day_name": "Tuesday, Nov 17",
@@ -246,6 +168,12 @@
           "who": "Abby"
         },
         {
+          "title": "My Meeting",
+          "time": "4:00 PM",
+          "all_day": false,
+          "who": "Steven"
+        },
+        {
           "title": "Candidate Seminar",
           "time": "4:30 PM",
           "all_day": false,
@@ -321,7 +249,68 @@
     {
       "date": "2026-11-22",
       "day_name": "Sunday, Nov 22",
-      "events": []
+      "events": [
+        {
+          "title": "Donate Platelets",
+          "time": "7:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "day_name": "Monday, Nov 23",
+      "events": [
+        {
+          "title": "BIOL103 - Presentation Outline Due",
+          "time": "All day",
+          "all_day": true,
+          "who": "Abby"
+        },
+        {
+          "title": "Reserved",
+          "time": "8:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Japanese",
+          "time": "8:30 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL182 Lecture",
+          "time": "10:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "BIOL103 Lecture",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Office Hours",
+          "time": "12:00 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Prep Time",
+          "time": "1:30 PM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
+          "title": "Leah",
+          "time": "2:15 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
     }
   ]
 }
