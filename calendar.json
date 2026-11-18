@@ -1,30 +1,16 @@
 {
-  "generated_at": "2026-11-17T01:33:10.891378-05:00",
-  "today_date": "2026-11-17",
-  "tomorrow_date": "2026-11-18",
+  "generated_at": "2026-11-18T01:33:48.453435-05:00",
+  "today_date": "2026-11-18",
+  "tomorrow_date": "2026-11-19",
   "today": [
     {
-      "title": "Surgery (Steve's thumb)",
+      "title": "BIOL103 - Exam III",
       "time": "All day",
       "all_day": true,
-      "who": "Abby (StAbby)"
-    },
-    {
-      "title": "Japanese Table",
-      "time": "12:00 PM",
-      "all_day": false,
       "who": "Abby"
-    }
-  ],
-  "tomorrow": [
+    },
     {
       "title": "Offer Made to Candidate",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL103 - Exam III",
       "time": "All day",
       "all_day": true,
       "who": "Abby"
@@ -66,37 +52,57 @@
       "who": "Abby (StAbby)"
     }
   ],
-  "week": [
+  "tomorrow": [
     {
-      "date": "2026-11-17",
-      "day_name": "Tuesday, Nov 17",
-      "events": [
-        {
-          "title": "Surgery (Steve's thumb)",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby (StAbby)"
-        },
-        {
-          "title": "Japanese Table",
-          "time": "12:00 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
+      "title": "Job Candidate on Campus",
+      "time": "All day",
+      "all_day": true,
+      "who": "Abby"
     },
+    {
+      "title": "Meeting with Job Candidate",
+      "time": "8:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "Office Hours",
+      "time": "11:00 AM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "BIOL182 Lab",
+      "time": "1:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    },
+    {
+      "title": "My Meeting",
+      "time": "4:00 PM",
+      "all_day": false,
+      "who": "Steven"
+    },
+    {
+      "title": "Candidate Seminar",
+      "time": "4:30 PM",
+      "all_day": false,
+      "who": "Abby"
+    }
+  ],
+  "week": [
     {
       "date": "2026-11-18",
       "day_name": "Wednesday, Nov 18",
       "events": [
         {
-          "title": "Offer Made to Candidate",
+          "title": "BIOL103 - Exam III",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
         },
         {
-          "title": "BIOL103 - Exam III",
+          "title": "Offer Made to Candidate",
           "time": "All day",
           "all_day": true,
           "who": "Abby"
@@ -307,6 +313,24 @@
         {
           "title": "Leah",
           "time": "2:15 PM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "day_name": "Tuesday, Nov 24",
+      "events": [
+        {
+          "title": "Lisa",
+          "time": "9:00 AM",
+          "all_day": false,
+          "who": "Abby (StAbby)"
+        },
+        {
+          "title": "Japanese Table",
+          "time": "12:00 PM",
           "all_day": false,
           "who": "Abby"
         }
