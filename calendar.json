@@ -1,46 +1,8 @@
 {
-  "generated_at": "2026-11-19T01:34:12.357524-05:00",
-  "today_date": "2026-11-19",
-  "tomorrow_date": "2026-11-20",
+  "generated_at": "2026-11-20T01:35:03.770115-05:00",
+  "today_date": "2026-11-20",
+  "tomorrow_date": "2026-11-21",
   "today": [
-    {
-      "title": "Job Candidate on Campus",
-      "time": "All day",
-      "all_day": true,
-      "who": "Abby"
-    },
-    {
-      "title": "Meeting with Job Candidate",
-      "time": "8:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "Office Hours",
-      "time": "11:00 AM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "BIOL182 Lab",
-      "time": "1:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    },
-    {
-      "title": "My Meeting",
-      "time": "4:00 PM",
-      "all_day": false,
-      "who": "Steven"
-    },
-    {
-      "title": "Candidate Seminar",
-      "time": "4:30 PM",
-      "all_day": false,
-      "who": "Abby"
-    }
-  ],
-  "tomorrow": [
     {
       "title": "Reserved",
       "time": "8:00 AM",
@@ -96,49 +58,8 @@
       "who": "Abby"
     }
   ],
+  "tomorrow": [],
   "week": [
-    {
-      "date": "2026-11-19",
-      "day_name": "Thursday, Nov 19",
-      "events": [
-        {
-          "title": "Job Candidate on Campus",
-          "time": "All day",
-          "all_day": true,
-          "who": "Abby"
-        },
-        {
-          "title": "Meeting with Job Candidate",
-          "time": "8:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "Office Hours",
-          "time": "11:00 AM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "BIOL182 Lab",
-          "time": "1:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        },
-        {
-          "title": "My Meeting",
-          "time": "4:00 PM",
-          "all_day": false,
-          "who": "Steven"
-        },
-        {
-          "title": "Candidate Seminar",
-          "time": "4:30 PM",
-          "all_day": false,
-          "who": "Abby"
-        }
-      ]
-    },
     {
       "date": "2026-11-20",
       "day_name": "Friday, Nov 20",
@@ -281,6 +202,12 @@
           "who": "Abby (StAbby)"
         },
         {
+          "title": "Catherine Bustamante and Maley, Abigail",
+          "time": "10:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        },
+        {
           "title": "Japanese Table",
           "time": "12:00 PM",
           "all_day": false,
@@ -318,6 +245,18 @@
         },
         {
           "title": "BIOL103 Lecture",
+          "time": "11:00 AM",
+          "all_day": false,
+          "who": "Abby"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "day_name": "Thursday, Nov 26",
+      "events": [
+        {
+          "title": "Office Hours",
           "time": "11:00 AM",
           "all_day": false,
           "who": "Abby"
